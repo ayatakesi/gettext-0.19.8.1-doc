@@ -1,0 +1,767 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-08-20 21:57+0900\n"
+"PO-Revision-Date: 2016-08-12 19:39+0900\n"
+"Last-Translator: Takeshi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
+"Language-Team: Japanese <takeshi.ayanokoji@gmail.com>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: pindex
+#: original_texis/msguniq.texi:1
+#, no-wrap
+msgid "msguniq"
+msgstr "msguniq"
+
+#. type: cindex
+#: original_texis/msguniq.texi:2
+#, no-wrap
+msgid "@code{msguniq} program, usage"
+msgstr "@code{msguniq} program, usage"
+
+#. type: example
+#: original_texis/msguniq.texi:5
+#, no-wrap
+msgid "msguniq [@var{option}] [@var{inputfile}]\n"
+msgstr "msguniq [@var{option}] [@var{inputfile}]\n"
+
+#. type: cindex
+#: original_texis/msguniq.texi:7
+#, no-wrap
+msgid "unify duplicate translations"
+msgstr "unify duplicate translations"
+
+#. type: cindex
+#: original_texis/msguniq.texi:8
+#, no-wrap
+msgid "duplicate removal"
+msgstr "duplicate removal"
+
+#. type: Plain text
+#: original_texis/msguniq.texi:19
+msgid ""
+"The @code{msguniq} program unifies duplicate translations in a translation "
+"catalog.  It finds duplicate translations of the same message ID.  Such "
+"duplicates are invalid input for other programs like @code{msgfmt}, "
+"@code{msgmerge} or @code{msgcat}.  By default, duplicates are merged "
+"together.  When using the @samp{--repeated} option, only duplicates are "
+"output, and all other messages are discarded.  Comments and extracted "
+"comments will be cumulated, except that if @samp{--use-first} is specified, "
+"they will be taken from the first translation.  File positions will be "
+"cumulated.  When using the @samp{--unique} option, duplicates are discarded."
+msgstr ""
+"@code{msguniq}は、翻訳カタログ内の重複した翻訳を統一するためのプログラムで"
+"す。このプログラムは、同じメッセージIDにたいする、重複した翻訳を探します。こ"
+"のような重複したメッセージは、@code{msgfmt}、@code{msgmerge}、@code{msgcat}の"
+"入力としては無効です。デフォルトでは重複はマージされます。@samp{--repeated}オ"
+"プションを指定すると、重複したメッセージだけが出力され、他のすべてのメッセー"
+"ジは破棄されます。コメント、および抽出されたコメントは累積されます。ただし"
+"@samp{--use-first}が指定された場合には、最初の翻訳のものが使用されます。"
+"@samp{--unique}オプションを使用すると、重複は破棄されます。"
+
+#. type: subsection
+#: original_texis/msguniq.texi:20
+#, no-wrap
+msgid "Input file location"
+msgstr "Input file location"
+
+#. type: var{#1}
+#: original_texis/msguniq.texi:23
+#, no-wrap
+msgid "inputfile"
+msgstr "inputfile"
+
+#. type: table
+#: original_texis/msguniq.texi:25
+msgid "Input PO file."
+msgstr "入力となるPOファイルです。"
+
+#. type: item
+#: original_texis/msguniq.texi:26
+#, no-wrap
+msgid "-D @var{directory}"
+msgstr "-D @var{directory}"
+
+#. type: itemx
+#: original_texis/msguniq.texi:27
+#, no-wrap
+msgid "--directory=@var{directory}"
+msgstr "--directory=@var{directory}"
+
+#. type: opindex
+#: original_texis/msguniq.texi:28
+#, no-wrap
+msgid "-D@r{, @code{msguniq} option}"
+msgstr "-D@r{, @code{msguniq} option}"
+
+#. type: opindex
+#: original_texis/msguniq.texi:29
+#, no-wrap
+msgid "--directory@r{, @code{msguniq} option}"
+msgstr "--directory@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:33
+msgid ""
+"Add @var{directory} to the list of directories.  Source files are searched "
+"relative to this list of directories.  The resulting @file{.po} file will be "
+"written relative to the current directory, though."
+msgstr ""
+"ディレクトリーのリストに@var{directory}を追加します。このディレクトリーのリス"
+"トよりソースファイルを検索します。しかし@file{.po}ファイルが出力されるのは、"
+"カレントディレクトリーです。"
+
+#. type: Plain text
+#: original_texis/msguniq.texi:37
+msgid ""
+"If no @var{inputfile} is given or if it is @samp{-}, standard input is read."
+msgstr ""
+"@var{inputfile}が指定されていないか、@samp{-}が指定された場合は、標準入力から"
+"読み込みます。"
+
+#. type: subsection
+#: original_texis/msguniq.texi:38
+#, no-wrap
+msgid "Output file location"
+msgstr "Output file location"
+
+#. type: item
+#: original_texis/msguniq.texi:41
+#, no-wrap
+msgid "-o @var{file}"
+msgstr "-o @var{file}"
+
+#. type: itemx
+#: original_texis/msguniq.texi:42
+#, no-wrap
+msgid "--output-file=@var{file}"
+msgstr "--output-file=@var{file}"
+
+#. type: opindex
+#: original_texis/msguniq.texi:43
+#, no-wrap
+msgid "-o@r{, @code{msguniq} option}"
+msgstr "-o@r{, @code{msguniq} option}"
+
+#. type: opindex
+#: original_texis/msguniq.texi:44
+#, no-wrap
+msgid "--output-file@r{, @code{msguniq} option}"
+msgstr "--output-file@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:46
+msgid "Write output to specified file."
+msgstr "指定されたファイルに出力を書き込みます。"
+
+#. type: Plain text
+#: original_texis/msguniq.texi:51
+msgid ""
+"The results are written to standard output if no output file is specified or "
+"if it is @samp{-}."
+msgstr ""
+"出力ファイルが指定されていない、または@samp{-}が指定された場合、結果は標準出"
+"力に出力されます。"
+
+#. type: subsection
+#: original_texis/msguniq.texi:52
+#, no-wrap
+msgid "Message selection"
+msgstr "Message selection"
+
+#. type: item
+#: original_texis/msguniq.texi:55
+#, no-wrap
+msgid "-d"
+msgstr "-d"
+
+#. type: itemx
+#: original_texis/msguniq.texi:56
+#, no-wrap
+msgid "--repeated"
+msgstr "--repeated"
+
+#. type: opindex
+#: original_texis/msguniq.texi:57
+#, no-wrap
+msgid "-d@r{, @code{msguniq} option}"
+msgstr "-d@r{, @code{msguniq} option}"
+
+#. type: opindex
+#: original_texis/msguniq.texi:58
+#, no-wrap
+msgid "--repeated@r{, @code{msguniq} option}"
+msgstr "--repeated@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:60
+msgid "Print only duplicates."
+msgstr "重複したメッセージだけを出力します。"
+
+#. type: item
+#: original_texis/msguniq.texi:61
+#, no-wrap
+msgid "-u"
+msgstr "-u"
+
+#. type: itemx
+#: original_texis/msguniq.texi:62
+#, no-wrap
+msgid "--unique"
+msgstr "--unique"
+
+#. type: opindex
+#: original_texis/msguniq.texi:63
+#, no-wrap
+msgid "-u@r{, @code{msguniq} option}"
+msgstr "-u@r{, @code{msguniq} option}"
+
+#. type: opindex
+#: original_texis/msguniq.texi:64
+#, no-wrap
+msgid "--unique@r{, @code{msguniq} option}"
+msgstr "--unique@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:66
+msgid "Print only unique messages, discard duplicates."
+msgstr "一意なメッセージだけを出力します(重複したメッセージは破棄されます)。"
+
+#. type: subsection
+#: original_texis/msguniq.texi:69
+#, no-wrap
+msgid "Input file syntax"
+msgstr "Input file syntax"
+
+#. type: item
+#: original_texis/msguniq.texi:72
+#, no-wrap
+msgid "-P"
+msgstr "-P"
+
+#. type: itemx
+#: original_texis/msguniq.texi:73
+#, no-wrap
+msgid "--properties-input"
+msgstr "--properties-input"
+
+#. type: opindex
+#: original_texis/msguniq.texi:74
+#, no-wrap
+msgid "-P@r{, @code{msguniq} option}"
+msgstr "-P@r{, @code{msguniq} option}"
+
+#. type: opindex
+#: original_texis/msguniq.texi:75
+#, no-wrap
+msgid "--properties-input@r{, @code{msguniq} option}"
+msgstr "--properties-input@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:78
+msgid ""
+"Assume the input file is a Java ResourceBundle in Java @code{.properties} "
+"syntax, not in PO file syntax."
+msgstr ""
+"入力ファイルがPOファイルの構文ではなく、Javaの@code{.properties}の構文にのっ"
+"とったJava ResourceBundleファイルだとみなします。"
+
+#. type: item
+#: original_texis/msguniq.texi:79
+#, no-wrap
+msgid "--stringtable-input"
+msgstr "--stringtable-input"
+
+#. type: opindex
+#: original_texis/msguniq.texi:80
+#, no-wrap
+msgid "--stringtable-input@r{, @code{msguniq} option}"
+msgstr "--stringtable-input@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:83
+msgid ""
+"Assume the input file is a NeXTstep/GNUstep localized resource file in "
+"@code{.strings} syntax, not in PO file syntax."
+msgstr ""
+"入力ファイルがPOファイルの構文ではなく、NeXTstep/GNUstepのlocalized resource"
+"の@code{.strings}の構文にのっとったファイルだとみなします。"
+
+#. type: subsection
+#: original_texis/msguniq.texi:86
+#, no-wrap
+msgid "Output details"
+msgstr "Output details"
+
+#. type: item
+#: original_texis/msguniq.texi:91
+#, no-wrap
+msgid "-t"
+msgstr "-t"
+
+#. type: itemx
+#: original_texis/msguniq.texi:92
+#, no-wrap
+msgid "--to-code=@var{name}"
+msgstr "--to-code=@var{name}"
+
+#. type: opindex
+#: original_texis/msguniq.texi:93
+#, no-wrap
+msgid "-t@r{, @code{msguniq} option}"
+msgstr "-t@r{, @code{msguniq} option}"
+
+#. type: opindex
+#: original_texis/msguniq.texi:94
+#, no-wrap
+msgid "--to-code@r{, @code{msguniq} option}"
+msgstr "--to-code@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:96
+msgid "Specify encoding for output."
+msgstr "出力のエンコーディングを指定します。"
+
+#. type: item
+#: original_texis/msguniq.texi:97
+#, no-wrap
+msgid "--use-first"
+msgstr "--use-first"
+
+#. type: opindex
+#: original_texis/msguniq.texi:98
+#, no-wrap
+msgid "--use-first@r{, @code{msguniq} option}"
+msgstr "--use-first@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:101
+msgid ""
+"Use first available translation for each message.  Don't merge several "
+"translations into one."
+msgstr ""
+"各メッセージで利用可能な最初のメッセージを使用します。複数の翻訳を1つにマージ"
+"しません。"
+
+#. type: item
+#: original_texis/msguniq.texi:102
+#, no-wrap
+msgid "--color"
+msgstr "--color"
+
+#. type: itemx
+#: original_texis/msguniq.texi:103
+#, no-wrap
+msgid "--color=@var{when}"
+msgstr "--color=@var{when}"
+
+#. type: opindex
+#: original_texis/msguniq.texi:104
+#, no-wrap
+msgid "--color@r{, @code{msguniq} option}"
+msgstr "--color@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:107
+msgid ""
+"Specify whether or when to use colors and other text attributes.  See "
+"@ref{The --color option} for details."
+msgstr ""
+"色や色以外のテキスト属性を使うか、いつ使うかを指定します。詳細は@ref{The --"
+"color option}を参照してください。"
+
+#. type: item
+#: original_texis/msguniq.texi:108
+#, no-wrap
+msgid "--style=@var{style_file}"
+msgstr "--style=@var{style_file}"
+
+#. type: opindex
+#: original_texis/msguniq.texi:109
+#, no-wrap
+msgid "--style@r{, @code{msguniq} option}"
+msgstr "--style@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:112
+msgid ""
+"Specify the CSS style rule file to use for @code{--color}.  See @ref{The --"
+"style option} for details."
+msgstr ""
+"@code{--color}にたいしてCSS style ruleファイルを使うかを指定します。詳細は"
+"@ref{The --style option}を参照してください。"
+
+#. type: item
+#: original_texis/msguniq.texi:113
+#, no-wrap
+msgid "--force-po"
+msgstr "--force-po"
+
+#. type: opindex
+#: original_texis/msguniq.texi:114
+#, no-wrap
+msgid "--force-po@r{, @code{msguniq} option}"
+msgstr "--force-po@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:116
+msgid "Always write an output file even if it contains no message."
+msgstr ""
+"メッセージが何も含まれていない場合でも、常に出力ファイルに書き込みます。"
+
+#. type: item
+#: original_texis/msguniq.texi:117
+#, no-wrap
+msgid "-i"
+msgstr "-i"
+
+#. type: itemx
+#: original_texis/msguniq.texi:118
+#, no-wrap
+msgid "--indent"
+msgstr "--indent"
+
+#. type: opindex
+#: original_texis/msguniq.texi:119
+#, no-wrap
+msgid "-i@r{, @code{msguniq} option}"
+msgstr "-i@r{, @code{msguniq} option}"
+
+#. type: opindex
+#: original_texis/msguniq.texi:120
+#, no-wrap
+msgid "--indent@r{, @code{msguniq} option}"
+msgstr "--indent@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:122
+msgid "Write the .po file using indented style."
+msgstr "インデントされた形式で.poファイルを書き込みます。"
+
+#. type: item
+#: original_texis/msguniq.texi:123
+#, no-wrap
+msgid "--no-location"
+msgstr "--no-location"
+
+#. type: opindex
+#: original_texis/msguniq.texi:124
+#, no-wrap
+msgid "--no-location@r{, @code{msguniq} option}"
+msgstr "--no-location@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:126
+msgid "Do not write @samp{#: @var{filename}:@var{line}} lines."
+msgstr "@samp{#: @var{filename}:@var{line}}という行を書き込みません。"
+
+#. type: item
+#: original_texis/msguniq.texi:127
+#, no-wrap
+msgid "-n"
+msgstr "-n"
+
+#. type: itemx
+#: original_texis/msguniq.texi:128
+#, fuzzy, no-wrap
+#| msgid "--add-location"
+msgid "--add-location=@var{type}"
+msgstr "--add-location"
+
+#. type: opindex
+#: original_texis/msguniq.texi:129
+#, no-wrap
+msgid "-n@r{, @code{msguniq} option}"
+msgstr "-n@r{, @code{msguniq} option}"
+
+#. type: opindex
+#: original_texis/msguniq.texi:130
+#, no-wrap
+msgid "--add-location@r{, @code{msguniq} option}"
+msgstr "--add-location@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:132
+msgid "Generate @samp{#: @var{filename}:@var{line}} lines (default)."
+msgstr "@samp{#: @var{filename}:@var{line}}という行を生成します(デフォルト)。"
+
+#. type: table
+#: original_texis/msguniq.texi:138
+msgid ""
+"The optional @var{type} can be either @samp{full}, @samp{file}, or "
+"@samp{never}.  If it is not given or @samp{full}, it generates the lines "
+"with both file name and line number.  If it is @samp{file}, the line number "
+"part is omitted.  If it is @samp{never}, it completely suppresses the lines "
+"(same as @code{--no-location})."
+msgstr ""
+
+#. type: item
+#: original_texis/msguniq.texi:139
+#, no-wrap
+msgid "--strict"
+msgstr "--strict"
+
+#. type: opindex
+#: original_texis/msguniq.texi:140
+#, no-wrap
+msgid "--strict@r{, @code{msguniq} option}"
+msgstr "--strict@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:144
+msgid ""
+"Write out a strict Uniforum conforming PO file.  Note that this Uniforum "
+"format should be avoided because it doesn't support the GNU extensions."
+msgstr ""
+"Uniforumに厳密に準拠したPOファイルを出力します。このUniforum形式はGNUの拡張を"
+"サポートしないため避けたほうがよいでしょう。"
+
+#. type: item
+#: original_texis/msguniq.texi:145
+#, no-wrap
+msgid "-p"
+msgstr "-p"
+
+#. type: itemx
+#: original_texis/msguniq.texi:146
+#, no-wrap
+msgid "--properties-output"
+msgstr "--properties-output"
+
+#. type: opindex
+#: original_texis/msguniq.texi:147
+#, no-wrap
+msgid "-p@r{, @code{msguniq} option}"
+msgstr "-p@r{, @code{msguniq} option}"
+
+#. type: opindex
+#: original_texis/msguniq.texi:148
+#, no-wrap
+msgid "--properties-output@r{, @code{msguniq} option}"
+msgstr "--properties-output@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:152
+msgid ""
+"Write out a Java ResourceBundle in Java @code{.properties} syntax.  Note "
+"that this file format doesn't support plural forms and silently drops "
+"obsolete messages."
+msgstr ""
+"Javaの@code{.properties}の書式で、Java ResourceBundleを出力します。このファイ"
+"ル形式はplural formをサポートせず、知能化したメッセージを暗黙で除去することに"
+"注意してください。"
+
+#. type: item
+#: original_texis/msguniq.texi:153
+#, no-wrap
+msgid "--stringtable-output"
+msgstr "--stringtable-output"
+
+#. type: opindex
+#: original_texis/msguniq.texi:154
+#, no-wrap
+msgid "--stringtable-output@r{, @code{msguniq} option}"
+msgstr "--stringtable-output@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:157
+msgid ""
+"Write out a NeXTstep/GNUstep localized resource file in @code{.strings} "
+"syntax.  Note that this file format doesn't support plural forms."
+msgstr ""
+"@code{.strings}の書式で、NeXTstep/GNUstepのローカライズされたリソースファイル"
+"を出力します。このファイル形式はplural formをサポートしないことに注意してくだ"
+"さい。"
+
+#. type: item
+#: original_texis/msguniq.texi:158
+#, no-wrap
+msgid "-w @var{number}"
+msgstr "-w @var{number}"
+
+#. type: itemx
+#: original_texis/msguniq.texi:159
+#, no-wrap
+msgid "--width=@var{number}"
+msgstr "--width=@var{number}"
+
+#. type: opindex
+#: original_texis/msguniq.texi:160
+#, no-wrap
+msgid "-w@r{, @code{msguniq} option}"
+msgstr "-w@r{, @code{msguniq} option}"
+
+#. type: opindex
+#: original_texis/msguniq.texi:161
+#, no-wrap
+msgid "--width@r{, @code{msguniq} option}"
+msgstr "--width@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:165
+msgid ""
+"Set the output page width.  Long strings in the output files will be split "
+"across multiple lines in order to ensure that each line's width (= number of "
+"screen columns) is less or equal to the given @var{number}."
+msgstr ""
+"出力ページの幅をセットします。これにより出力ファイル中の長い文字列が指定した"
+"幅(例:スクリーンの列数)に収まるように、各行の長さが@var{number}以下のような複"
+"数の行に分割されます。"
+
+#. type: item
+#: original_texis/msguniq.texi:166
+#, no-wrap
+msgid "--no-wrap"
+msgstr "--no-wrap"
+
+#. type: opindex
+#: original_texis/msguniq.texi:167
+#, no-wrap
+msgid "--no-wrap@r{, @code{msguniq} option}"
+msgstr "--no-wrap@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:171
+msgid ""
+"Do not break long message lines.  Message lines whose width exceeds the "
+"output page width will not be split into several lines.  Only file reference "
+"lines which are wider than the output page width will be split."
+msgstr ""
+"長いメッセージ行を分割しません。出力ページの幅を超えるようなメッセージ行も、"
+"複数行に分割されません。出力ページの幅を超えるファイル参照行だけが分割されま"
+"す。"
+
+#. type: item
+#: original_texis/msguniq.texi:172
+#, no-wrap
+msgid "-s"
+msgstr "-s"
+
+#. type: itemx
+#: original_texis/msguniq.texi:173
+#, no-wrap
+msgid "--sort-output"
+msgstr "--sort-output"
+
+#. type: opindex
+#: original_texis/msguniq.texi:174
+#, no-wrap
+msgid "-s@r{, @code{msguniq} option}"
+msgstr "-s@r{, @code{msguniq} option}"
+
+#. type: opindex
+#: original_texis/msguniq.texi:175
+#, no-wrap
+msgid "--sort-output@r{, @code{msguniq} option}"
+msgstr "--sort-output@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:178
+msgid ""
+"Generate sorted output.  Note that using this option makes it much harder "
+"for the translator to understand each message's context."
+msgstr ""
+"ソートされた出力を生成します。このオプションを使用することにより翻訳者が、"
+"メッセージがどのようなコンテキストで使用されるかを理解するのが、困難になるこ"
+"とに注意してください。"
+
+#. type: item
+#: original_texis/msguniq.texi:179
+#, no-wrap
+msgid "-F"
+msgstr "-F"
+
+#. type: itemx
+#: original_texis/msguniq.texi:180
+#, no-wrap
+msgid "--sort-by-file"
+msgstr "--sort-by-file"
+
+#. type: opindex
+#: original_texis/msguniq.texi:181
+#, no-wrap
+msgid "-F@r{, @code{msguniq} option}"
+msgstr "-F@r{, @code{msguniq} option}"
+
+#. type: opindex
+#: original_texis/msguniq.texi:182
+#, no-wrap
+msgid "--sort-by-file@r{, @code{msguniq} option}"
+msgstr "--sort-by-file@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:184
+msgid "Sort output by file location."
+msgstr "ファイルの場所により出力をソートします。"
+
+#. type: subsection
+#: original_texis/msguniq.texi:187
+#, no-wrap
+msgid "Informative output"
+msgstr "Informative output"
+
+#. type: item
+#: original_texis/msguniq.texi:190
+#, no-wrap
+msgid "-h"
+msgstr "-h"
+
+#. type: itemx
+#: original_texis/msguniq.texi:191
+#, no-wrap
+msgid "--help"
+msgstr "--help"
+
+#. type: opindex
+#: original_texis/msguniq.texi:192
+#, no-wrap
+msgid "-h@r{, @code{msguniq} option}"
+msgstr "-h@r{, @code{msguniq} option}"
+
+#. type: opindex
+#: original_texis/msguniq.texi:193
+#, no-wrap
+msgid "--help@r{, @code{msguniq} option}"
+msgstr "--help@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:195
+msgid "Display this help and exit."
+msgstr "このヘルプを表示して終了します。"
+
+#. type: item
+#: original_texis/msguniq.texi:196
+#, no-wrap
+msgid "-V"
+msgstr "-V"
+
+#. type: itemx
+#: original_texis/msguniq.texi:197
+#, no-wrap
+msgid "--version"
+msgstr "--version"
+
+#. type: opindex
+#: original_texis/msguniq.texi:198
+#, no-wrap
+msgid "-V@r{, @code{msguniq} option}"
+msgstr "-V@r{, @code{msguniq} option}"
+
+#. type: opindex
+#: original_texis/msguniq.texi:199
+#, no-wrap
+msgid "--version@r{, @code{msguniq} option}"
+msgstr "--version@r{, @code{msguniq} option}"
+
+#. type: table
+#: original_texis/msguniq.texi:201
+msgid "Output version information and exit."
+msgstr "バージョン情報を表示して終了します。"

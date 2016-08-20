@@ -1,0 +1,226 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-08-20 21:56+0900\n"
+"PO-Revision-Date: 2016-08-14 14:18+0900\n"
+"Last-Translator: Takesi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
+"Language-Team: Japanese <h1r0p@outlook.jp>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: pindex
+#: original_texis/autopoint.texi:1
+#, no-wrap
+msgid "autopoint"
+msgstr "autopoint"
+
+#. type: cindex
+#: original_texis/autopoint.texi:2
+#, no-wrap
+msgid "@code{autopoint} program, usage"
+msgstr "@code{autopoint} program, usage"
+
+#. type: example
+#: original_texis/autopoint.texi:5
+#, no-wrap
+msgid "autopoint [@var{option}]...\n"
+msgstr "autopoint [@var{option}]...\n"
+
+#. type: Plain text
+#: original_texis/autopoint.texi:13
+msgid ""
+"The @code{autopoint} program copies standard gettext infrastructure files "
+"into a source package.  It extracts from a macro call of the form "
+"@code{AM_GNU_GETTEXT_VERSION(@var{version})}, found in the package's "
+"@file{configure.in} or @file{configure.ac} file, the gettext version used by "
+"the package, and copies the infrastructure files belonging to this version "
+"into the package."
+msgstr ""
+"@code{autopoint}は、gettextの基礎となるファイルを、ソースパッケージにコピーす"
+"るプログラムです。このプログラムは"
+"@code{AM_GNU_GETTEXT_VERSION(@var{version})}の形式で呼び出されるマクロによ"
+"り、パッケージの@file{configure.in}(または@file{configure.ac})ファイルから"
+"パッケージで使用されるgettextのバージョンを抽出して、そのバージョンに該当する"
+"基礎となるファイルをパッケージにコピーします。"
+
+#. type: Plain text
+#: original_texis/autopoint.texi:20
+msgid ""
+"To extract the latest available infrastructure which satisfies a version "
+"requirement, then you can use the form "
+"@code{AM_GNU_GETTEXT_REQUIRE_VERSION(@var{version})} instead.  For example, "
+"if gettext @value{ARCHIVE-VERSION} is installed on your system and "
+"@code{0.19.1} is requested, then the infrastructure files of version "
+"@value{ARCHIVE-VERSION} will be copied into a source package."
+msgstr ""
+
+#. type: subsubsection
+#: original_texis/autopoint.texi:21
+#, no-wrap
+msgid "Options"
+msgstr "Options"
+
+#. type: item
+#: original_texis/autopoint.texi:24
+#, no-wrap
+msgid "-f"
+msgstr "-f"
+
+#. type: itemx
+#: original_texis/autopoint.texi:25
+#, no-wrap
+msgid "--force"
+msgstr "--force"
+
+#. type: opindex
+#: original_texis/autopoint.texi:26
+#, no-wrap
+msgid "-f@r{, @code{autopoint} option}"
+msgstr "-f@r{, @code{autopoint} option}"
+
+#. type: opindex
+#: original_texis/autopoint.texi:27
+#, no-wrap
+msgid "--force@r{, @code{autopoint} option}"
+msgstr "--force@r{, @code{autopoint} option}"
+
+#. type: table
+#: original_texis/autopoint.texi:29
+msgid "Force overwriting of files that already exist."
+msgstr "既存のファイルを強制的に上書きします。"
+
+#. type: item
+#: original_texis/autopoint.texi:30
+#, no-wrap
+msgid "-n"
+msgstr "-n"
+
+#. type: itemx
+#: original_texis/autopoint.texi:31
+#, no-wrap
+msgid "--dry-run"
+msgstr "--dry-run"
+
+#. type: opindex
+#: original_texis/autopoint.texi:32
+#, no-wrap
+msgid "-d@r{, @code{autopoint} option}"
+msgstr "-d@r{, @code{autopoint} option}"
+
+#. type: opindex
+#: original_texis/autopoint.texi:33
+#, no-wrap
+msgid "--dry-run@r{, @code{autopoint} option}"
+msgstr "--dry-run@r{, @code{autopoint} option}"
+
+#. type: table
+#: original_texis/autopoint.texi:37
+msgid ""
+"Print modifications but don't perform them.  All file copying actions that "
+"@code{autopoint} would normally execute are inhibited and instead only "
+"listed on standard output."
+msgstr ""
+"変更を出力しますが、処理は行いません。普通に@code{autopoint}を実行したことに"
+"よるファイルのコピーはすべて抑止され、かわりに標準出力にリストが出力されま"
+"す。"
+
+#. type: subsubsection
+#: original_texis/autopoint.texi:40
+#, no-wrap
+msgid "Informative output"
+msgstr "Informative output"
+
+#. type: item
+#: original_texis/autopoint.texi:43
+#, no-wrap
+msgid "--help"
+msgstr "--help"
+
+#. type: opindex
+#: original_texis/autopoint.texi:44
+#, no-wrap
+msgid "--help@r{, @code{autopoint} option}"
+msgstr "--help@r{, @code{autopoint} option}"
+
+#. type: table
+#: original_texis/autopoint.texi:46
+msgid "Display this help and exit."
+msgstr "このヘルプを表示して終了します。"
+
+#. type: item
+#: original_texis/autopoint.texi:47
+#, no-wrap
+msgid "--version"
+msgstr "--version"
+
+#. type: opindex
+#: original_texis/autopoint.texi:48
+#, no-wrap
+msgid "--version@r{, @code{autopoint} option}"
+msgstr "--version@r{, @code{autopoint} option}"
+
+#. type: table
+#: original_texis/autopoint.texi:50
+msgid "Output version information and exit."
+msgstr "バージョン情報を表示して終了します。"
+
+#. type: Plain text
+#: original_texis/autopoint.texi:58
+#, fuzzy
+#| msgid ""
+#| "@code{autopoint} supports the GNU @code{gettext} versions from 0.10.35 to "
+#| "the current one, @value{VERSION}.  In order to apply @code{autopoint} to "
+#| "a package using a @code{gettext} version newer than @value{VERSION}, you "
+#| "need to install this same version of GNU @code{gettext} at least."
+msgid ""
+"@code{autopoint} supports the GNU @code{gettext} versions from 0.10.35 to "
+"the current one, @value{ARCHIVE-VERSION}.  In order to apply "
+"@code{autopoint} to a package using a @code{gettext} version newer than "
+"@value{ARCHIVE-VERSION}, you need to install this same version of GNU "
+"@code{gettext} at least."
+msgstr ""
+"@code{autopoint}は、GNU @code{gettext}のバージョン0.10.35から、現在の"
+"@value{VERSION}までをサポートします。@value{VERSION}より新しいバージョンの"
+"@code{gettext}を使用してパッケージに@code{autopoint}を適用するためには、少な"
+"くとも同じバージョンのGNU @code{gettext}をインストールする必要があります。"
+
+#. type: Plain text
+#: original_texis/autopoint.texi:66
+msgid ""
+"In packages using GNU @code{automake}, an invocation of @code{autopoint} "
+"should be followed by invocations of @code{aclocal} and then @code{autoconf} "
+"and @code{autoheader}.  The reason is that @code{autopoint} installs some "
+"autoconf macro files, which are used by @code{aclocal} to create "
+"@file{aclocal.m4}, and the latter is used by @code{autoconf} to create the "
+"package's @file{configure} script and by @code{autoheader} to create the "
+"package's @file{config.h.in} include file template."
+msgstr ""
+"GNU @code{automake}を使用するパッケージでの@code{autopoint}の呼び出しは、"
+"@code{aclocal}呼び出しの後に行い、その後で@code{autoconf}および"
+"@code{autoheader}を呼び出します。これは、@code{autopoint}が@file{aclocal.m4}"
+"を作成するために、@code{autopoint}がいくつかのautoconfマクロをインストールす"
+"るのが理由です。この aclocal.m4 は、autoconf によるパッケージの configure ス"
+"クリプトを作成と、autoheader によるパッケージのインクルードファイルのテンプ"
+"レート config.h.in を作成するために使用されます。このマクロファイルは"
+"@file{aclocal.m4}を作成するために@code{aclocal}により使用され、@file{aclocal."
+"m4}はパッケージの@file{configure}を作成するために@code{aclocal}により使用さ"
+"れ、インクルードファイルテンプレートであるパッケージの@file{config.h.in}を作"
+"成するために@code{autoheader}により使用されます。"
+
+#. type: Plain text
+#: original_texis/autopoint.texi:69
+msgid ""
+"The name @samp{autopoint} is an abbreviation of @samp{auto-po-intl-m4}; the "
+"tool copies or updates mostly files in the @file{po}, @file{intl}, @file{m4} "
+"directories."
+msgstr ""
+"@samp{autopoint}という名前は@samp{auto-po-intl-m4}を省略したものです。この"
+"ツールは主に@file{po}、@file{intl}、@file{m4}ディレクトリーのファイルをコピー"
+"します。"

@@ -1,0 +1,2089 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-08-20 21:57+0900\n"
+"PO-Revision-Date: 2016-08-12 10:51+0900\n"
+"Last-Translator: Takeshi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
+"Language-Team: Japanese <takeshi.ayanokoji@gmail.com>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: pindex
+#: original_texis/xgettext.texi:1
+#, no-wrap
+msgid "xgettext"
+msgstr "xgettext"
+
+#. type: cindex
+#: original_texis/xgettext.texi:2
+#, no-wrap
+msgid "@code{xgettext} program, usage"
+msgstr "@code{xgettext} program, usage"
+
+#. type: example
+#: original_texis/xgettext.texi:5
+#, no-wrap
+msgid "xgettext [@var{option}] [@var{inputfile}] @dots{}\n"
+msgstr "xgettext [@var{option}] [@var{inputfile}] @dots{}\n"
+
+#. type: Plain text
+#: original_texis/xgettext.texi:9
+msgid ""
+"The @code{xgettext} program extracts translatable strings from given input "
+"files."
+msgstr ""
+"@code{xgettext}プログラムは、与えられた入力ファイルから、翻訳可能な文字列を抽"
+"出します。"
+
+#. type: subsection
+#: original_texis/xgettext.texi:10
+#, no-wrap
+msgid "Input file location"
+msgstr "Input file location"
+
+#. type: item
+#: original_texis/xgettext.texi:13
+#, no-wrap
+msgid "@var{inputfile} @dots{}"
+msgstr "@var{inputfile} @dots{}"
+
+#. type: table
+#: original_texis/xgettext.texi:15
+msgid "Input files."
+msgstr "入力ファイルを指定します。"
+
+#. type: item
+#: original_texis/xgettext.texi:16
+#, no-wrap
+msgid "-f @var{file}"
+msgstr "-f @var{file}"
+
+#. type: itemx
+#: original_texis/xgettext.texi:17
+#, no-wrap
+msgid "--files-from=@var{file}"
+msgstr "--files-from=@var{file}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:18
+#, no-wrap
+msgid "-f@r{, @code{xgettext} option}"
+msgstr "-f@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:19
+#, no-wrap
+msgid "--files-from@r{, @code{xgettext} option}"
+msgstr "--files-from@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:22
+msgid ""
+"Read the names of the input files from @var{file} instead of getting them "
+"from the command line."
+msgstr ""
+"入力ファイルの名前を、コマンドラインからではなく、@var{file}から読み込みま"
+"す。"
+
+#. type: item
+#: original_texis/xgettext.texi:23
+#, no-wrap
+msgid "-D @var{directory}"
+msgstr "-D @var{directory}"
+
+#. type: itemx
+#: original_texis/xgettext.texi:24
+#, no-wrap
+msgid "--directory=@var{directory}"
+msgstr "--directory=@var{directory}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:25
+#, no-wrap
+msgid "-D@r{, @code{xgettext} option}"
+msgstr "-D@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:26
+#, no-wrap
+msgid "--directory@r{, @code{xgettext} option}"
+msgstr "--directory@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:30
+msgid ""
+"Add @var{directory} to the list of directories.  Source files are searched "
+"relative to this list of directories.  The resulting @file{.po} file will be "
+"written relative to the current directory, though."
+msgstr ""
+"ディレクトリーのリストに@var{directory}を追加します。このディレクトリーのリス"
+"トからソースファイルを検索します。しかし@file{.po}ファイルが出力されるのは、"
+"カレントディレクトリーです。"
+
+#. type: Plain text
+#: original_texis/xgettext.texi:34
+msgid "If @var{inputfile} is @samp{-}, standard input is read."
+msgstr ""
+"@var{inputfile}に@samp{-}が指定された場合は、標準入力から読み込みます。"
+
+#. type: subsection
+#: original_texis/xgettext.texi:35
+#, no-wrap
+msgid "Output file location"
+msgstr "Output file location"
+
+#. type: item
+#: original_texis/xgettext.texi:38
+#, no-wrap
+msgid "-d @var{name}"
+msgstr "-d @var{name}"
+
+#. type: itemx
+#: original_texis/xgettext.texi:39
+#, no-wrap
+msgid "--default-domain=@var{name}"
+msgstr "--default-domain=@var{name}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:40
+#, no-wrap
+msgid "-d@r{, @code{xgettext} option}"
+msgstr "-d@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:41
+#, no-wrap
+msgid "--default-domain@r{, @code{xgettext} option}"
+msgstr "--default-domain@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:43
+msgid "Use @file{@var{name}.po} for output (instead of @file{messages.po})."
+msgstr ""
+"出力ファイルとして、(@file{messages.po}のかわりに)@file{@var{name}.po}を使用"
+"します。"
+
+#. type: item
+#: original_texis/xgettext.texi:44
+#, no-wrap
+msgid "-o @var{file}"
+msgstr "-o @var{file}"
+
+#. type: itemx
+#: original_texis/xgettext.texi:45
+#, no-wrap
+msgid "--output=@var{file}"
+msgstr "--output=@var{file}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:46
+#, no-wrap
+msgid "-o@r{, @code{xgettext} option}"
+msgstr "-o@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:47
+#, no-wrap
+msgid "--output@r{, @code{xgettext} option}"
+msgstr "--output@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:50
+msgid ""
+"Write output to specified file (instead of @file{@var{name}.po} or "
+"@file{messages.po})."
+msgstr ""
+"(@file{@var{name}.po}や@file{messages.po}ではなく)指定されたファイルに出力を"
+"書き込みます。"
+
+#. type: item
+#: original_texis/xgettext.texi:51
+#, no-wrap
+msgid "-p @var{dir}"
+msgstr "-p @var{dir}"
+
+#. type: itemx
+#: original_texis/xgettext.texi:52
+#, no-wrap
+msgid "--output-dir=@var{dir}"
+msgstr "--output-dir=@var{dir}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:53
+#, no-wrap
+msgid "-p@r{, @code{xgettext} option}"
+msgstr "-p@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:54
+#, no-wrap
+msgid "--output-dir@r{, @code{xgettext} option}"
+msgstr "--output-dir@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:56
+msgid "Output files will be placed in directory @var{dir}."
+msgstr "ファイルは@var{dir}に出力されます。"
+
+#. type: cindex
+#: original_texis/xgettext.texi:59
+#, no-wrap
+msgid "output to stdout, @code{xgettext}"
+msgstr "output to stdout, @code{xgettext}"
+
+#. type: Plain text
+#: original_texis/xgettext.texi:62
+msgid ""
+"If the output @var{file} is @samp{-} or @samp{/dev/stdout}, the output is "
+"written to standard output."
+msgstr ""
+"出力の@var{file}に@samp{-}または@samp{/dev/stdout}が指定された場合、出力は標"
+"準出力に書き込まれます。"
+
+#. type: subsection
+#: original_texis/xgettext.texi:63
+#, no-wrap
+msgid "Choice of input file language"
+msgstr "Choice of input file language"
+
+#. type: item
+#: original_texis/xgettext.texi:66
+#, no-wrap
+msgid "-L @var{name}"
+msgstr "-L @var{name}"
+
+#. type: itemx
+#: original_texis/xgettext.texi:67
+#, no-wrap
+msgid "--language=@var{name}"
+msgstr "--language=@var{name}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:68
+#, no-wrap
+msgid "-L@r{, @code{xgettext} option}"
+msgstr "-L@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:69
+#, no-wrap
+msgid "--language@r{, @code{xgettext} option}"
+msgstr "--language@r{, @code{xgettext} option}"
+
+#. type: cindex
+#: original_texis/xgettext.texi:70
+#, no-wrap
+msgid "supported languages, @code{xgettext}"
+msgstr "supported languages, @code{xgettext}"
+
+#. type: table
+#: original_texis/xgettext.texi:78
+#, fuzzy
+#| msgid ""
+#| "Specifies the language of the input files.  The supported languages are "
+#| "@code{C}, @code{C++}, @code{ObjectiveC}, @code{PO}, @code{Shell}, "
+#| "@code{Python}, @code{Lisp}, @code{EmacsLisp}, @code{librep}, "
+#| "@code{Scheme}, @code{Smalltalk}, @code{Java}, @code{JavaProperties}, "
+#| "@code{C#}, @code{awk}, @code{YCP}, @code{Tcl}, @code{Perl}, @code{PHP}, "
+#| "@code{GCC-source}, @code{NXStringTable}, @code{RST}, @code{Glade}, "
+#| "@code{Lua}, @code{JavaScript}, @code{Vala}."
+msgid ""
+"Specifies the language of the input files.  The supported languages are "
+"@code{C}, @code{C++}, @code{ObjectiveC}, @code{PO}, @code{Shell}, "
+"@code{Python}, @code{Lisp}, @code{EmacsLisp}, @code{librep}, @code{Scheme}, "
+"@code{Smalltalk}, @code{Java}, @code{JavaProperties}, @code{C#}, @code{awk}, "
+"@code{YCP}, @code{Tcl}, @code{Perl}, @code{PHP}, @code{GCC-source}, "
+"@code{NXStringTable}, @code{RST}, @code{Glade}, @code{Lua}, "
+"@code{JavaScript}, @code{Vala}, @code{GSettings}, @code{Desktop}."
+msgstr ""
+"入力ファイルの言語を指定します。サポートされている言語は、@code{C}、@code{C+"
+"+}、@code{ObjectiveC}、@code{PO}、@code{Shell}、@code{Python}、@code{Lisp}、"
+"@code{EmacsLisp}、@code{librep}、@code{Scheme}、@code{Smalltalk}、"
+"@code{Java}、@code{JavaProperties}、@code{C#}、@code{awk}、@code{YCP}、"
+"@code{Tcl}、@code{Perl}、@code{PHP}、@code{GCC-source}、"
+"@code{NXStringTable}、@code{RST}、@code{Glade}、@code{Lua}、"
+"@code{JavaScript}、@code{Vala}です。"
+
+#. type: item
+#: original_texis/xgettext.texi:79
+#, no-wrap
+msgid "-C"
+msgstr "-C"
+
+#. type: itemx
+#: original_texis/xgettext.texi:80
+#, no-wrap
+msgid "--c++"
+msgstr "--c++"
+
+#. type: opindex
+#: original_texis/xgettext.texi:81
+#, no-wrap
+msgid "-C@r{, @code{xgettext} option}"
+msgstr "-C@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:82
+#, no-wrap
+msgid "--c++@r{, @code{xgettext} option}"
+msgstr "--c++@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:84
+msgid "This is a shorthand for @code{--language=C++}."
+msgstr "@code{--language=C++}の省略指定です。"
+
+#. type: Plain text
+#: original_texis/xgettext.texi:89
+msgid ""
+"By default the language is guessed depending on the input file name "
+"extension."
+msgstr "デフォルトでは、入力ファイルの言語は拡張子により推測されます。"
+
+#. type: subsection
+#: original_texis/xgettext.texi:90
+#, no-wrap
+msgid "Input file interpretation"
+msgstr "Input file interpretation"
+
+#. type: item
+#: original_texis/xgettext.texi:93
+#, no-wrap
+msgid "--from-code=@var{name}"
+msgstr "--from-code=@var{name}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:94
+#, no-wrap
+msgid "--from-code@r{, @code{xgettext} option}"
+msgstr "--from-code@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:99
+msgid ""
+"Specifies the encoding of the input files.  This option is needed only if "
+"some untranslated message strings or their corresponding comments contain "
+"non-ASCII characters.  Note that Tcl and Glade input files are always "
+"assumed to be in UTF-8, regardless of this option."
+msgstr ""
+"入力ファイルのエンコーディングを指定します。このオプションはメッセージ文字列"
+"や、それらのコメントに非ASCII文字が含まれている場合のみ必要です。TclとGladeの"
+"入力ファイルは、このオプションの指定に関わらず、UTF-8が想定されることに注意し"
+"てください。"
+
+#. type: Plain text
+#: original_texis/xgettext.texi:103
+msgid "By default the input files are assumed to be in ASCII."
+msgstr ""
+"デフォルトでは、入力ファイルのエンコーディングはASCIIであると仮定されます。"
+
+#. type: subsection
+#: original_texis/xgettext.texi:104
+#, no-wrap
+msgid "Operation mode"
+msgstr "Operation mode"
+
+#. type: item
+#: original_texis/xgettext.texi:107
+#, no-wrap
+msgid "-j"
+msgstr "-j"
+
+#. type: itemx
+#: original_texis/xgettext.texi:108
+#, no-wrap
+msgid "--join-existing"
+msgstr "--join-existing"
+
+#. type: opindex
+#: original_texis/xgettext.texi:109
+#, no-wrap
+msgid "-j@r{, @code{xgettext} option}"
+msgstr "-j@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:110
+#, no-wrap
+msgid "--join-existing@r{, @code{xgettext} option}"
+msgstr "--join-existing@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:112
+msgid "Join messages with existing file."
+msgstr "既存のファイルのメッセージを結合します。"
+
+#. type: item
+#: original_texis/xgettext.texi:113
+#, no-wrap
+msgid "-x @var{file}"
+msgstr "-x @var{file}"
+
+#. type: itemx
+#: original_texis/xgettext.texi:114
+#, no-wrap
+msgid "--exclude-file=@var{file}"
+msgstr "--exclude-file=@var{file}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:115
+#, no-wrap
+msgid "-x@r{, @code{xgettext} option}"
+msgstr "-x@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:116
+#, no-wrap
+msgid "--exclude-file@r{, @code{xgettext} option}"
+msgstr "--exclude-file@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:119
+msgid ""
+"Entries from @var{file} are not extracted.  @var{file} should be a PO or POT "
+"file."
+msgstr ""
+"@var{file}のエントリーは抽出されません。@var{file}には、POファイルかPOTファイ"
+"ルを指定します。"
+
+#. type: item
+#: original_texis/xgettext.texi:120
+#, no-wrap
+msgid "-c[@var{tag}]"
+msgstr "-c[@var{tag}]"
+
+#. type: itemx
+#: original_texis/xgettext.texi:121
+#, no-wrap
+msgid "--add-comments[=@var{tag}]"
+msgstr "--add-comments[=@var{tag}]"
+
+#. type: opindex
+#: original_texis/xgettext.texi:122
+#, no-wrap
+msgid "-c@r{, @code{xgettext} option}"
+msgstr "-c@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:123
+#, no-wrap
+msgid "--add-comments@r{, @code{xgettext} option}"
+msgstr "--add-comments@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:127
+msgid ""
+"Place comment blocks starting with @var{tag} and preceding keyword lines in "
+"the output file.  Without a @var{tag}, the option means to put @emph{all} "
+"comment blocks preceding keyword lines in the output file."
+msgstr ""
+"@var{tag}で始まるコメントブロックを、出力ファイル中のキーワード行の前に配置し"
+"ます。このオプションで@var{tag}を指定しない場合には、出力ファイル中のすべての"
+"キーワード行の前にコメントブロックが配置されます。"
+
+#. type: table
+#: original_texis/xgettext.texi:130
+msgid ""
+"Note that comment blocks supposed to be extracted must be adjacent to "
+"keyword lines.  For example, in the following C source code:"
+msgstr ""
+
+#. type: example
+#: original_texis/xgettext.texi:134
+#, no-wrap
+msgid ""
+"/* This is the first comment.  */\n"
+"gettext (\"foo\");\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: original_texis/xgettext.texi:138
+#, no-wrap
+msgid ""
+"/* This is the second comment: not extracted  */\n"
+"gettext (\n"
+"  \"bar\");\n"
+"\n"
+msgstr ""
+
+#. type: example
+#: original_texis/xgettext.texi:142
+#, no-wrap
+msgid ""
+"gettext (\n"
+"  /* This is the third comment.  */\n"
+"  \"baz\");\n"
+msgstr ""
+
+#. type: table
+#: original_texis/xgettext.texi:146
+msgid ""
+"The second comment line will not be extracted, because there is one blank "
+"line between the comment line and the keyword."
+msgstr ""
+
+#. type: item
+#: original_texis/xgettext.texi:147
+#, no-wrap
+msgid "--check[=@var{CHECK}]"
+msgstr ""
+
+#. type: opindex
+#: original_texis/xgettext.texi:148
+#, fuzzy, no-wrap
+#| msgid "-k@r{, @code{xgettext} option}"
+msgid "--check@r{, @code{xgettext} option}"
+msgstr "-k@r{, @code{xgettext} option}"
+
+#. type: cindex
+#: original_texis/xgettext.texi:149
+#, fuzzy, no-wrap
+#| msgid "supported languages, @code{xgettext}"
+msgid "supported syntax checks, @code{xgettext}"
+msgstr "supported languages, @code{xgettext}"
+
+#. type: table
+#: original_texis/xgettext.texi:152
+msgid ""
+"Perform a syntax check on msgid and msgid_plural.  The supported checks are:"
+msgstr ""
+
+#. type: item
+#: original_texis/xgettext.texi:154
+#, no-wrap
+msgid "ellipsis-unicode"
+msgstr ""
+
+#. type: table
+#: original_texis/xgettext.texi:156
+msgid "Prefer Unicode ellipsis character over ASCII @code{...}"
+msgstr ""
+
+#. type: item
+#: original_texis/xgettext.texi:157
+#, no-wrap
+msgid "space-ellipsis"
+msgstr ""
+
+#. type: table
+#: original_texis/xgettext.texi:159
+msgid "Prohibit whitespace before an ellipsis character"
+msgstr ""
+
+#. type: item
+#: original_texis/xgettext.texi:160
+#, no-wrap
+msgid "quote-unicode"
+msgstr ""
+
+#. type: table
+#: original_texis/xgettext.texi:162
+msgid "Prefer Unicode quotation marks over ASCII @code{\"'`}"
+msgstr ""
+
+#. type: item
+#: original_texis/xgettext.texi:163
+#, no-wrap
+msgid "bullet-unicode"
+msgstr ""
+
+#. type: table
+#: original_texis/xgettext.texi:165
+msgid "Prefer Unicode bullet character over ASCII @code{*} or @code{-}"
+msgstr ""
+
+#. type: table
+#: original_texis/xgettext.texi:173
+msgid ""
+"The option has an effect on all input files.  To enable or disable checks "
+"for a certain string, you can mark it with an @code{xgettext:} special "
+"comment in the source file.  For example, if you specify the @code{--"
+"check=space-ellipsis} option, but want to suppress the check on a particular "
+"string, add the following comment:"
+msgstr ""
+
+#. type: example
+#: original_texis/xgettext.texi:177
+#, no-wrap
+msgid ""
+"/* xgettext: no-space-ellipsis-check */\n"
+"gettext (\"We really want a space before ellipsis here ...\");\n"
+msgstr ""
+
+#. type: table
+#: original_texis/xgettext.texi:183
+msgid ""
+"The @code{xgettext:} comment can be followed by flags separated with a "
+"comma.  The possible flags are of the form @samp{[no-]@var{name}-check}, "
+"where @var{name} is the name of a valid syntax check.  If a flag is prefixed "
+"by @code{no-}, the meaning is negated."
+msgstr ""
+
+#. type: table
+#: original_texis/xgettext.texi:189
+msgid ""
+"Some tests apply the checks to each sentence within the msgid, rather than "
+"the whole string.  xgettext detects the end of sentence by performing a "
+"pattern match, which usually looks for a period followed by a certain number "
+"of spaces.  The number is specified with the @code{--sentence-end} option."
+msgstr ""
+
+#. type: item
+#: original_texis/xgettext.texi:190
+#, no-wrap
+msgid "--sentence-end[=@var{TYPE}]"
+msgstr ""
+
+#. type: opindex
+#: original_texis/xgettext.texi:191
+#, fuzzy, no-wrap
+#| msgid "-d@r{, @code{xgettext} option}"
+msgid "--sentence-end@r{, @code{xgettext} option}"
+msgstr "-d@r{, @code{xgettext} option}"
+
+#. type: cindex
+#: original_texis/xgettext.texi:192
+#, fuzzy, no-wrap
+#| msgid "supported languages, @code{xgettext}"
+msgid "sentence end markers, @code{xgettext}"
+msgstr "supported languages, @code{xgettext}"
+
+#. type: table
+#: original_texis/xgettext.texi:194
+msgid "The supported values are:"
+msgstr ""
+
+#. type: item
+#: original_texis/xgettext.texi:196
+#, no-wrap
+msgid "single-space"
+msgstr ""
+
+#. type: table
+#: original_texis/xgettext.texi:198
+msgid "Expect at least one whitespace after a period"
+msgstr ""
+
+#. type: item
+#: original_texis/xgettext.texi:199
+#, no-wrap
+msgid "double-space"
+msgstr ""
+
+#. type: table
+#: original_texis/xgettext.texi:201
+msgid "Expect at least two whitespaces after a period"
+msgstr ""
+
+#. type: subsection
+#: original_texis/xgettext.texi:206
+#, no-wrap
+msgid "Language specific options"
+msgstr "Language specific options"
+
+#. type: item
+#: original_texis/xgettext.texi:209
+#, no-wrap
+msgid "-a"
+msgstr "-a"
+
+#. type: itemx
+#: original_texis/xgettext.texi:210
+#, no-wrap
+msgid "--extract-all"
+msgstr "--extract-all"
+
+#. type: opindex
+#: original_texis/xgettext.texi:211
+#, no-wrap
+msgid "-a@r{, @code{xgettext} option}"
+msgstr "-a@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:212
+#, no-wrap
+msgid "--extract-all@r{, @code{xgettext} option}"
+msgstr "--extract-all@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:214
+msgid "Extract all strings."
+msgstr "すべての文字列を抽出します。"
+
+#. type: table
+#: original_texis/xgettext.texi:218
+#, fuzzy
+#| msgid ""
+#| "This option has an effect with most languages, namely C, C++, ObjectiveC, "
+#| "Shell, Python, Lisp, EmacsLisp, librep, Java, C#, awk, Tcl, Perl, PHP, "
+#| "GCC-source, Glade, Lua, JavaScript, Vala."
+msgid ""
+"This option has an effect with most languages, namely C, C++, ObjectiveC, "
+"Shell, Python, Lisp, EmacsLisp, librep, Java, C#, awk, Tcl, Perl, PHP, GCC-"
+"source, Glade, Lua, JavaScript, Vala, GSettings."
+msgstr ""
+"このオプションはほとんどの言語、すなわち、C、C++、Objective-C、Shell、"
+"Python、Lisp、EmacsLisp、librep、Java、C#、awk、Tcl、Perl、PHP、GCC-source、"
+"Glade、Lua、JavaScript、Valaに影響を与えます。"
+
+#. type: item
+#: original_texis/xgettext.texi:219
+#, no-wrap
+msgid "-k[@var{keywordspec}]"
+msgstr "-k[@var{keywordspec}]"
+
+#. type: itemx
+#: original_texis/xgettext.texi:220
+#, no-wrap
+msgid "--keyword[=@var{keywordspec}]"
+msgstr "--keyword[=@var{keywordspec}]"
+
+#. type: opindex
+#: original_texis/xgettext.texi:221
+#, no-wrap
+msgid "-k@r{, @code{xgettext} option}"
+msgstr "-k@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:222
+#, no-wrap
+msgid "--keyword@r{, @code{xgettext} option}"
+msgstr "--keyword@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:225
+msgid ""
+"Specify @var{keywordspec} as an additional keyword to be looked for.  "
+"Without a @var{keywordspec}, the option means to not use default keywords."
+msgstr ""
+"検索する追加のキーワードを@var{keywordspec}に指定します。@var{keywordspec}を"
+"指定しない場合には、デフォルトのキーワードを使用しないことを意味します。"
+
+#. type: cindex
+#: original_texis/xgettext.texi:226
+#, no-wrap
+msgid "adding keywords, @code{xgettext}"
+msgstr "adding keywords, @code{xgettext}"
+
+#. type: cindex
+#: original_texis/xgettext.texi:227
+#, no-wrap
+msgid "context, argument specification in @code{xgettext}"
+msgstr "context, argument specification in @code{xgettext}"
+
+#. type: table
+#: original_texis/xgettext.texi:257
+msgid ""
+"If @var{keywordspec} is a C identifier @var{id}, @code{xgettext} looks for "
+"strings in the first argument of each call to the function or macro "
+"@var{id}.  If @var{keywordspec} is of the form @samp{@var{id}:@var{argnum}}, "
+"@code{xgettext} looks for strings in the @var{argnum}th argument of the "
+"call.  If @var{keywordspec} is of the form @samp{@var{id}:@var{argnum1},"
+"@var{argnum2}}, @code{xgettext} looks for strings in the @var{argnum1}st "
+"argument and in the @var{argnum2}nd argument of the call, and treats them as "
+"singular/plural variants for a message with plural handling.  Also, if "
+"@var{keywordspec} is of the form @samp{@var{id}:@var{contextargnum}c,"
+"@var{argnum}} or @samp{@var{id}:@var{argnum},@var{contextargnum}c}, "
+"@code{xgettext} treats strings in the @var{contextargnum}th argument as a "
+"context specifier.  And, as a special-purpose support for GNOME, if "
+"@var{keywordspec} is of the form @samp{@var{id}:@var{argnum}g}, "
+"@code{xgettext} recognizes the @var{argnum}th argument as a string with "
+"context, using the GNOME @code{glib} syntax @samp{\"msgctxt|msgid\"}.  @* "
+"Furthermore, if @var{keywordspec} is of the form @samp{@var{id}:@dots{},"
+"@var{totalnumargs}t}, @code{xgettext} recognizes this argument specification "
+"only if the number of actual arguments is equal to @var{totalnumargs}.  This "
+"is useful for disambiguating overloaded function calls in C++.  @* Finally, "
+"if @var{keywordspec} is of the form @samp{@var{id}:@var{argnum}...,"
+"\"@var{xcomment}\"}, @code{xgettext}, when extracting a message from the "
+"specified argument strings, adds an extracted comment @var{xcomment} to the "
+"message.  Note that when used through a normal shell command line, the "
+"double-quotes around the @var{xcomment} need to be escaped."
+msgstr ""
+"@var{keywordspec}として指定された@var{id}がCのものだった場合、@code{xgettext}"
+"は関数(またはマクロ)@var{id}の各呼び出しの最初の引数から文字列を検索します。"
+"@var{keywordspec}が@samp{@var{id}:@var{argnum}}という形式で指定された場合、"
+"@code{xgettext}は呼び出しの@var{argnum}番目の引数を探します。"
+"@var{keywordspec}が@samp{@var{id}:@var{argnum1},@var{argnum2}}の形式で指定さ"
+"れた場合、@code{xgettext}は呼び出しの@var{argnum1}番目と@var{argnum2}番目の引"
+"数から文字列を探して、複数形として処理すべきメッセージのsingular(単数形)と"
+"plural(複数形)として扱います。同様に、@var{keywordspec}が@samp{@var{id}:"
+"@var{contextargnum}c,@var{argnum}}や@samp{@var{id}:@var{argnum},"
+"@var{contextargnum}c}という形式で指定された場合、@code{xgettext}は"
+"@var{contextargnum}番目の引数の文字列をコンテキスト指定子(context specifier)"
+"として扱います。そして GNOME のための特別なサポートとして、keywordspecが"
+"@samp{id:argnumg}という形式で指定された場合、xgettextはargnum番目の引数が"
+"contextを伴う文字列と認識して、GNOME glibの@samp{\"msgctxt|msgid\"}という構文"
+"を使用します。そしてGNOMEのための特別なサポートとして、@var{keywordspec}が"
+"@samp{@var{id}:@var{argnum}g}という形式で指定された場合、@code{xgettext}は"
+"@var{argnum}番目の引数がcontextを伴う文字列と認識して、GNOME @code{glib}の"
+"@samp{\"msgctxt|msgid\"}という構文を使用します。@*また@var{keywordspec}が"
+"@samp{@var{id}:@dots{},@var{totalnumargs}t}という形式で指定された場合、"
+"@code{xgettext}は実際の引数の数が@var{totalnumargs}と等しい場合のみ、この引数"
+"指定を処理します。これはC++でのオーバーロードされた関数の呼び出しなどで便利で"
+"す。@*最後に、もし@var{keywordspec}が@samp{@var{id}:@var{argnum}...,"
+"\"@var{xcomment}\"}という形式で指定された場合、@code{xgettext}は指定された引"
+"数から文字列を抽出するときに、追加のコメントとして@var{xcomment}をメッセージ"
+"に追加します。通常のシェルのコマンドラインから使用する場合は、@var{xcomment}"
+"を括るダブルクォーテーションはエスケープする必要があることに注意してくださ"
+"い。"
+
+#. type: table
+#: original_texis/xgettext.texi:261
+#, fuzzy
+#| msgid ""
+#| "This option has an effect with most languages, namely C, C++, ObjectiveC, "
+#| "Shell, Python, Lisp, EmacsLisp, librep, Java, C#, awk, Tcl, Perl, PHP, "
+#| "GCC-source, Glade, Lua, JavaScript, Vala."
+msgid ""
+"This option has an effect with most languages, namely C, C++, ObjectiveC, "
+"Shell, Python, Lisp, EmacsLisp, librep, Java, C#, awk, Tcl, Perl, PHP, GCC-"
+"source, Glade, Lua, JavaScript, Vala, GSettings, Desktop."
+msgstr ""
+"このオプションはほとんどの言語、すなわち、C、C++、Objective-C、Shell、"
+"Python、Lisp、EmacsLisp、librep、Java、C#、awk、Tcl、Perl、PHP、GCC-source、"
+"Glade、Lua、JavaScript、Valaに影響を与えます。"
+
+#. type: table
+#: original_texis/xgettext.texi:264
+msgid ""
+"The default keyword specifications, which are always looked for if not "
+"explicitly disabled, are language dependent.  They are:"
+msgstr ""
+"明示的に無効化されていない限り、常に検索されるデフォルトキーワードの指定は、"
+"言語に依存します:"
+
+#. type: itemize
+#: original_texis/xgettext.texi:272
+msgid ""
+"For C, C++, and GCC-source: @code{gettext}, @code{dgettext:2}, "
+"@code{dcgettext:2}, @code{ngettext:1,2}, @code{dngettext:2,3}, "
+"@code{dcngettext:2,3}, @code{gettext_noop}, and @code{pgettext:1c,2}, "
+"@code{dpgettext:2c,3}, @code{dcpgettext:2c,3}, @code{npgettext:1c,2,3}, "
+"@code{dnpgettext:2c,3,4}, @code{dcnpgettext:2c,3,4}."
+msgstr ""
+"C、C++、GCC-sourceの場合: @code{gettext}、@code{dgettext:2}、"
+"@code{dcgettext:2}、@code{ngettext:1,2}、@code{dngettext:2,3}、"
+"@code{dcngettext:2,3}、@code{gettext_noop}、そして@code{pgettext:1c,2}、"
+"@code{dpgettext:2c,3}、@code{dcpgettext:2c,3}、@code{npgettext:1c,2,3}、"
+"@code{dnpgettext:2c,3,4}、@code{dcnpgettext:2c,3,4}。"
+
+#. type: itemize
+#: original_texis/xgettext.texi:276
+msgid ""
+"For Objective C: Like for C, and also @code{NSLocalizedString}, @code{_}, "
+"@code{NSLocalizedStaticString}, @code{__}."
+msgstr ""
+"Objective C: Cと同様です。@code{NSLocalizedString}、@code{_}、"
+"@code{NSLocalizedStaticString}、@code{__}も該当します。"
+
+#. type: itemize
+#: original_texis/xgettext.texi:280
+msgid ""
+"For Shell scripts: @code{gettext}, @code{ngettext:1,2}, @code{eval_gettext}, "
+"@code{eval_ngettext:1,2}."
+msgstr ""
+"shellスクリプトの場合: @code{gettext}、@code{ngettext:1,2}、"
+"@code{eval_gettext}、@code{eval_ngettext:1,2}。"
+
+#. type: itemize
+#: original_texis/xgettext.texi:284
+msgid ""
+"For Python: @code{gettext}, @code{ugettext}, @code{dgettext:2}, "
+"@code{ngettext:1,2}, @code{ungettext:1,2}, @code{dngettext:2,3}, @code{_}."
+msgstr ""
+"Pythonの場合: @code{gettext}、@code{ugettext}、@code{dgettext:2}、"
+"@code{ngettext:1,2}、@code{ungettext:1,2}、@code{dngettext:2,3}、@code{_}。"
+
+#. type: itemize
+#: original_texis/xgettext.texi:287
+msgid "For Lisp: @code{gettext}, @code{ngettext:1,2}, @code{gettext-noop}."
+msgstr "Lispの場合: @code{gettext}、@code{ngettext:1,2}、@code{gettext-noop}。"
+
+#. type: itemize
+#: original_texis/xgettext.texi:290
+msgid "For EmacsLisp: @code{_}."
+msgstr "EmacsLispの場合: @code{_}。"
+
+#. type: itemize
+#: original_texis/xgettext.texi:293
+msgid "For librep: @code{_}."
+msgstr "librepの場合: @code{_}。"
+
+#. type: itemize
+#: original_texis/xgettext.texi:296
+msgid "For Scheme: @code{gettext}, @code{ngettext:1,2}, @code{gettext-noop}."
+msgstr ""
+"Schemeの場合: @code{gettext}、@code{ngettext:1,2}、@code{gettext-noop}。"
+
+#. type: itemize
+#: original_texis/xgettext.texi:302
+msgid ""
+"For Java: @code{GettextResource.gettext:2}, @code{GettextResource."
+"ngettext:2,3}, @code{GettextResource.pgettext:2c,3}, @code{GettextResource."
+"npgettext:2c,3,4}, @code{gettext}, @code{ngettext:1,2}, "
+"@code{pgettext:1c,2}, @code{npgettext:1c,2,3}, @code{getString}."
+msgstr ""
+"Javaの場合: @code{GettextResource.gettext:2}、@code{GettextResource."
+"ngettext:2,3}、@code{GettextResource.pgettext:2c,3}、@code{GettextResource."
+"npgettext:2c,3,4}、@code{gettext}、@code{ngettext:1,2}、"
+"@code{pgettext:1c,2}、@code{npgettext:1c,2,3}、@code{getString}。"
+
+#. type: itemize
+#: original_texis/xgettext.texi:306
+msgid ""
+"For C#: @code{GetString}, @code{GetPluralString:1,2}, "
+"@code{GetParticularString:1c,2}, @code{GetParticularPluralString:1c,2,3}."
+msgstr ""
+"C#の場合: @code{GetString}、@code{GetPluralString:1,2}、"
+"@code{GetParticularString:1c,2}、@code{GetParticularPluralString:1c,2,3}。"
+
+#. type: itemize
+#: original_texis/xgettext.texi:309
+msgid "For awk: @code{dcgettext}, @code{dcngettext:1,2}."
+msgstr "awkの場合: @code{dcgettext}、@code{dcngettext:1,2}。"
+
+#. type: itemize
+#: original_texis/xgettext.texi:312
+msgid "For Tcl: @code{::msgcat::mc}."
+msgstr "Tclの場合: @code{::msgcat::mc}。"
+
+#. type: itemize
+#: original_texis/xgettext.texi:317
+msgid ""
+"For Perl: @code{gettext}, @code{%gettext}, @code{$gettext}, "
+"@code{dgettext:2}, @code{dcgettext:2}, @code{ngettext:1,2}, "
+"@code{dngettext:2,3}, @code{dcngettext:2,3}, @code{gettext_noop}."
+msgstr ""
+"Perlの場合: @code{gettext}、@code{%gettext}、@code{$gettext}、"
+"@code{dgettext:2}、@code{dcgettext:2}、@code{ngettext:1,2}、"
+"@code{dngettext:2,3}、@code{dcngettext:2,3}、@code{gettext_noop}。"
+
+#. type: itemize
+#: original_texis/xgettext.texi:321
+msgid ""
+"For PHP: @code{_}, @code{gettext}, @code{dgettext:2}, @code{dcgettext:2}, "
+"@code{ngettext:1,2}, @code{dngettext:2,3}, @code{dcngettext:2,3}."
+msgstr ""
+"PHPの場合: @code{_}、@code{gettext}、@code{dgettext:2}、@code{dcgettext:2}、"
+"@code{ngettext:1,2}、@code{dngettext:2,3}、@code{dcngettext:2,3}。"
+
+#. type: itemize
+#: original_texis/xgettext.texi:325
+msgid ""
+"For Glade 1: @code{label}, @code{title}, @code{text}, @code{format}, "
+"@code{copyright}, @code{comments}, @code{preview_text}, @code{tooltip}."
+msgstr ""
+"Glade 1の場合: @code{label}、@code{title}、@code{text}、@code{format}、"
+"@code{copyright}、@code{comments}、@code{preview_text}、@code{tooltip}。"
+
+#. type: itemize
+#: original_texis/xgettext.texi:330
+msgid ""
+"For Lua: @code{_}, @code{gettext.gettext}, @code{gettext.dgettext:2}, "
+"@code{gettext.dcgettext:2}, @code{gettext.ngettext:1,2}, @code{gettext."
+"dngettext:2,3}, @code{gettext.dcngettext:2,3}."
+msgstr ""
+"Luaの場合: @code{_}、@code{gettext.gettext}、@code{gettext.dgettext:2}、"
+"@code{gettext.dcgettext:2}、@code{gettext.ngettext:1,2}、@code{gettext."
+"dngettext:2,3}、@code{gettext.dcngettext:2,3}。"
+
+#. type: itemize
+#: original_texis/xgettext.texi:335
+msgid ""
+"For JavaScript: @code{_}, @code{gettext}, @code{dgettext:2}, "
+"@code{dcgettext:2}, @code{ngettext:1,2}, @code{dngettext:2,3}, "
+"@code{pgettext:1c,2}, @code{dpgettext:2c,3}."
+msgstr ""
+"JavaScriptの場合: @code{_}、@code{gettext}、@code{dgettext:2}、"
+"@code{dcgettext:2}、@code{ngettext:1,2}、@code{dngettext:2,3}、"
+"@code{pgettext:1c,2}、@code{dpgettext:2c,3}。"
+
+#. type: itemize
+#: original_texis/xgettext.texi:340
+msgid ""
+"For Vala: @code{_}, @code{Q_}, @code{N_}, @code{NC_}, @code{dgettext:2}, "
+"@code{dcgettext:2}, @code{ngettext:1,2}, @code{dngettext:2,3}, "
+"@code{dpgettext:2c,3}, @code{dpgettext2:2c,3}."
+msgstr ""
+"Valaの場合: @code{_}、@code{Q_}、@code{N_}、@code{NC_}、@code{dgettext:2}、"
+"@code{dcgettext:2}、@code{ngettext:1,2}、@code{dngettext:2,3}、"
+"@code{dpgettext:2c,3}、@code{dpgettext2:2c,3}。"
+
+#. type: itemize
+#: original_texis/xgettext.texi:344
+msgid ""
+"For Desktop: @code{Name}, @code{GenericName}, @code{Comment}, @code{Icon}, "
+"@code{Keywords}."
+msgstr ""
+
+#. type: table
+#: original_texis/xgettext.texi:349
+msgid ""
+"To disable the default keyword specifications, the option @samp{-k} or "
+"@samp{--keyword} or @samp{--keyword=}, without a @var{keywordspec}, can be "
+"used."
+msgstr ""
+"デフォルトキーワードの指定は、@samp{-k}オプション、@samp{--keyword}を指定する"
+"か、@var{keywordspec}を指定せずに@samp{--keyword=}として無効にすることができ"
+"ます。"
+
+#. type: item
+#: original_texis/xgettext.texi:350
+#, no-wrap
+msgid "--flag=@var{word}:@var{arg}:@var{flag}"
+msgstr "--flag=@var{word}:@var{arg}:@var{flag}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:351
+#, no-wrap
+msgid "--flag@r{, @code{xgettext} option}"
+msgstr "--flag@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:357
+msgid ""
+"Specifies additional flags for strings occurring as part of the @var{arg}th "
+"argument of the function @var{word}.  The possible flags are the possible "
+"format string indicators, such as @samp{c-format}, and their negations, such "
+"as @samp{no-c-format}, possibly prefixed with @samp{pass-}.  @*"
+msgstr ""
+"関数@var{word}の、@var{arg}番目の引数の一部となるような文字列のための、追加の"
+"フラグを指定します。@samp{c-format}や、それの反対の@samp{no-c-format}のよう"
+"な、利用可能な書式文字列を示すフラグを利用でき、@samp{pass-}を前置して指定す"
+"ることもできます。@*"
+
+#. type: cindex
+#: original_texis/xgettext.texi:357
+#, no-wrap
+msgid "function attribute, __format__"
+msgstr "function attribute, __format__"
+
+#. type: table
+#: original_texis/xgettext.texi:375
+msgid ""
+"The meaning of @code{--flag=@var{function}:@var{arg}:@var{lang}-format} is "
+"that in language @var{lang}, the specified @var{function} expects as "
+"@var{arg}th argument a format string.  (For those of you familiar with GCC "
+"function attributes, @code{--flag=@var{function}:@var{arg}:c-format} is "
+"roughly equivalent to the declaration @samp{__attribute__ ((__format__ "
+"(__printf__, @var{arg}, ...)))} attached to @var{function} in a C source "
+"file.)  For example, if you use the @samp{error} function from GNU libc, you "
+"can specify its behaviour through @code{--flag=error:3:c-format}.  The "
+"effect of this specification is that @code{xgettext} will mark as format "
+"strings all @code{gettext} invocations that occur as @var{arg}th argument of "
+"@var{function}.  This is useful when such strings contain no format string "
+"directives: together with the checks done by @samp{msgfmt -c} it will ensure "
+"that translators cannot accidentally use format string directives that would "
+"lead to a crash at runtime.  @*"
+msgstr ""
+"@code{--flag=@var{function}:@var{arg}:@var{lang}-format}は、言語@var{lang}の"
+"関数@var{function}の@var{arg}番目の引数を書式文字列とみなすという意味です(GCC"
+"関数の属性に慣れている人は、@code{--flag=@var{function}:@var{arg}:c-format}"
+"が、Cソース中の関数 @var{function}に付記される@samp{__attribute__ "
+"((__format__ (__printf__, @var{arg}, ...)))}宣言と同様だと思えばよいでしょ"
+"う)。たとえばGNU libcから、関数@samp{error}を使用する場合、それの振る舞いにつ"
+"いて@code{--flag=error:3:c-format}のように指定することができます。この指定に"
+"より@code{xgettext}は、すべての@code{gettext}呼び出しの@var{function}の"
+"@var{arg}番目の引数に出現する文字列を、書式指定文字列としてマークします。これ"
+"は書式指定子が含まれていないような文字列にたいして@samp{msgfmt -c}により"
+"チェックを行う場合に便利です。これにより翻訳者が実行時のクラッシュを引き起こ"
+"すような書式指定子を意図せずに使ってしまうことを防ぐことができます。@*"
+
+#. type: cindex
+#: original_texis/xgettext.texi:375
+#, no-wrap
+msgid "function attribute, __format_arg__"
+msgstr "function attribute, __format_arg__"
+
+#. type: table
+#: original_texis/xgettext.texi:397
+msgid ""
+"The meaning of @code{--flag=@var{function}:@var{arg}:pass-@var{lang}-format} "
+"is that in language @var{lang}, if the @var{function} call occurs in a "
+"position that must yield a format string, then its @var{arg}th argument must "
+"yield a format string of the same type as well.  (If you know GCC function "
+"attributes, the @code{--flag=@var{function}:@var{arg}:pass-c-format} option "
+"is roughly equivalent to the declaration @samp{__attribute__ "
+"((__format_arg__ (@var{arg})))} attached to @var{function} in a C source "
+"file.)  For example, if you use the @samp{_} shortcut for the @code{gettext} "
+"function, you should use @code{--flag=_:1:pass-c-format}.  The effect of "
+"this specification is that @code{xgettext} will propagate a format string "
+"requirement for a @code{_(\"string\")} call to its first argument, the "
+"literal @code{\"string\"}, and thus mark it as a format string.  This is "
+"useful when such strings contain no format string directives: together with "
+"the checks done by @samp{msgfmt -c} it will ensure that translators cannot "
+"accidentally use format string directives that would lead to a crash at "
+"runtime.  @* This option has an effect with most languages, namely C, C++, "
+"ObjectiveC, Shell, Python, Lisp, EmacsLisp, librep, Scheme, Java, C#, awk, "
+"YCP, Tcl, Perl, PHP, GCC-source, Lua, JavaScript, Vala."
+msgstr ""
+"@code{--flag=@var{function}:@var{arg}:pass-@var{lang}-format}は、言語"
+"@var{lang}において、書式文字列が出現しなければいけない位置に@var{function}呼"
+"び出しがある場合、その関数の@var{arg}番目の引数には、同じタイプの書式文字列と"
+"なければならないという意味です。(GCC関数の属性を知っている人は、@code{--"
+"flag=@var{function}:@var{arg}:pass-c-format}が、Cソース中の関数@var{function}"
+"に付記される@samp{__attribute__ ((__format_arg__ (@var{arg})))}宣言と同様だと"
+"思えばよいでしょう)。たとえば@code{gettext}関数の略記である@samp{_}を使用して"
+"いる場合は、@code{--flag=_:1:pass-c-format}を使う必要があります。この指定によ"
+"り@code{xgettext}は、@code{_(\"string\")}呼び出しの最初の引数@code{\"string"
+"\"}には書式指定文字列が必要だと伝えるために、その文字列を書式指定文字列として"
+"マークします。これは書式指定子が含まれていないような文字列にたいして"
+"@samp{msgfmt -c}によりチェックを行う場合に便利です。これにより翻訳者が実行時"
+"のクラッシュを引き起こすような書式指定子を意図せずに使ってしまうことを防ぐこ"
+"とができます。@*このオプションは、C、C++、ObjectiveC、Shell、Python、Lisp、"
+"EmacsLisp、librep、Scheme、Java、C#、awk、YCP、Tcl、Perl、PHP、GCC-source、"
+"Lua、JavaScript、Vala(つまり、ほとんどの言語)に影響を与えます。"
+
+#. type: item
+#: original_texis/xgettext.texi:398
+#, no-wrap
+msgid "-T"
+msgstr "-T"
+
+#. type: itemx
+#: original_texis/xgettext.texi:399
+#, no-wrap
+msgid "--trigraphs"
+msgstr "--trigraphs"
+
+#. type: opindex
+#: original_texis/xgettext.texi:400
+#, no-wrap
+msgid "-T@r{, @code{xgettext} option}"
+msgstr "-T@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:401
+#, no-wrap
+msgid "--trigraphs@r{, @code{xgettext} option}"
+msgstr "--trigraphs@r{, @code{xgettext} option}"
+
+#. type: cindex
+#: original_texis/xgettext.texi:402
+#, no-wrap
+msgid "C trigraphs"
+msgstr "C trigraphs"
+
+#. type: table
+#: original_texis/xgettext.texi:406
+msgid ""
+"Understand ANSI C trigraphs for input.  @* This option has an effect only "
+"with the languages C, C++, ObjectiveC."
+msgstr ""
+"入力におけるANSI Cの三連表記(trigraph)を理解します。@*このオプションは言語が"
+"C、C++、ObjectiveCの場合のみ効果があります。\n"
+
+#. type: item
+#: original_texis/xgettext.texi:407
+#, no-wrap
+msgid "--qt"
+msgstr "--qt"
+
+#. type: opindex
+#: original_texis/xgettext.texi:408
+#, no-wrap
+msgid "--qt@r{, @code{xgettext} option}"
+msgstr "--qt@r{, @code{xgettext} option}"
+
+#. type: cindex
+#: original_texis/xgettext.texi:409
+#, no-wrap
+msgid "Qt format strings"
+msgstr "Qt format strings"
+
+#. type: table
+#: original_texis/xgettext.texi:413
+msgid ""
+"Recognize Qt format strings.  @* This option has an effect only with the "
+"language C++."
+msgstr ""
+"Qtの書式指定文字列を認識します。@*このオプションは言語がC++の場合のみ効果があ"
+"ります。\n"
+
+#. type: item
+#: original_texis/xgettext.texi:414
+#, no-wrap
+msgid "--kde"
+msgstr "--kde"
+
+#. type: opindex
+#: original_texis/xgettext.texi:415
+#, no-wrap
+msgid "--kde@r{, @code{xgettext} option}"
+msgstr "--kde@r{, @code{xgettext} option}"
+
+#. type: cindex
+#: original_texis/xgettext.texi:416
+#, no-wrap
+msgid "KDE format strings"
+msgstr "KDE format strings"
+
+#. type: table
+#: original_texis/xgettext.texi:420
+msgid ""
+"Recognize KDE 4 format strings.  @* This option has an effect only with the "
+"language C++."
+msgstr ""
+"KDE 4の書式指定文字列を認識します。@*このオプションは言語がC++の場合のみ効果"
+"があります。\n"
+
+#. type: item
+#: original_texis/xgettext.texi:421
+#, no-wrap
+msgid "--boost"
+msgstr "--boost"
+
+#. type: opindex
+#: original_texis/xgettext.texi:422
+#, no-wrap
+msgid "--boost@r{, @code{xgettext} option}"
+msgstr "--boost@r{, @code{xgettext} option}"
+
+#. type: cindex
+#: original_texis/xgettext.texi:423
+#, no-wrap
+msgid "Boost format strings"
+msgstr "Boost format strings"
+
+#. type: table
+#: original_texis/xgettext.texi:427
+msgid ""
+"Recognize Boost format strings.  @* This option has an effect only with the "
+"language C++."
+msgstr ""
+"Boostの書式指定文字列を認識します。@*このオプションは言語がC++の場合のみ効果"
+"があります。\n"
+
+#. type: item
+#: original_texis/xgettext.texi:428
+#, no-wrap
+msgid "--debug"
+msgstr "--debug"
+
+#. type: opindex
+#: original_texis/xgettext.texi:429
+#, no-wrap
+msgid "--debug@r{, @code{xgettext} option}"
+msgstr "--debug@r{, @code{xgettext} option}"
+
+#. type: cindex
+#: original_texis/xgettext.texi:430
+#, no-wrap
+msgid "debugging messages marked as format strings"
+msgstr "debugging messages marked as format strings"
+
+#. type: table
+#: original_texis/xgettext.texi:435
+#, fuzzy
+#| msgid ""
+#| "Use the flags @code{c-format} and @code{possible-c-format} to show who "
+#| "was responsible for marking a message as a format string.  The latter "
+#| "form is used if the @code{xgettext} program decided, the format form is "
+#| "used if the programmer prescribed it."
+msgid ""
+"Use the flags @code{c-format} and @code{possible-c-format} to show who was "
+"responsible for marking a message as a format string.  The latter form is "
+"used if the @code{xgettext} program decided, the former form is used if the "
+"programmer prescribed it."
+msgstr ""
+"メッセージ中の書式指定文字列を、@code{c-format}や@code{possible-c-format}フラ"
+"グでマークすることにより、誰がマークしたかを表示します。後者の形式は、"
+"@code{xgettext}が決定したときに使用され、前者はプログラマーが決定したときに使"
+"用されます。"
+
+#. type: table
+#: original_texis/xgettext.texi:438
+msgid ""
+"By default only the @code{c-format} form is used.  The translator should not "
+"have to care about these details."
+msgstr ""
+"デフォルトでは@code{c-format}形式だけが使用されます。翻訳者はそれらの詳細につ"
+"いて気にする必要はありません。"
+
+#. type: Plain text
+#: original_texis/xgettext.texi:444
+msgid ""
+"This implementation of @code{xgettext} is able to process a few awkward "
+"cases, like strings in preprocessor macros, ANSI concatenation of adjacent "
+"strings, and escaped end of lines for continued strings."
+msgstr ""
+"この@code{xgettext}の実装は、プリプロセッサーのマクロの中の文字列や、ANSIによ"
+"る隣接した文字列の結合、エスケープ文字による行の継続等の厄介なケースを処理す"
+"ることができます。"
+
+#. type: subsection
+#: original_texis/xgettext.texi:445
+#, no-wrap
+msgid "Output details"
+msgstr "Output details"
+
+#. type: item
+#: original_texis/xgettext.texi:450
+#, no-wrap
+msgid "--color"
+msgstr "--color"
+
+#. type: itemx
+#: original_texis/xgettext.texi:451
+#, no-wrap
+msgid "--color=@var{when}"
+msgstr "--color=@var{when}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:452
+#, no-wrap
+msgid "--color@r{, @code{xgettext} option}"
+msgstr "--color@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:455
+msgid ""
+"Specify whether or when to use colors and other text attributes.  See "
+"@ref{The --color option} for details."
+msgstr ""
+"色や色以外のテキスト属性を使うか、いつ使うかを指定します。詳細は@ref{The --"
+"color option}を参照してください。"
+
+#. type: item
+#: original_texis/xgettext.texi:456
+#, no-wrap
+msgid "--style=@var{style_file}"
+msgstr "--style=@var{style_file}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:457
+#, no-wrap
+msgid "--style@r{, @code{xgettext} option}"
+msgstr "--style@r{, @code{xgettext} オプション}"
+
+#. type: table
+#: original_texis/xgettext.texi:460
+msgid ""
+"Specify the CSS style rule file to use for @code{--color}.  See @ref{The --"
+"style option} for details."
+msgstr ""
+"@code{--color}にたいしてCSS style ruleファイルを使うかを指定します。詳細は"
+"@ref{The --style option}を参照してください。"
+
+#. type: item
+#: original_texis/xgettext.texi:461
+#, no-wrap
+msgid "--force-po"
+msgstr "--force-po"
+
+#. type: opindex
+#: original_texis/xgettext.texi:462
+#, no-wrap
+msgid "--force-po@r{, @code{xgettext} option}"
+msgstr "--force-po@r{, @code{xgettext} オプション}"
+
+#. type: table
+#: original_texis/xgettext.texi:464
+msgid "Always write an output file even if no message is defined."
+msgstr ""
+"何もメッセージが定義されていない場合でも、常に出力ファイルに書き込みます。"
+
+#. type: item
+#: original_texis/xgettext.texi:465
+#, no-wrap
+msgid "-i"
+msgstr "-i"
+
+#. type: itemx
+#: original_texis/xgettext.texi:466
+#, no-wrap
+msgid "--indent"
+msgstr "--indent"
+
+#. type: opindex
+#: original_texis/xgettext.texi:467
+#, no-wrap
+msgid "-i@r{, @code{xgettext} option}"
+msgstr "-i@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:468
+#, no-wrap
+msgid "--indent@r{, @code{xgettext} option}"
+msgstr "--indent@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:470
+msgid "Write the .po file using indented style."
+msgstr "インデントされた形式で.poファイルを書き込みます。"
+
+#. type: item
+#: original_texis/xgettext.texi:471
+#, no-wrap
+msgid "--no-location"
+msgstr "--no-location"
+
+#. type: opindex
+#: original_texis/xgettext.texi:472
+#, no-wrap
+msgid "--no-location@r{, @code{xgettext} option}"
+msgstr "--no-location@r{, @code{xgettext} オプション}"
+
+#. type: table
+#: original_texis/xgettext.texi:476
+msgid ""
+"Do not write @samp{#: @var{filename}:@var{line}} lines.  Note that using "
+"this option makes it harder for technically skilled translators to "
+"understand each message's context."
+msgstr ""
+"@samp{#: @var{filename}:@var{line}}のような行を書き込みません。このオプション"
+"を使用することにより、熟練した翻訳者が、どのようなコンテキストでメッセージが"
+"使用されるのかを理解するのが困難になることに注意してください。"
+
+#. type: item
+#: original_texis/xgettext.texi:477
+#, no-wrap
+msgid "-n"
+msgstr "-n"
+
+#. type: itemx
+#: original_texis/xgettext.texi:478
+#, fuzzy, no-wrap
+#| msgid "--add-location"
+msgid "--add-location=@var{type}"
+msgstr "--add-location"
+
+#. type: opindex
+#: original_texis/xgettext.texi:479
+#, no-wrap
+msgid "-n@r{, @code{xgettext} option}"
+msgstr "-n@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:480
+#, no-wrap
+msgid "--add-location@r{, @code{xgettext} option}"
+msgstr "--add-location@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:482
+msgid "Generate @samp{#: @var{filename}:@var{line}} lines (default)."
+msgstr "@samp{#: @var{filename}:@var{line}}という行を生成します(デフォルト)。"
+
+#. type: table
+#: original_texis/xgettext.texi:488
+msgid ""
+"The optional @var{type} can be either @samp{full}, @samp{file}, or "
+"@samp{never}.  If it is not given or @samp{full}, it generates the lines "
+"with both file name and line number.  If it is @samp{file}, the line number "
+"part is omitted.  If it is @samp{never}, it completely suppresses the lines "
+"(same as @code{--no-location})."
+msgstr ""
+
+#. type: item
+#: original_texis/xgettext.texi:489
+#, no-wrap
+msgid "--strict"
+msgstr "--strict"
+
+#. type: opindex
+#: original_texis/xgettext.texi:490
+#, no-wrap
+msgid "--strict@r{, @code{xgettext} option}"
+msgstr "--strict@r{, @code{xgettext} オプション}"
+
+#. type: table
+#: original_texis/xgettext.texi:494
+msgid ""
+"Write out a strict Uniforum conforming PO file.  Note that this Uniforum "
+"format should be avoided because it doesn't support the GNU extensions."
+msgstr ""
+"Uniforumに厳密に準拠したPOファイルを出力します。このUniforum形式はGNUの拡張を"
+"サポートしないため避けたほうがよいでしょう。"
+
+#. type: item
+#: original_texis/xgettext.texi:495
+#, no-wrap
+msgid "--properties-output"
+msgstr "--properties-output"
+
+#. type: opindex
+#: original_texis/xgettext.texi:496
+#, no-wrap
+msgid "--properties-output@r{, @code{xgettext} option}"
+msgstr "--properties-output@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:500
+msgid ""
+"Write out a Java ResourceBundle in Java @code{.properties} syntax.  Note "
+"that this file format doesn't support plural forms and silently drops "
+"obsolete messages."
+msgstr ""
+"Javaの@code{.properties}の書式で、Java ResourceBundleを出力します。このファイ"
+"ル形式はplural formをサポートせず、廃止されたメッセージを暗黙で除去することに"
+"注意してください。"
+
+#. type: item
+#: original_texis/xgettext.texi:501
+#, no-wrap
+msgid "--stringtable-output"
+msgstr "--stringtable-output"
+
+#. type: opindex
+#: original_texis/xgettext.texi:502
+#, no-wrap
+msgid "--stringtable-output@r{, @code{xgettext} option}"
+msgstr "--stringtable-output@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:505
+msgid ""
+"Write out a NeXTstep/GNUstep localized resource file in @code{.strings} "
+"syntax.  Note that this file format doesn't support plural forms."
+msgstr ""
+"@code{.strings}の書式で、NeXTstep/GNUstepのローカライズされたリソースファイル"
+"を出力します。このファイル形式はplural formをサポートしないことに注意してくだ"
+"さい。"
+
+#. type: item
+#: original_texis/xgettext.texi:506
+#, fuzzy, no-wrap
+#| msgid "--output=@var{file}"
+msgid "--its=@var{file}"
+msgstr "--output=@var{file}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:507
+#, fuzzy, no-wrap
+#| msgid "-s@r{, @code{xgettext} option}"
+msgid "--its@r{, @code{xgettext} option}"
+msgstr "-s@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:510
+msgid ""
+"Use ITS rules defined in @var{file}.  Note that this is only effective with "
+"XML files."
+msgstr ""
+
+#. type: item
+#: original_texis/xgettext.texi:511
+#, no-wrap
+msgid "--itstool"
+msgstr ""
+
+#. type: opindex
+#: original_texis/xgettext.texi:512
+#, fuzzy, no-wrap
+#| msgid "-o@r{, @code{xgettext} option}"
+msgid "--itstool@r{, @code{xgettext} option}"
+msgstr "-o@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:515
+msgid ""
+"Write out comments recognized by itstool (@uref{http://itstool.org}).  Note "
+"that this is only effective with XML files."
+msgstr ""
+
+#. type: item
+#: original_texis/xgettext.texi:516
+#, no-wrap
+msgid "-w @var{number}"
+msgstr "-w @var{number}"
+
+#. type: itemx
+#: original_texis/xgettext.texi:517
+#, no-wrap
+msgid "--width=@var{number}"
+msgstr "--width=@var{number}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:518
+#, no-wrap
+msgid "-w@r{, @code{xgettext} option}"
+msgstr "-w@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:519
+#, no-wrap
+msgid "--width@r{, @code{xgettext} option}"
+msgstr "--width@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:523
+msgid ""
+"Set the output page width.  Long strings in the output files will be split "
+"across multiple lines in order to ensure that each line's width (= number of "
+"screen columns) is less or equal to the given @var{number}."
+msgstr ""
+"出力ページの幅をセットします。これにより出力ファイル中の長い文字列が指定した"
+"幅(例:スクリーンの列数)に収まるように、各行の長さが@var{number}以下のような複"
+"数の行に分割されます。"
+
+#. type: item
+#: original_texis/xgettext.texi:524
+#, no-wrap
+msgid "--no-wrap"
+msgstr "--no-wrap"
+
+#. type: opindex
+#: original_texis/xgettext.texi:525
+#, no-wrap
+msgid "--no-wrap@r{, @code{xgettext} option}"
+msgstr "--no-wrap@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:529
+msgid ""
+"Do not break long message lines.  Message lines whose width exceeds the "
+"output page width will not be split into several lines.  Only file reference "
+"lines which are wider than the output page width will be split."
+msgstr ""
+"長いメッセージ行を分割しません。出力ページの幅を超えるようなメッセージ行も、"
+"複数行に分割されません。出力ページの幅を超えるファイル参照行だけが分割されま"
+"す。"
+
+#. type: item
+#: original_texis/xgettext.texi:530
+#, no-wrap
+msgid "-s"
+msgstr "-s"
+
+#. type: itemx
+#: original_texis/xgettext.texi:531
+#, no-wrap
+msgid "--sort-output"
+msgstr "--sort-output"
+
+#. type: opindex
+#: original_texis/xgettext.texi:532
+#, no-wrap
+msgid "-s@r{, @code{xgettext} option}"
+msgstr "-s@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:533
+#, no-wrap
+msgid "--sort-output@r{, @code{xgettext} option}"
+msgstr "--sort-output@r{, @code{xgettext} option}"
+
+#. type: cindex
+#: original_texis/xgettext.texi:534
+#, no-wrap
+msgid "sorting output of @code{xgettext}"
+msgstr "sorting output of @code{xgettext}"
+
+#. type: table
+#: original_texis/xgettext.texi:537
+msgid ""
+"Generate sorted output.  Note that using this option makes it much harder "
+"for the translator to understand each message's context."
+msgstr ""
+"ソートされた出力を生成します。このオプションを使用することにより翻訳者が、"
+"メッセージがどのようなコンテキストで使用されるかを理解するのが、困難になるこ"
+"とに注意してください。"
+
+#. type: item
+#: original_texis/xgettext.texi:538
+#, no-wrap
+msgid "-F"
+msgstr "-F"
+
+#. type: itemx
+#: original_texis/xgettext.texi:539
+#, no-wrap
+msgid "--sort-by-file"
+msgstr "--sort-by-file"
+
+#. type: opindex
+#: original_texis/xgettext.texi:540
+#, no-wrap
+msgid "-F@r{, @code{xgettext} option}"
+msgstr "-F@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:541
+#, no-wrap
+msgid "--sort-by-file@r{, @code{xgettext} option}"
+msgstr "--sort-by-file@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:543
+msgid "Sort output by file location."
+msgstr "ファイルの場所により出力をソートします。"
+
+#. type: item
+#: original_texis/xgettext.texi:544
+#, no-wrap
+msgid "--omit-header"
+msgstr "--omit-header"
+
+#. type: opindex
+#: original_texis/xgettext.texi:545
+#, no-wrap
+msgid "--omit-header@r{, @code{xgettext} option}"
+msgstr "--omit-header@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:547
+msgid "Don't write header with @samp{msgid \"\"} entry."
+msgstr ""
+"@samp{msgid \"\"}というエントリーにたいして、ヘッダーを書き込みません。"
+
+#. type: cindex
+#: original_texis/xgettext.texi:548
+#, no-wrap
+msgid "testing @file{.po} files for equivalence"
+msgstr "testing @file{.po} files for equivalence"
+
+#. type: table
+#: original_texis/xgettext.texi:553
+msgid ""
+"This is useful for testing purposes because it eliminates a source of "
+"variance for generated @code{.gmo} files.  With @code{--omit-header}, two "
+"invocations of @code{xgettext} on the same files with the same options at "
+"different times are guaranteed to produce the same results."
+msgstr ""
+"これはソースファイルの変更をテストする等の目的で、@code{.gmo}ファイルを生成す"
+"るときに便利です。@code{--omit-header}を使用すると、同じファイルにたいして、"
+"同じオプションで@code{xgettext}を実行すれば、実行した時が異なっていても同じ結"
+"果を得ることができます。"
+
+#. type: table
+#: original_texis/xgettext.texi:556
+msgid ""
+"Note that using this option will lead to an error if the resulting file "
+"would not entirely be in ASCII."
+msgstr ""
+"このオプションをASCII以外の文字が含まれたファイルにたいして使用した場合、エ"
+"ラーとなることに注意してください。"
+
+#. type: item
+#: original_texis/xgettext.texi:557
+#, no-wrap
+msgid "--copyright-holder=@var{string}"
+msgstr "--copyright-holder=@var{string}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:558
+#, no-wrap
+msgid "--copyright-holder@r{, @code{xgettext} option}"
+msgstr "--copyright-holder@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:568
+msgid ""
+"Set the copyright holder in the output.  @var{string} should be the "
+"copyright holder of the surrounding package.  (Note that the msgstr strings, "
+"extracted from the package's sources, belong to the copyright holder of the "
+"package.)  Translators are expected to transfer or disclaim the copyright "
+"for their translations, so that package maintainers can distribute them "
+"without legal risk.  If @var{string} is empty, the output files are marked "
+"as being in the public domain; in this case, the translators are expected to "
+"disclaim their copyright, again so that package maintainers can distribute "
+"them without legal risk."
+msgstr ""
+"出力に著作権所有者(copyright holder)をセットします。@var{string}にはパッケー"
+"ジの著作権所有者を指定する必要があります(パッケージのソースから抽出された"
+"msgstr文字列の著作権は、パッケージの著作権所有者に帰属することに注意してくだ"
+"さい)。翻訳者は、翻訳物の著作権を譲渡、もしくは放棄することが望まれます。これ"
+"によりパッケージのメンテナーは法的なリスクなしでそれらを配布できるのです。"
+"@var{string}が空の場合、出力ファイルはパブリックドメインに属するとマークされ"
+"ます。この場合も翻訳者は著作権を譲渡、もしくは放棄することが望まれます。繰り"
+"返しになりますが、そうすることによりパッケージのメンテナーは法的なリスクなし"
+"でそれらを配布できるのです。"
+
+#. type: table
+#: original_texis/xgettext.texi:571
+msgid ""
+"The default value for @var{string} is the Free Software Foundation, Inc., "
+"simply because @code{xgettext} was first used in the GNU project."
+msgstr ""
+"@var{string}のデフォルト値はFree Software Foundation, Inc.です。これは単に"
+"@code{xgettext}が最初に使用されたのが GNU プロジェクトであることが理由です。"
+
+#. type: item
+#: original_texis/xgettext.texi:572
+#, no-wrap
+msgid "--foreign-user"
+msgstr "--foreign-user"
+
+#. type: opindex
+#: original_texis/xgettext.texi:573
+#, no-wrap
+msgid "--foreign-user@r{, @code{xgettext} option}"
+msgstr "--foreign-user@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:577
+msgid ""
+"Omit FSF copyright in output.  This option is equivalent to @samp{--"
+"copyright-holder=''}.  It can be useful for packages outside the GNU project "
+"that want their translations to be in the public domain."
+msgstr ""
+"出力からFSFの著作権を省略します。これは@samp{--copyright-holder=''}とするのと"
+"同じです。これはGNUプロジェクト以外で、翻訳物をパブリックドメインにしたいとき"
+"に便利です。"
+
+#. type: item
+#: original_texis/xgettext.texi:578
+#, no-wrap
+msgid "--package-name=@var{package}"
+msgstr "--package-name=@var{package}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:579
+#, no-wrap
+msgid "--package-name@r{, @code{xgettext} option}"
+msgstr "--package-name@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:581
+msgid "Set the package name in the header of the output."
+msgstr "出力のヘッダーに、パッケージ名をセットします。"
+
+#. type: item
+#: original_texis/xgettext.texi:582
+#, no-wrap
+msgid "--package-version=@var{version}"
+msgstr "--package-version=@var{version}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:583
+#, no-wrap
+msgid "--package-version@r{, @code{xgettext} option}"
+msgstr "--package-version@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:586
+msgid ""
+"Set the package version in the header of the output.  This option has an "
+"effect only if the @samp{--package-name} option is also used."
+msgstr ""
+"出力のヘッダーにパッケージのバージョンをセットします。このオプションは、同時"
+"に@samp{--package-name}を指定したときだけ効果があります。"
+
+#. type: item
+#: original_texis/xgettext.texi:587
+#, no-wrap
+msgid "--msgid-bugs-address=@var{email@@address}"
+msgstr "--msgid-bugs-address=@var{email@@address}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:588
+#, no-wrap
+msgid "--msgid-bugs-address@r{, @code{xgettext} option}"
+msgstr "--msgid-bugs-address@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:591
+msgid ""
+"Set the reporting address for msgid bugs.  This is the email address or URL "
+"to which the translators shall report bugs in the untranslated strings:"
+msgstr ""
+"msgidに関するバグの報告先アドレスをセットします。このアドレスは、翻訳者が未翻"
+"訳文字列のバグを報告するための電子メールのアドレス、またはURLです。"
+
+#. type: item
+#: original_texis/xgettext.texi:593
+#, fuzzy, no-wrap
+#| msgid "Strings which are not entire sentences, see the maintainer guidelines"
+msgid "Strings which are not entire sentences; see the maintainer guidelines"
+msgstr "センテンス全体となっていないような文字列。メンテナーのためのガイドライン"
+
+#. type: itemize
+#: original_texis/xgettext.texi:595
+msgid "in @ref{Preparing Strings}."
+msgstr "@ref{Preparing Strings}を参照してください。"
+
+#. type: item
+#: original_texis/xgettext.texi:595
+#, no-wrap
+msgid "Strings which use unclear terms or require additional context to be"
+msgstr "不明な用語を使用したり、追加のコンテキストを理解することが必要とする文字列"
+
+#. type: itemize
+#: original_texis/xgettext.texi:597
+msgid "understood."
+msgstr "。"
+
+#. type: item
+#: original_texis/xgettext.texi:597
+#, no-wrap
+msgid "Strings which make invalid assumptions about notation of date, time or"
+msgstr "日付・時刻・通貨の表記で、無効な仮定をしている文字列"
+
+#. type: itemize
+#: original_texis/xgettext.texi:599
+msgid "money."
+msgstr "。"
+
+#. type: item
+#: original_texis/xgettext.texi:599
+#, no-wrap
+msgid "Pluralisation problems."
+msgstr "plural化に関する問題。"
+
+#. type: item
+#: original_texis/xgettext.texi:600
+#, no-wrap
+msgid "Incorrect English spelling."
+msgstr "間違ったEnglishのスペル。"
+
+#. type: item
+#: original_texis/xgettext.texi:601
+#, no-wrap
+msgid "Incorrect formatting."
+msgstr "間違った書式。"
+
+#. type: table
+#: original_texis/xgettext.texi:607
+msgid ""
+"It can be your email address, or a mailing list address where translators "
+"can write to without being subscribed, or the URL of a web page through "
+"which the translators can contact you."
+msgstr ""
+"このアドレスは、あなたのメールアドレスでも構いませんし、翻訳者が登録しなくて"
+"も投稿できるメーリングリストのアドレスや、翻訳者があなたに連絡をとることがで"
+"きるウェブページのアドレスにすることもできます。"
+
+#. type: table
+#: original_texis/xgettext.texi:610
+msgid ""
+"The default value is empty, which means that translators will be clueless! "
+"Don't forget to specify this option."
+msgstr ""
+"デフォルトは空文字列が設定されており、これは翻訳者にはこれらの情報が分からな"
+"いことを意味します! このオプションを指定するのを忘れないでください。"
+
+#. type: item
+#: original_texis/xgettext.texi:611
+#, no-wrap
+msgid "-m[@var{string}]"
+msgstr "-m[@var{string}]"
+
+#. type: itemx
+#: original_texis/xgettext.texi:612
+#, no-wrap
+msgid "--msgstr-prefix[=@var{string}]"
+msgstr "--msgstr-prefix[=@var{string}]"
+
+#. type: opindex
+#: original_texis/xgettext.texi:613
+#, no-wrap
+msgid "-m@r{, @code{xgettext} option}"
+msgstr "-m@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:614
+#, no-wrap
+msgid "--msgstr-prefix@r{, @code{xgettext} option}"
+msgstr "--msgstr-prefix@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:616
+msgid ""
+"Use @var{string} (or \"\" if not specified) as prefix for msgstr values."
+msgstr ""
+"msgstrの値に前置する文字列として@var{string}(指定されていない場合は\"\")を使"
+"用します。"
+
+#. type: item
+#: original_texis/xgettext.texi:617
+#, no-wrap
+msgid "-M[@var{string}]"
+msgstr "-M[@var{string}]"
+
+#. type: itemx
+#: original_texis/xgettext.texi:618
+#, no-wrap
+msgid "--msgstr-suffix[=@var{string}]"
+msgstr "--msgstr-suffix[=@var{string}]"
+
+#. type: opindex
+#: original_texis/xgettext.texi:619
+#, no-wrap
+msgid "-M@r{, @code{xgettext} option}"
+msgstr "-M@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:620
+#, no-wrap
+msgid "--msgstr-suffix@r{, @code{xgettext} option}"
+msgstr "--msgstr-suffix@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:622
+msgid ""
+"Use @var{string} (or \"\" if not specified) as suffix for msgstr values."
+msgstr ""
+"msgstrの値に後置する文字列として@var{string}(指定されていない場合は\"\")を使"
+"用します。"
+
+#. type: subsection
+#: original_texis/xgettext.texi:625
+#, no-wrap
+msgid "Informative output"
+msgstr "Informative output"
+
+#. type: item
+#: original_texis/xgettext.texi:628
+#, no-wrap
+msgid "-h"
+msgstr "-h"
+
+#. type: itemx
+#: original_texis/xgettext.texi:629
+#, no-wrap
+msgid "--help"
+msgstr "--help"
+
+#. type: opindex
+#: original_texis/xgettext.texi:630
+#, no-wrap
+msgid "-h@r{, @code{xgettext} option}"
+msgstr "-h@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:631
+#, no-wrap
+msgid "--help@r{, @code{xgettext} option}"
+msgstr "--help@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:633
+msgid "Display this help and exit."
+msgstr "このヘルプを表示して終了します。"
+
+#. type: item
+#: original_texis/xgettext.texi:634
+#, no-wrap
+msgid "-V"
+msgstr "-V"
+
+#. type: itemx
+#: original_texis/xgettext.texi:635
+#, no-wrap
+msgid "--version"
+msgstr "--version"
+
+#. type: opindex
+#: original_texis/xgettext.texi:636
+#, no-wrap
+msgid "-V@r{, @code{xgettext} option}"
+msgstr "-V@r{, @code{xgettext} option}"
+
+#. type: opindex
+#: original_texis/xgettext.texi:637
+#, no-wrap
+msgid "--version@r{, @code{xgettext} option}"
+msgstr "--version@r{, @code{xgettext} option}"
+
+#. type: table
+#: original_texis/xgettext.texi:639
+msgid "Output version information and exit."
+msgstr "バージョン情報を表示して終了します。"

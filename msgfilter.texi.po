@@ -1,0 +1,1031 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-08-20 21:57+0900\n"
+"PO-Revision-Date: 2016-08-12 19:31+0900\n"
+"Last-Translator: Takeshi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
+"Language-Team: Japanese <takeshi.ayanokoji@gmail.com>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: pindex
+#: original_texis/msgfilter.texi:1
+#, no-wrap
+msgid "msgfilter"
+msgstr "msgfilter"
+
+#. type: cindex
+#: original_texis/msgfilter.texi:2
+#, no-wrap
+msgid "@code{msgfilter} program, usage"
+msgstr "@code{msgfilter} program, usage"
+
+#. type: example
+#: original_texis/msgfilter.texi:5
+#, no-wrap
+msgid "msgfilter [@var{option}] @var{filter} [@var{filter-option}]\n"
+msgstr "msgfilter [@var{option}] @var{filter} [@var{filter-option}]\n"
+
+#. type: cindex
+#: original_texis/msgfilter.texi:7
+#, no-wrap
+msgid "apply a filter to translations"
+msgstr "apply a filter to translations"
+
+#. type: Plain text
+#: original_texis/msgfilter.texi:10
+msgid ""
+"The @code{msgfilter} program applies a filter to all translations of a "
+"translation catalog."
+msgstr ""
+"@code{msgfilter}は、翻訳カタログ内の翻訳にフィルターを適用するためのプログラ"
+"ムです。"
+
+#. type: vindex
+#: original_texis/msgfilter.texi:11
+#, no-wrap
+msgid "MSGFILTER_MSGCTXT@r{, environment variable}"
+msgstr "MSGFILTER_MSGCTXT@r{, environment variable}"
+
+#. type: vindex
+#: original_texis/msgfilter.texi:12
+#, no-wrap
+msgid "MSGFILTER_MSGID@r{, environment variable}"
+msgstr "MSGFILTER_MSGID@r{, environment variable}"
+
+#. type: vindex
+#: original_texis/msgfilter.texi:13
+#, fuzzy, no-wrap
+#| msgid "MSGFILTER_MSGID@r{, environment variable}"
+msgid "MSGFILTER_MSGID_PLURAL@r{, environment variable}"
+msgstr "MSGFILTER_MSGID@r{, environment variable}"
+
+#. type: vindex
+#: original_texis/msgfilter.texi:14
+#, no-wrap
+msgid "MSGFILTER_LOCATION@r{, environment variable}"
+msgstr "MSGFILTER_LOCATION@r{, environment variable}"
+
+#. type: vindex
+#: original_texis/msgfilter.texi:15
+#, fuzzy, no-wrap
+#| msgid "MSGFILTER_LOCATION@r{, environment variable}"
+msgid "MSGFILTER_PLURAL_FORM@r{, environment variable}"
+msgstr "MSGFILTER_LOCATION@r{, environment variable}"
+
+#. type: vindex
+#: original_texis/msgfilter.texi:16
+#, fuzzy, no-wrap
+#| msgid "MSGFILTER_MSGCTXT@r{, environment variable}"
+msgid "MSGFILTER_PREV_MSGCTXT@r{, environment variable}"
+msgstr "MSGFILTER_MSGCTXT@r{, environment variable}"
+
+#. type: vindex
+#: original_texis/msgfilter.texi:17
+#, fuzzy, no-wrap
+#| msgid "MSGFILTER_MSGID@r{, environment variable}"
+msgid "MSGFILTER_PREV_MSGID@r{, environment variable}"
+msgstr "MSGFILTER_MSGID@r{, environment variable}"
+
+#. type: vindex
+#: original_texis/msgfilter.texi:18
+#, fuzzy, no-wrap
+#| msgid "MSGFILTER_MSGID@r{, environment variable}"
+msgid "MSGFILTER_PREV_MSGID_PLURAL@r{, environment variable}"
+msgstr "MSGFILTER_MSGID@r{, environment variable}"
+
+#. type: Plain text
+#: original_texis/msgfilter.texi:33
+msgid ""
+"During each @var{filter} invocation, the environment variable "
+"@code{MSGFILTER_MSGID} is bound to the message's msgid, and the environment "
+"variable @code{MSGFILTER_LOCATION} is bound to the location in the PO file "
+"of the message.  If the message has a context, the environment variable "
+"@code{MSGFILTER_MSGCTXT} is bound to the message's msgctxt, otherwise it is "
+"unbound.  If the message has a plural form, environment variable "
+"@code{MSGFILTER_MSGID_PLURAL} is bound to the message's msgid_plural and "
+"@code{MSGFILTER_PLURAL_FORM} is bound to the order number of the plural "
+"actually processed (starting with 0), otherwise both are unbound.  If the "
+"message has a previous msgid (added by @code{msgmerge}), environment "
+"variable @code{MSGFILTER_PREV_MSGCTXT} is bound to the message's previous "
+"msgctxt, @code{MSGFILTER_PREV_MSGID} is bound to the previous msgid, and "
+"@code{MSGFILTER_PREV_MSGID_PLURAL} is bound to the previous msgid_plural."
+msgstr ""
+
+#. type: subsection
+#: original_texis/msgfilter.texi:34
+#, no-wrap
+msgid "Input file location"
+msgstr "Input file location"
+
+#. type: item
+#: original_texis/msgfilter.texi:37
+#, no-wrap
+msgid "-i @var{inputfile}"
+msgstr "-i @var{inputfile}"
+
+#. type: itemx
+#: original_texis/msgfilter.texi:38
+#, no-wrap
+msgid "--input=@var{inputfile}"
+msgstr "--input=@var{inputfile}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:39
+#, no-wrap
+msgid "-i@r{, @code{msgfilter} option}"
+msgstr "-i@r{, @code{msgfilter} option}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:40
+#, no-wrap
+msgid "--input@r{, @code{msgfilter} option}"
+msgstr "--input@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:42
+msgid "Input PO file."
+msgstr "入力となるPOファイルです。"
+
+#. type: item
+#: original_texis/msgfilter.texi:43
+#, no-wrap
+msgid "-D @var{directory}"
+msgstr "-D @var{directory}"
+
+#. type: itemx
+#: original_texis/msgfilter.texi:44
+#, no-wrap
+msgid "--directory=@var{directory}"
+msgstr "--directory=@var{directory}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:45
+#, no-wrap
+msgid "-D@r{, @code{msgfilter} option}"
+msgstr "-D@r{, @code{msgfilter} option}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:46
+#, no-wrap
+msgid "--directory@r{, @code{msgfilter} option}"
+msgstr "--directory@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:50
+msgid ""
+"Add @var{directory} to the list of directories.  Source files are searched "
+"relative to this list of directories.  The resulting @file{.po} file will be "
+"written relative to the current directory, though."
+msgstr ""
+"ディレクトリーのリストに@var{directory}を追加します。このディレクトリーのリス"
+"トよりソースファイルを検索します。しかし@file{.po}ファイルが出力されるのは、"
+"カレントディレクトリーです。"
+
+#. type: Plain text
+#: original_texis/msgfilter.texi:54
+msgid ""
+"If no @var{inputfile} is given or if it is @samp{-}, standard input is read."
+msgstr ""
+"@var{inputfile}が指定されていないか、@samp{-}が指定された場合は、標準入力から"
+"読み込みます。"
+
+#. type: subsection
+#: original_texis/msgfilter.texi:55
+#, no-wrap
+msgid "Output file location"
+msgstr "Output file location"
+
+#. type: item
+#: original_texis/msgfilter.texi:58
+#, no-wrap
+msgid "-o @var{file}"
+msgstr "-o @var{file}"
+
+#. type: itemx
+#: original_texis/msgfilter.texi:59
+#, no-wrap
+msgid "--output-file=@var{file}"
+msgstr "--output-file=@var{file}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:60
+#, no-wrap
+msgid "-o@r{, @code{msgfilter} option}"
+msgstr "-o@r{, @code{msgfilter} option}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:61
+#, no-wrap
+msgid "--output-file@r{, @code{msgfilter} option}"
+msgstr "--output-file@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:63
+msgid "Write output to specified file."
+msgstr "指定されたファイルに出力を書き込みます。"
+
+#. type: Plain text
+#: original_texis/msgfilter.texi:68
+msgid ""
+"The results are written to standard output if no output file is specified or "
+"if it is @samp{-}."
+msgstr ""
+"出力ファイルが指定されていない、または@samp{-}が指定された場合、結果は標準出"
+"力に出力されます。"
+
+#. type: subsection
+#: original_texis/msgfilter.texi:69
+#, no-wrap
+msgid "The filter"
+msgstr "The filter"
+
+#. type: Plain text
+#: original_texis/msgfilter.texi:75
+msgid ""
+"The @var{filter} can be any program that reads a translation from standard "
+"input and writes a modified translation to standard output.  A frequently "
+"used filter is @samp{sed}.  A few particular built-in filters are also "
+"recognized."
+msgstr ""
+"@var{filter}は、標準入力から翻訳を読み込み、それに変更を加えて標準出力に書き"
+"込むプログラムです。フィルターとして頻繁に使用されるプログラムとしては"
+"@samp{sed}があります。その他にも認識できるビルトインフィルターがいくつか存在"
+"します。"
+
+#. type: item
+#: original_texis/msgfilter.texi:77
+#, no-wrap
+msgid "--newline"
+msgstr ""
+
+#. type: opindex
+#: original_texis/msgfilter.texi:78
+#, fuzzy, no-wrap
+#| msgid "--file@r{, @code{msgfilter} option}"
+msgid "--newline@r{, @code{msgfilter} option}"
+msgstr "--file@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:81
+msgid ""
+"Add newline at the end of each input line and also strip the ending newline "
+"from the output line."
+msgstr ""
+
+#. type: cindex
+#: original_texis/msgfilter.texi:84
+#, no-wrap
+msgid "@code{msgfilter} filter and catalog encoding"
+msgstr "@code{msgfilter} filter and catalog encoding"
+
+#. type: Plain text
+#: original_texis/msgfilter.texi:95
+msgid ""
+"Note: If the filter is not a built-in filter, you have to care about "
+"encodings: It is your responsibility to ensure that the @var{filter} can "
+"cope with input encoded in the translation catalog's encoding.  If the "
+"@var{filter} wants input in a particular encoding, you can in a first step "
+"convert the translation catalog to that encoding using the @samp{msgconv} "
+"program, before invoking @samp{msgfilter}.  If the @var{filter} wants input "
+"in the locale's encoding, but you want to avoid the locale's encoding, then "
+"you can first convert the translation catalog to UTF-8 using the "
+"@samp{msgconv} program and then make @samp{msgfilter} work in an UTF-8 "
+"locale, by using the @code{LC_ALL} environment variable."
+msgstr ""
+"注意: ビルトインではないフィルターの場合には、エンコーディングに注意する必要"
+"があります。@var{filter}が、入力となる翻訳カタログのエンコードに対処できるよ"
+"うにするのは、あなたの責任となります。@var{filter}が入力として特定のエンコー"
+"ディングを期待する場合には、@samp{msgfilter}を呼び出す前に、最初のステップと"
+"して@samp{msgconv}で翻訳カタログをそのエンコーディングに変換できます。"
+"@var{filter}が入力としてlocaleのエンコーディングを期待しているけれど、あなた"
+"はlocaleのエンコーディングを無視したいときには、最初に@samp{msgconv}で翻訳カ"
+"タログをUTF-8に変換してから、環境変数@code{LC_ALL}にUTF-8 localeを指定して、"
+"@samp{msgfilter}を使うことができます。"
+
+#. type: cindex
+#: original_texis/msgfilter.texi:96
+#, no-wrap
+msgid "portability problems with @code{sed}"
+msgstr "portability problems with @code{sed}"
+
+#. type: Plain text
+#: original_texis/msgfilter.texi:105
+#, fuzzy
+#| msgid ""
+#| "Note: Most translations in a translation catalog don't end with a newline "
+#| "character.  For this reason, it is important that the @var{filter} "
+#| "recognizes its last input line even if it ends without a newline, and "
+#| "that it doesn't add an undesired trailing newline at the end.  The "
+#| "@samp{sed} program on some platforms is known to ignore the last line of "
+#| "input if it is not terminated with a newline.  You can use GNU @code{sed} "
+#| "instead; it does not have this limitation."
+msgid ""
+"Note: Most translations in a translation catalog don't end with a newline "
+"character.  For this reason, unless the @code{--newline} option is used, it "
+"is important that the @var{filter} recognizes its last input line even if it "
+"ends without a newline, and that it doesn't add an undesired trailing "
+"newline at the end.  The @samp{sed} program on some platforms is known to "
+"ignore the last line of input if it is not terminated with a newline.  You "
+"can use GNU @code{sed} instead; it does not have this limitation."
+msgstr ""
+"注意: 翻訳カタログ内のほとんどの翻訳は改行で終端されていません。そのため、入"
+"力の最終行が改行で終端されていなくても、@var{filter}がそれを認識すること、そ"
+"して最終行に余分な改行を付加しないことが重要になります。いくつかのプラット"
+"フォームにおいて@samp{sed}が、改行で終端されていない最終行を無視することが知"
+"られています。代用として、このような制限を持たないGNU @samp{sed}を使うことが"
+"できます。"
+
+#. type: subsection
+#: original_texis/msgfilter.texi:106
+#, no-wrap
+msgid "Useful @var{filter-option}s when the @var{filter} is @samp{sed}"
+msgstr "Useful @var{filter-option}s when the @var{filter} is @samp{sed}"
+
+#. type: item
+#: original_texis/msgfilter.texi:109
+#, no-wrap
+msgid "-e @var{script}"
+msgstr "-e @var{script}"
+
+#. type: itemx
+#: original_texis/msgfilter.texi:110
+#, no-wrap
+msgid "--expression=@var{script}"
+msgstr "--expression=@var{script}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:111
+#, no-wrap
+msgid "-e@r{, @code{msgfilter} option}"
+msgstr "-e@r{, @code{msgfilter} option}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:112
+#, no-wrap
+msgid "--expression@r{, @code{msgfilter} option}"
+msgstr "--expression@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:114
+msgid "Add @var{script} to the commands to be executed."
+msgstr "実行するコマンドに@var{script}を追加します。"
+
+#. type: item
+#: original_texis/msgfilter.texi:115
+#, no-wrap
+msgid "-f @var{scriptfile}"
+msgstr "-f @var{scriptfile}"
+
+#. type: itemx
+#: original_texis/msgfilter.texi:116
+#, no-wrap
+msgid "--file=@var{scriptfile}"
+msgstr "--file=@var{scriptfile}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:117
+#, no-wrap
+msgid "-f@r{, @code{msgfilter} option}"
+msgstr "-f@r{, @code{msgfilter} option}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:118
+#, no-wrap
+msgid "--file@r{, @code{msgfilter} option}"
+msgstr "--file@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:120
+msgid "Add the contents of @var{scriptfile} to the commands to be executed."
+msgstr "実行するコマンドに、@var{scriptfile}の内容を追加します。"
+
+#. type: item
+#: original_texis/msgfilter.texi:121 original_texis/msgfilter.texi:208
+#, no-wrap
+msgid "-n"
+msgstr "-n"
+
+#. type: itemx
+#: original_texis/msgfilter.texi:122
+#, no-wrap
+msgid "--quiet"
+msgstr "--quiet"
+
+#. type: itemx
+#: original_texis/msgfilter.texi:123
+#, no-wrap
+msgid "--silent"
+msgstr "--silent"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:124
+#, no-wrap
+msgid "-n@r{, @code{msgfilter} option}"
+msgstr "-n@r{, @code{msgfilter} option}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:125
+#, no-wrap
+msgid "--quiet@r{, @code{msgfilter} option}"
+msgstr "--quiet@r{, @code{msgfilter} option}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:126
+#, no-wrap
+msgid "--silent@r{, @code{msgfilter} option}"
+msgstr "--silent@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:128
+msgid "Suppress automatic printing of pattern space."
+msgstr "パターンの空白の出力を自動的に抑制します。"
+
+#. type: subsection
+#: original_texis/msgfilter.texi:131
+#, no-wrap
+msgid "Built-in @var{filter}s"
+msgstr "Built-in @var{filter}s"
+
+#. type: pindex
+#: original_texis/msgfilter.texi:133
+#, no-wrap
+msgid "recode-sr-latin"
+msgstr "recode-sr-latin"
+
+#. type: cindex
+#: original_texis/msgfilter.texi:134
+#, no-wrap
+msgid "@code{recode-sr-latin} program"
+msgstr "@code{recode-sr-latin} program"
+
+#. type: Plain text
+#: original_texis/msgfilter.texi:141
+msgid ""
+"The filter @samp{recode-sr-latin} is recognized as a built-in filter.  The "
+"command @samp{recode-sr-latin} converts Serbian text, written in the "
+"Cyrillic script, to the Latin script.  The command @samp{msgfilter recode-sr-"
+"latin} applies this conversion to the translations of a PO file.  Thus, it "
+"can be used to convert an @file{sr.po} file to an @file{sr@@latin.po} file."
+msgstr ""
+"@samp{recode-sr-latin}はビルトインのフィルターとして認識されます。"
+"@samp{recode-sr-latin}は、Cyrillic文字で記述されたSerbianのテキストを、Latin"
+"文字に変換するコマンドです。@samp{msgfilter recode-sr-latin}コマンドにより、"
+"POファイルの翻訳にたいしてこの変換を適用できます。これを使えば@file{sr.po}"
+"ファイルを、@file{sr@@latin.po}ファイルに変換できます。"
+
+#. type: pindex
+#: original_texis/msgfilter.texi:142
+#, no-wrap
+msgid "quot"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/msgfilter.texi:146
+msgid ""
+"The filter @samp{quot} is recognized as a built-in filter.  The command "
+"@samp{msgfilter quot} converts any quotations surrounded by a pair of "
+"@samp{\"}, @samp{'}, and @samp{`}."
+msgstr ""
+
+#. type: pindex
+#: original_texis/msgfilter.texi:147
+#, no-wrap
+msgid "boldquot"
+msgstr ""
+
+#. type: Plain text
+#: original_texis/msgfilter.texi:152
+msgid ""
+"The filter @samp{boldquot} is recognized as a built-in filter.  The command "
+"@samp{msgfilter boldquot} converts any quotations surrounded by a pair of "
+"@samp{\"}, @samp{'}, and @samp{`}, also adding the VT100 escape sequences to "
+"the text to decorate it as bold."
+msgstr ""
+
+#. type: Plain text
+#: original_texis/msgfilter.texi:156
+msgid ""
+"The use of built-in filters is not sensitive to the current locale's "
+"encoding.  Moreover, when used with a built-in filter, @samp{msgfilter} can "
+"automatically convert the message catalog to the UTF-8 encoding when needed."
+msgstr ""
+"ビルトインのフィルターは、現在のロケールのエンコーディングとは無関係です。ま"
+"たビルトインのフィルターを使う場合、@samp{msgfilter}はメッセージカタログのエ"
+"ンコーディングを自動的にUTF-8に変換することができます。"
+
+#. type: subsection
+#: original_texis/msgfilter.texi:157
+#, no-wrap
+msgid "Input file syntax"
+msgstr "Input file syntax"
+
+#. type: item
+#: original_texis/msgfilter.texi:160
+#, no-wrap
+msgid "-P"
+msgstr "-P"
+
+#. type: itemx
+#: original_texis/msgfilter.texi:161
+#, no-wrap
+msgid "--properties-input"
+msgstr "--properties-input"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:162
+#, no-wrap
+msgid "-P@r{, @code{msgfilter} option}"
+msgstr "-P@r{, @code{msgfilter} option}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:163
+#, no-wrap
+msgid "--properties-input@r{, @code{msgfilter} option}"
+msgstr "--properties-input@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:166
+msgid ""
+"Assume the input file is a Java ResourceBundle in Java @code{.properties} "
+"syntax, not in PO file syntax."
+msgstr ""
+"入力ファイルがPOファイルの構文ではなく、Javaの@code{.properties}の構文にのっ"
+"とったJava ResourceBundleファイルだとみなします。"
+
+#. type: item
+#: original_texis/msgfilter.texi:167
+#, no-wrap
+msgid "--stringtable-input"
+msgstr "--stringtable-input"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:168
+#, no-wrap
+msgid "--stringtable-input@r{, @code{msgfilter} option}"
+msgstr "--stringtable-input@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:171
+msgid ""
+"Assume the input file is a NeXTstep/GNUstep localized resource file in "
+"@code{.strings} syntax, not in PO file syntax."
+msgstr ""
+"入力ファイルがPOファイルの構文ではなく、NeXTstep/GNUstepのlocalized resource"
+"の@code{.strings}の構文にのっとったファイルだとみなします。"
+
+#. type: subsection
+#: original_texis/msgfilter.texi:174
+#, no-wrap
+msgid "Output details"
+msgstr "Output details"
+
+#. type: item
+#: original_texis/msgfilter.texi:179
+#, no-wrap
+msgid "--color"
+msgstr "--color"
+
+#. type: itemx
+#: original_texis/msgfilter.texi:180
+#, no-wrap
+msgid "--color=@var{when}"
+msgstr "--color=@var{when}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:181
+#, no-wrap
+msgid "--color@r{, @code{msgfilter} option}"
+msgstr "--color@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:184
+msgid ""
+"Specify whether or when to use colors and other text attributes.  See "
+"@ref{The --color option} for details."
+msgstr ""
+"色や色以外のテキスト属性を使うか、いつ使うかを指定します。詳細は@ref{The --"
+"color option}を参照してください。"
+
+#. type: item
+#: original_texis/msgfilter.texi:185
+#, no-wrap
+msgid "--style=@var{style_file}"
+msgstr "--style=@var{style_file}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:186
+#, no-wrap
+msgid "--style@r{, @code{msgfilter} option}"
+msgstr "--style@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:189
+msgid ""
+"Specify the CSS style rule file to use for @code{--color}.  See @ref{The --"
+"style option} for details."
+msgstr ""
+"@code{--color}にたいしてCSS style ruleファイルを使うかを指定します。詳細は"
+"@ref{The --style option}を参照してください。"
+
+#. type: item
+#: original_texis/msgfilter.texi:190
+#, no-wrap
+msgid "--force-po"
+msgstr "--force-po"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:191
+#, no-wrap
+msgid "--force-po@r{, @code{msgfilter} option}"
+msgstr "--force-po@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:193
+msgid "Always write an output file even if it contains no message."
+msgstr ""
+"メッセージが何も含まれていない場合でも、常に出力ファイルに書き込みます。"
+
+#. type: item
+#: original_texis/msgfilter.texi:194
+#, no-wrap
+msgid "--indent"
+msgstr "--indent"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:195
+#, no-wrap
+msgid "--indent@r{, @code{msgfilter} option}"
+msgstr "--indent@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:197
+msgid "Write the .po file using indented style."
+msgstr "インデントされた形式で.poファイルを書き込みます。"
+
+#. type: item
+#: original_texis/msgfilter.texi:198
+#, no-wrap
+msgid "--keep-header"
+msgstr "--keep-header"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:199
+#, no-wrap
+msgid "--keep-header@r{, @code{msgfilter} option}"
+msgstr "--keep-header@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:203
+msgid ""
+"Keep the header entry, i.e.@: the message with @samp{msgid \"\"}, "
+"unmodified, instead of filtering it.  By default, the header entry is "
+"subject to filtering like any other message."
+msgstr ""
+"ヘッダーのエントリーを保持します(例: @samp{msgid \"\"}にフィルターを適用しな"
+"いで未変更にします)。デフォルトでは、ヘッダーのエントリーにたいしても、他の"
+"メッセージと同様にフィルタリングの対象になります。"
+
+#. type: item
+#: original_texis/msgfilter.texi:204
+#, no-wrap
+msgid "--no-location"
+msgstr "--no-location"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:205
+#, no-wrap
+msgid "--no-location@r{, @code{msgfilter} option}"
+msgstr "--no-location@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:207
+msgid "Do not write @samp{#: @var{filename}:@var{line}} lines."
+msgstr "@samp{#: @var{filename}:@var{line}}という行を書き込みません。"
+
+#. type: itemx
+#: original_texis/msgfilter.texi:209
+#, fuzzy, no-wrap
+#| msgid "--add-location"
+msgid "--add-location=@var{type}"
+msgstr "--add-location"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:210
+#, no-wrap
+msgid "--add-location@r{, @code{msgfilter} option}"
+msgstr "--add-location@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:212
+msgid "Generate @samp{#: @var{filename}:@var{line}} lines (default)."
+msgstr "@samp{#: @var{filename}:@var{line}}という行を生成します(デフォルト)。"
+
+#. type: table
+#: original_texis/msgfilter.texi:218
+msgid ""
+"The optional @var{type} can be either @samp{full}, @samp{file}, or "
+"@samp{never}.  If it is not given or @samp{full}, it generates the lines "
+"with both file name and line number.  If it is @samp{file}, the line number "
+"part is omitted.  If it is @samp{never}, it completely suppresses the lines "
+"(same as @code{--no-location})."
+msgstr ""
+
+#. type: item
+#: original_texis/msgfilter.texi:219
+#, no-wrap
+msgid "--strict"
+msgstr "--strict"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:220
+#, no-wrap
+msgid "--strict@r{, @code{msgfilter} option}"
+msgstr "--strict@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:224
+msgid ""
+"Write out a strict Uniforum conforming PO file.  Note that this Uniforum "
+"format should be avoided because it doesn't support the GNU extensions."
+msgstr ""
+"Uniforumに厳密に準拠したPOファイルを出力します。このUniforum形式はGNUの拡張を"
+"サポートしないため避けたほうがよいでしょう。"
+
+#. type: item
+#: original_texis/msgfilter.texi:225
+#, no-wrap
+msgid "-p"
+msgstr "-p"
+
+#. type: itemx
+#: original_texis/msgfilter.texi:226
+#, no-wrap
+msgid "--properties-output"
+msgstr "--properties-output"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:227
+#, no-wrap
+msgid "-p@r{, @code{msgfilter} option}"
+msgstr "-p@r{, @code{msgfilter} option}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:228
+#, no-wrap
+msgid "--properties-output@r{, @code{msgfilter} option}"
+msgstr "--properties-output@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:232
+msgid ""
+"Write out a Java ResourceBundle in Java @code{.properties} syntax.  Note "
+"that this file format doesn't support plural forms and silently drops "
+"obsolete messages."
+msgstr ""
+"Javaの@code{.properties}の書式で、Java ResourceBundleを出力します。このファイ"
+"ル形式はplural formをサポートせず、陳腐化したメッセージを暗黙で除去することに"
+"注意してください。"
+
+#. type: item
+#: original_texis/msgfilter.texi:233
+#, no-wrap
+msgid "--stringtable-output"
+msgstr "--stringtable-output"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:234
+#, no-wrap
+msgid "--stringtable-output@r{, @code{msgfilter} option}"
+msgstr "--stringtable-output@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:237
+msgid ""
+"Write out a NeXTstep/GNUstep localized resource file in @code{.strings} "
+"syntax.  Note that this file format doesn't support plural forms."
+msgstr ""
+"@code{.strings}の書式で、NeXTstep/GNUstepのローカライズされたリソースファイル"
+"を出力します。このファイル形式はplural formをサポートしないことに注意してくだ"
+"さい。"
+
+#. type: item
+#: original_texis/msgfilter.texi:238
+#, no-wrap
+msgid "-w @var{number}"
+msgstr "-w @var{number}"
+
+#. type: itemx
+#: original_texis/msgfilter.texi:239
+#, no-wrap
+msgid "--width=@var{number}"
+msgstr "--width=@var{number}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:240
+#, no-wrap
+msgid "-w@r{, @code{msgfilter} option}"
+msgstr "-w@r{, @code{msgfilter} option}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:241
+#, no-wrap
+msgid "--width@r{, @code{msgfilter} option}"
+msgstr "--width@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:245
+msgid ""
+"Set the output page width.  Long strings in the output files will be split "
+"across multiple lines in order to ensure that each line's width (= number of "
+"screen columns) is less or equal to the given @var{number}."
+msgstr ""
+"出力ページの幅をセットします。これにより出力ファイル中の長い文字列が指定した"
+"幅(例:スクリーンの列数)に収まるように、各行の長さが@var{number}以下のような複"
+"数の行に分割されます。"
+
+#. type: item
+#: original_texis/msgfilter.texi:246
+#, no-wrap
+msgid "--no-wrap"
+msgstr "--no-wrap"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:247
+#, no-wrap
+msgid "--no-wrap@r{, @code{msgfilter} option}"
+msgstr "--no-wrap@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:251
+msgid ""
+"Do not break long message lines.  Message lines whose width exceeds the "
+"output page width will not be split into several lines.  Only file reference "
+"lines which are wider than the output page width will be split."
+msgstr ""
+"長いメッセージ行を分割しません。出力ページの幅を超えるようなメッセージ行も、"
+"複数行に分割されません。出力ページの幅を超えるファイル参照行だけが分割されま"
+"す。"
+
+#. type: item
+#: original_texis/msgfilter.texi:252
+#, no-wrap
+msgid "-s"
+msgstr "-s"
+
+#. type: itemx
+#: original_texis/msgfilter.texi:253
+#, no-wrap
+msgid "--sort-output"
+msgstr "--sort-output"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:254
+#, no-wrap
+msgid "-s@r{, @code{msgfilter} option}"
+msgstr "-s@r{, @code{msgfilter} option}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:255
+#, no-wrap
+msgid "--sort-output@r{, @code{msgfilter} option}"
+msgstr "--sort-output@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:258
+msgid ""
+"Generate sorted output.  Note that using this option makes it much harder "
+"for the translator to understand each message's context."
+msgstr ""
+"ソートされた出力を生成します。このオプションを使用することにより翻訳者が、"
+"メッセージがどのようなコンテキストで使用されるかを理解するのが、困難になるこ"
+"とに注意してください。"
+
+#. type: item
+#: original_texis/msgfilter.texi:259
+#, no-wrap
+msgid "-F"
+msgstr "-F"
+
+#. type: itemx
+#: original_texis/msgfilter.texi:260
+#, no-wrap
+msgid "--sort-by-file"
+msgstr "--sort-by-file"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:261
+#, no-wrap
+msgid "-F@r{, @code{msgfilter} option}"
+msgstr "-F@r{, @code{msgfilter} option}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:262
+#, no-wrap
+msgid "--sort-by-file@r{, @code{msgfilter} option}"
+msgstr "--sort-by-file@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:264
+msgid "Sort output by file location."
+msgstr "ファイルの場所により出力をソートします。"
+
+#. type: subsection
+#: original_texis/msgfilter.texi:267
+#, no-wrap
+msgid "Informative output"
+msgstr "Informative output"
+
+#. type: item
+#: original_texis/msgfilter.texi:270
+#, no-wrap
+msgid "-h"
+msgstr "-h"
+
+#. type: itemx
+#: original_texis/msgfilter.texi:271
+#, no-wrap
+msgid "--help"
+msgstr "--help"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:272
+#, no-wrap
+msgid "-h@r{, @code{msgfilter} option}"
+msgstr "-h@r{, @code{msgfilter} option}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:273
+#, no-wrap
+msgid "--help@r{, @code{msgfilter} option}"
+msgstr "--help@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:275
+msgid "Display this help and exit."
+msgstr "このヘルプを表示して終了します。"
+
+#. type: item
+#: original_texis/msgfilter.texi:276
+#, no-wrap
+msgid "-V"
+msgstr "-V"
+
+#. type: itemx
+#: original_texis/msgfilter.texi:277
+#, no-wrap
+msgid "--version"
+msgstr "--version"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:278
+#, no-wrap
+msgid "-V@r{, @code{msgfilter} option}"
+msgstr "-V@r{, @code{msgfilter} option}"
+
+#. type: opindex
+#: original_texis/msgfilter.texi:279
+#, no-wrap
+msgid "--version@r{, @code{msgfilter} option}"
+msgstr "--version@r{, @code{msgfilter} option}"
+
+#. type: table
+#: original_texis/msgfilter.texi:281
+msgid "Output version information and exit."
+msgstr "バージョン情報を表示して終了します。"
+
+#. type: subsection
+#: original_texis/msgfilter.texi:284
+#, no-wrap
+msgid "Examples"
+msgstr "Examples"
+
+#. type: Plain text
+#: original_texis/msgfilter.texi:287
+msgid ""
+"To convert German translations to Swiss orthography (in an UTF-8 locale):"
+msgstr "Germanの翻訳を、Swissの正書法に変換する場合(UTF-8 locale):"
+
+#. type: smallexample
+#: original_texis/msgfilter.texi:290
+#, no-wrap
+msgid "msgconv -t UTF-8 de.po | msgfilter sed -e 's/@ss{}/ss/g'\n"
+msgstr "msgconv -t UTF-8 de.po | msgfilter sed -e 's/@ss{}/ss/g'\n"
+
+#. type: Plain text
+#: original_texis/msgfilter.texi:293
+msgid "To convert Serbian translations in Cyrillic script to Latin script:"
+msgstr "Cyrillic文字の Serbianの翻訳を、Latin文字に変換する場合:"
+
+#. type: smallexample
+#: original_texis/msgfilter.texi:296
+#, no-wrap
+msgid "msgfilter recode-sr-latin < sr.po\n"
+msgstr "msgfilter recode-sr-latin < sr.po\n"

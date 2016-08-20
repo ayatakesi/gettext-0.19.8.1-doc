@@ -1,0 +1,356 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-08-20 21:56+0900\n"
+"PO-Revision-Date: 2016-08-12 19:48+0900\n"
+"Last-Translator: Takeshi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
+"Language-Team: Japanese <takeshi.ayanokoji@gmail.com>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: pindex
+#: original_texis/msgcmp.texi:1
+#, no-wrap
+msgid "msgcmp"
+msgstr "msgcmp"
+
+#. type: cindex
+#: original_texis/msgcmp.texi:2
+#, no-wrap
+msgid "@code{msgcmp} program, usage"
+msgstr "@code{msgcmp} program, usage"
+
+#. type: example
+#: original_texis/msgcmp.texi:5
+#, no-wrap
+msgid "msgcmp [@var{option}] @var{def}.po @var{ref}.pot\n"
+msgstr "msgcmp [@var{option}] @var{def}.po @var{ref}.pot\n"
+
+#. type: cindex
+#: original_texis/msgcmp.texi:7
+#, no-wrap
+msgid "compare PO files"
+msgstr "compare PO files"
+
+#. type: Plain text
+#: original_texis/msgcmp.texi:15
+msgid ""
+"The @code{msgcmp} program compares two Uniforum style .po files to check "
+"that both contain the same set of msgid strings.  The @var{def}.po file is "
+"an existing PO file with the translations.  The @var{ref}.pot file is the "
+"last created PO file, or a PO Template file (generally created by "
+"@code{xgettext}).  This is useful for checking that you have translated each "
+"and every message in your program.  Where an exact match cannot be found, "
+"fuzzy matching is used to produce better diagnostics."
+msgstr ""
+"@code{msgcmp}プログラムは、Uniforum形式の2つの.poファイルを比較して、同じ"
+"msgid文字列を含んでいるかチェックするプログラムです。@var{def}.poファイルは、"
+"翻訳を含んだ既存のPOファイルです。@var{ref}.potは、最後に作成したPOファイル、"
+"またはPO Templateファイル(通常@code{xgettext}により作成される)です。このプロ"
+"グラムは、プログラム内のメッセージが翻訳されているかチェックするときに便利で"
+"す。完全に一致するエントリーが見つからない場合は、より良い診断メッセージを生"
+"成するためにfuzzyマッチングが行われます。"
+
+#. type: subsection
+#: original_texis/msgcmp.texi:16
+#, no-wrap
+msgid "Input file location"
+msgstr "Input file location"
+
+#. type: item
+#: original_texis/msgcmp.texi:19
+#, no-wrap
+msgid "@var{def}.po"
+msgstr "@var{def}.po"
+
+#. type: table
+#: original_texis/msgcmp.texi:21
+msgid "Translations."
+msgstr "翻訳です。"
+
+#. type: item
+#: original_texis/msgcmp.texi:22
+#, no-wrap
+msgid "@var{ref}.pot"
+msgstr "@var{ref}.pot"
+
+#. type: table
+#: original_texis/msgcmp.texi:24
+msgid "References to the sources."
+msgstr "ソースへの参照です。"
+
+#. type: item
+#: original_texis/msgcmp.texi:25
+#, no-wrap
+msgid "-D @var{directory}"
+msgstr "-D @var{directory}"
+
+#. type: itemx
+#: original_texis/msgcmp.texi:26
+#, no-wrap
+msgid "--directory=@var{directory}"
+msgstr "--directory=@var{directory}"
+
+#. type: opindex
+#: original_texis/msgcmp.texi:27
+#, no-wrap
+msgid "-D@r{, @code{msgcmp} option}"
+msgstr "-D@r{, @code{msgcmp} option}"
+
+#. type: opindex
+#: original_texis/msgcmp.texi:28
+#, no-wrap
+msgid "--directory@r{, @code{msgcmp} option}"
+msgstr "--directory@r{, @code{msgcmp} option}"
+
+#. type: table
+#: original_texis/msgcmp.texi:31
+msgid ""
+"Add @var{directory} to the list of directories.  Source files are searched "
+"relative to this list of directories."
+msgstr ""
+"ディレクトリーのリストに@var{directory}を追加します。このディレクトリーのリス"
+"トよりソースファイルを検索します。"
+
+#. type: subsection
+#: original_texis/msgcmp.texi:34
+#, no-wrap
+msgid "Operation modifiers"
+msgstr "Operation modifiers"
+
+#. type: item
+#: original_texis/msgcmp.texi:37
+#, no-wrap
+msgid "-m"
+msgstr "-m"
+
+#. type: itemx
+#: original_texis/msgcmp.texi:38
+#, no-wrap
+msgid "--multi-domain"
+msgstr "--multi-domain"
+
+#. type: opindex
+#: original_texis/msgcmp.texi:39
+#, no-wrap
+msgid "-m@r{, @code{msgcmp} option}"
+msgstr "-m@r{, @code{msgcmp} option}"
+
+#. type: opindex
+#: original_texis/msgcmp.texi:40
+#, no-wrap
+msgid "--multi-domain@r{, @code{msgcmp} option}"
+msgstr "--multi-domain@r{, @code{msgcmp} option}"
+
+#. type: table
+#: original_texis/msgcmp.texi:42
+msgid "Apply @var{ref}.pot to each of the domains in @var{def}.po."
+msgstr "@var{def}.po 内の各ドメインにたいして@var{ref}.potを適用します。"
+
+#. type: item
+#: original_texis/msgcmp.texi:43
+#, no-wrap
+msgid "-N"
+msgstr "-N"
+
+#. type: itemx
+#: original_texis/msgcmp.texi:44
+#, no-wrap
+msgid "--no-fuzzy-matching"
+msgstr "--no-fuzzy-matching"
+
+#. type: opindex
+#: original_texis/msgcmp.texi:45
+#, no-wrap
+msgid "-N@r{, @code{msgcmp} option}"
+msgstr "-N@r{, @code{msgcmp} option}"
+
+#. type: opindex
+#: original_texis/msgcmp.texi:46
+#, no-wrap
+msgid "--no-fuzzy-matching@r{, @code{msgcmp} option}"
+msgstr "--no-fuzzy-matching@r{, @code{msgcmp} option}"
+
+#. type: table
+#: original_texis/msgcmp.texi:49
+msgid ""
+"Do not use fuzzy matching when an exact match is not found.  This may speed "
+"up the operation considerably."
+msgstr ""
+"完全に一致するものが見つからない場合、fuzzyマッチングを行いません。これにより"
+"処理のスピードが大幅に改善されます。"
+
+#. type: item
+#: original_texis/msgcmp.texi:50
+#, no-wrap
+msgid "--use-fuzzy"
+msgstr "--use-fuzzy"
+
+#. type: opindex
+#: original_texis/msgcmp.texi:51
+#, no-wrap
+msgid "--use-fuzzy@r{, @code{msgcmp} option}"
+msgstr "--use-fuzzy@r{, @code{msgcmp} option}"
+
+#. type: table
+#: original_texis/msgcmp.texi:55
+msgid ""
+"Consider fuzzy messages in the @var{def}.po file like translated messages.  "
+"Note that using this option is usually wrong, because fuzzy messages are "
+"exactly those which have not been validated by a human translator."
+msgstr ""
+"@var{def}.po内のfuzzyメッセージを、翻訳されたメッセージとみなします。fuzzy"
+"メッセージは翻訳者により検証されていないので、普通はこのオプションを使うのは"
+"正しくないことに注意してください。"
+
+#. type: item
+#: original_texis/msgcmp.texi:56
+#, no-wrap
+msgid "--use-untranslated"
+msgstr "--use-untranslated"
+
+#. type: opindex
+#: original_texis/msgcmp.texi:57
+#, no-wrap
+msgid "--use-untranslated@r{, @code{msgcmp} option}"
+msgstr "--use-untranslated@r{, @code{msgcmp} option}"
+
+#. type: table
+#: original_texis/msgcmp.texi:60
+msgid ""
+"Consider untranslated messages in the @var{def}.po file like translated "
+"messages.  Note that using this option is usually wrong."
+msgstr ""
+"@var{def}.po内の未翻訳のメッセージを、翻訳されたメッセージとみなします。普通"
+"はこのオプションを使うのは正しくないことに注意してください。"
+
+#. type: subsection
+#: original_texis/msgcmp.texi:63
+#, no-wrap
+msgid "Input file syntax"
+msgstr "Input file syntax"
+
+#. type: item
+#: original_texis/msgcmp.texi:66
+#, no-wrap
+msgid "-P"
+msgstr "-P"
+
+#. type: itemx
+#: original_texis/msgcmp.texi:67
+#, no-wrap
+msgid "--properties-input"
+msgstr "--properties-input"
+
+#. type: opindex
+#: original_texis/msgcmp.texi:68
+#, no-wrap
+msgid "-P@r{, @code{msgcmp} option}"
+msgstr "-P@r{, @code{msgcmp} option}"
+
+#. type: opindex
+#: original_texis/msgcmp.texi:69
+#, no-wrap
+msgid "--properties-input@r{, @code{msgcmp} option}"
+msgstr "--properties-input@r{, @code{msgcmp} option}"
+
+#. type: table
+#: original_texis/msgcmp.texi:72
+msgid ""
+"Assume the input files are Java ResourceBundles in Java @code{.properties} "
+"syntax, not in PO file syntax."
+msgstr ""
+"入力ファイルがPOファイルの構文ではなく、Javaの@code{.properties}の構文にのっ"
+"とったJava ResourceBundleファイルだとみなします。"
+
+#. type: item
+#: original_texis/msgcmp.texi:73
+#, no-wrap
+msgid "--stringtable-input"
+msgstr "--stringtable-input"
+
+#. type: opindex
+#: original_texis/msgcmp.texi:74
+#, no-wrap
+msgid "--stringtable-input@r{, @code{msgcmp} option}"
+msgstr "--stringtable-input@r{, @code{msgcmp} option}"
+
+#. type: table
+#: original_texis/msgcmp.texi:77
+msgid ""
+"Assume the input files are NeXTstep/GNUstep localized resource files in "
+"@code{.strings} syntax, not in PO file syntax."
+msgstr ""
+"入力ファイルがPOファイルの構文ではなく、NeXTstep/GNUstepのlocalized resource"
+"の@code{.strings}の構文にのっとったファイルだとみなします。"
+
+#. type: subsection
+#: original_texis/msgcmp.texi:80
+#, no-wrap
+msgid "Informative output"
+msgstr "Informative output"
+
+#. type: item
+#: original_texis/msgcmp.texi:83
+#, no-wrap
+msgid "-h"
+msgstr "-h"
+
+#. type: itemx
+#: original_texis/msgcmp.texi:84
+#, no-wrap
+msgid "--help"
+msgstr "--help"
+
+#. type: opindex
+#: original_texis/msgcmp.texi:85
+#, no-wrap
+msgid "-h@r{, @code{msgcmp} option}"
+msgstr "-h@r{, @code{msgcmp} option}"
+
+#. type: opindex
+#: original_texis/msgcmp.texi:86
+#, no-wrap
+msgid "--help@r{, @code{msgcmp} option}"
+msgstr "--help@r{, @code{msgcmp} option}"
+
+#. type: table
+#: original_texis/msgcmp.texi:88
+msgid "Display this help and exit."
+msgstr "このヘルプを表示して終了します。"
+
+#. type: item
+#: original_texis/msgcmp.texi:89
+#, no-wrap
+msgid "-V"
+msgstr "-V"
+
+#. type: itemx
+#: original_texis/msgcmp.texi:90
+#, no-wrap
+msgid "--version"
+msgstr "--version"
+
+#. type: opindex
+#: original_texis/msgcmp.texi:91
+#, no-wrap
+msgid "-V@r{, @code{msgcmp} option}"
+msgstr "-V@r{, @code{msgcmp} option}"
+
+#. type: opindex
+#: original_texis/msgcmp.texi:92
+#, no-wrap
+msgid "--version@r{, @code{msgcmp} option}"
+msgstr "--version@r{, @code{msgcmp} option}"
+
+#. type: table
+#: original_texis/msgcmp.texi:94
+msgid "Output version information and exit."
+msgstr "バージョン情報を表示して終了します。"

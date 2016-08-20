@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-08-20 21:57+0900\n"
+"PO-Revision-Date: 2016-08-14 22:00+0900\n"
+"Last-Translator: Takesi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
+"Language-Team: Japanese <h1r0p@outlook.jp>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: pindex
+#: original_texis/rt-ngettext.texi:1
+#, no-wrap
+msgid "ngettext"
+msgstr "ngettext"
+
+#. type: cindex
+#: original_texis/rt-ngettext.texi:2
+#, no-wrap
+msgid "@code{ngettext} program, usage"
+msgstr "@code{ngettext} program, usage"
+
+#. type: example
+#: original_texis/rt-ngettext.texi:5
+#, no-wrap
+msgid "ngettext [@var{option}] [@var{textdomain}] @var{msgid} @var{msgid-plural} @var{count}\n"
+msgstr "ngettext [@var{option}] [@var{textdomain}] @var{msgid} @var{msgid-plural} @var{count}\n"
+
+#. type: cindex
+#: original_texis/rt-ngettext.texi:7
+#, no-wrap
+msgid "lookup plural message translation"
+msgstr "lookup plural message translation"
+
+#. type: Plain text
+#: original_texis/rt-ngettext.texi:10
+msgid ""
+"The @code{ngettext} program displays the native language translation of a "
+"textual message whose grammatical form depends on a number."
+msgstr ""
+"@code{ngettext}は数に依存した文法をもつテキストメッセージを母国語に翻訳して表"
+"示するプログラムです。"
+
+#. type: item
+#: original_texis/rt-ngettext.texi:14
+#, no-wrap
+msgid "-d @var{textdomain}"
+msgstr "-d @var{textdomain}"
+
+#. type: itemx
+#: original_texis/rt-ngettext.texi:15
+#, no-wrap
+msgid "--domain=@var{textdomain}"
+msgstr "--domain=@var{textdomain}"
+
+#. type: opindex
+#: original_texis/rt-ngettext.texi:16
+#, no-wrap
+msgid "-d@r{, @code{ngettext} option}"
+msgstr "-d@r{, @code{ngettext} option}"
+
+#. type: opindex
+#: original_texis/rt-ngettext.texi:17
+#, no-wrap
+msgid "--domain@r{, @code{ngettext} option}"
+msgstr "--domain@r{, @code{ngettext} option}"
+
+#. type: table
+#: original_texis/rt-ngettext.texi:20
+msgid ""
+"Retrieve translated messages from @var{textdomain}.  Usually a "
+"@var{textdomain} corresponds to a package, a program, or a module of a "
+"program."
+msgstr ""
+"@var{textdomain}から翻訳されたメッセージを取得します。@var{textdomain}は通"
+"常、パッケージか、プログラムやプログラムのモジュールと一致します。"
+
+#. type: item
+#: original_texis/rt-ngettext.texi:21
+#, no-wrap
+msgid "-e"
+msgstr "-e"
+
+#. type: opindex
+#: original_texis/rt-ngettext.texi:22
+#, no-wrap
+msgid "-e@r{, @code{ngettext} option}"
+msgstr "-e@r{, @code{ngettext} option}"
+
+#. type: table
+#: original_texis/rt-ngettext.texi:28
+msgid ""
+"Enable expansion of some escape sequences.  This option is for compatibility "
+"with the @samp{gettext} program.  The escape sequences @samp{\\a}, "
+"@samp{\\b}, @samp{\\c}, @samp{\\f}, @samp{\\n}, @samp{\\r}, @samp{\\t}, "
+"@samp{\\v}, @samp{\\\\}, and @samp{\\} followed by one to three octal "
+"digits, are interpreted like the System V @samp{echo} program did."
+msgstr ""
+"いくつかのエスケープシーケンスの展開を可能にします。これは@samp{gettext}プロ"
+"グラムにたいする互換のためのオプションです。対象となるエスケープシーケンス"
+"は、@samp{\\a}、@samp{\\b}、@samp{\\c}、@samp{\\f}、@samp{\\n}、@samp{\\r}、"
+"@samp{\\t}、@samp{\\v}、@samp{\\\\}、および@samp{\\}と3桁以内の8進数です"
+"(System Vの@samp{echo}と同様に処理されます)。"
+
+#. type: item
+#: original_texis/rt-ngettext.texi:29
+#, no-wrap
+msgid "-E"
+msgstr "-E"
+
+#. type: opindex
+#: original_texis/rt-ngettext.texi:30
+#, no-wrap
+msgid "-E@r{, @code{ngettext} option}"
+msgstr "-E@r{, @code{ngettext} option}"
+
+#. type: table
+#: original_texis/rt-ngettext.texi:33
+msgid ""
+"This option is only for compatibility with the @samp{gettext} program.  It "
+"has no effect."
+msgstr ""
+"このオプションは@samp{gettext}プログラムとの互換性のためだけのもので、何の効"
+"果も及ぼしません。"
+
+#. type: item
+#: original_texis/rt-ngettext.texi:34
+#, no-wrap
+msgid "-h"
+msgstr "-h"
+
+#. type: itemx
+#: original_texis/rt-ngettext.texi:35
+#, no-wrap
+msgid "--help"
+msgstr "--help"
+
+#. type: opindex
+#: original_texis/rt-ngettext.texi:36
+#, no-wrap
+msgid "-h@r{, @code{ngettext} option}"
+msgstr "-h@r{, @code{ngettext} option}"
+
+#. type: opindex
+#: original_texis/rt-ngettext.texi:37
+#, no-wrap
+msgid "--help@r{, @code{ngettext} option}"
+msgstr "--help@r{, @code{ngettext} option}"
+
+#. type: table
+#: original_texis/rt-ngettext.texi:39
+msgid "Display this help and exit."
+msgstr "このヘルプを表示して終了します。"
+
+#. type: item
+#: original_texis/rt-ngettext.texi:40
+#, no-wrap
+msgid "-V"
+msgstr "-V"
+
+#. type: itemx
+#: original_texis/rt-ngettext.texi:41
+#, no-wrap
+msgid "--version"
+msgstr "--version"
+
+#. type: opindex
+#: original_texis/rt-ngettext.texi:42
+#, no-wrap
+msgid "-V@r{, @code{ngettext} option}"
+msgstr "-V@r{, @code{ngettext} option}"
+
+#. type: opindex
+#: original_texis/rt-ngettext.texi:43
+#, no-wrap
+msgid "--version@r{, @code{ngettext} option}"
+msgstr "--version@r{, @code{ngettext} option}"
+
+#. type: table
+#: original_texis/rt-ngettext.texi:45
+msgid "Output version information and exit."
+msgstr "バージョン情報を表示して終了します。"
+
+#. type: var{#1}
+#: original_texis/rt-ngettext.texi:46
+#, no-wrap
+msgid "textdomain"
+msgstr "textdomain"
+
+#. type: table
+#: original_texis/rt-ngettext.texi:48
+msgid "Retrieve translated message from @var{textdomain}."
+msgstr "@var{textdomain}から、翻訳されたメッセージを取得します。"
+
+#. type: item
+#: original_texis/rt-ngettext.texi:49
+#, no-wrap
+msgid "@var{msgid} @var{msgid-plural}"
+msgstr "@var{msgid} @var{msgid-plural}"
+
+#. type: table
+#: original_texis/rt-ngettext.texi:51
+msgid ""
+"Translate @var{msgid} (English singular) / @var{msgid-plural} (English "
+"plural)."
+msgstr ""
+"msgid( Englishのsingular )、およびmsgid-plural(Englishのplural)を翻訳します。"
+
+#. type: var{#1}
+#: original_texis/rt-ngettext.texi:52
+#, no-wrap
+msgid "count"
+msgstr "count"
+
+#. type: table
+#: original_texis/rt-ngettext.texi:54
+msgid "Choose singular/plural form based on this value."
+msgstr "この値にもとづいて、singularとpluralのどちらを使うか選択します。"
+
+#. type: Plain text
+#: original_texis/rt-ngettext.texi:60
+msgid ""
+"If the @var{textdomain} parameter is not given, the domain is determined "
+"from the environment variable @code{TEXTDOMAIN}.  If the message catalog is "
+"not found in the regular directory, another location can be specified with "
+"the environment variable @code{TEXTDOMAINDIR}."
+msgstr ""
+"パラメーター@var{textdomain}を指定しなかった場合、環境変数@code{TEXTDOMAIN}に"
+"よりdomainが決定されます。メッセージカタログが標準のディレクトリーで見つから"
+"なかった場合には、環境変数@code{TEXTDOMAINDIR}で他の場所を指定できます。"

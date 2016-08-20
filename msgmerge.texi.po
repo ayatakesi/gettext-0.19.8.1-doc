@@ -1,0 +1,1059 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-08-20 21:57+0900\n"
+"PO-Revision-Date: 2016-08-12 13:21+0900\n"
+"Last-Translator: Takeshi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
+"Language-Team: Japanese <takeshi.ayanokoji@gmail.com>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: pindex
+#: original_texis/msgmerge.texi:1
+#, no-wrap
+msgid "msgmerge"
+msgstr "msgmerge"
+
+#. type: cindex
+#: original_texis/msgmerge.texi:2
+#, no-wrap
+msgid "@code{msgmerge} program, usage"
+msgstr "@code{msgmerge} program, usage"
+
+#. type: example
+#: original_texis/msgmerge.texi:5
+#, no-wrap
+msgid "msgmerge [@var{option}] @var{def}.po @var{ref}.pot\n"
+msgstr "msgmerge [@var{option}] @var{def}.po @var{ref}.pot\n"
+
+#. type: Plain text
+#: original_texis/msgmerge.texi:17
+msgid ""
+"The @code{msgmerge} program merges two Uniforum style .po files together.  "
+"The @var{def}.po file is an existing PO file with translations which will be "
+"taken over to the newly created file as long as they still match; comments "
+"will be preserved, but extracted comments and file positions will be "
+"discarded.  The @var{ref}.pot file is the last created PO file with up-to-"
+"date source references but old translations, or a PO Template file "
+"(generally created by @code{xgettext}); any translations or comments in the "
+"file will be discarded, however dot comments and file positions will be "
+"preserved.  Where an exact match cannot be found, fuzzy matching is used to "
+"produce better results."
+msgstr ""
+"@code{msgmerge}プログラムは、Uniforumスタイルの2つの.poファイルをマージして1"
+"つにします。@var{def}.poファイルは既存のPOファイルで、メッセージが一致してい"
+"れば既存の翻訳は新しいファイルに引き継がれます。その際、コメントは残されます"
+"が、抽出されたコメントやファイル内の位置などは破棄されます。@var{ref}.potは、"
+"最新のソースより作られたPOファイルですが、古い翻訳や、(通常は@code{xgettext}"
+"により作成された)PO Templateファイルを参照するため、ドットコメント(訳注:プロ"
+"グラマーから翻訳者へのコメント#.のこと)やファイル内の位置情報は保存されます"
+"が、ファイル内のいくつかの翻訳やコメントは、破棄されるでしょう。完全に一致す"
+"るメッセージが見つからない場合、より良い結果を生成するためにfuzzy一致が使用さ"
+"れます。"
+
+#. type: subsection
+#: original_texis/msgmerge.texi:18
+#, no-wrap
+msgid "Input file location"
+msgstr "Input file location"
+
+#. type: item
+#: original_texis/msgmerge.texi:21
+#, no-wrap
+msgid "@var{def}.po"
+msgstr "@var{def}.po"
+
+#. type: table
+#: original_texis/msgmerge.texi:23
+msgid "Translations referring to old sources."
+msgstr "古いソースを参照する翻訳です。"
+
+#. type: item
+#: original_texis/msgmerge.texi:24
+#, no-wrap
+msgid "@var{ref}.pot"
+msgstr "@var{ref}.pot"
+
+#. type: table
+#: original_texis/msgmerge.texi:26
+msgid "References to the new sources."
+msgstr "新しいソースへの参照です。"
+
+#. type: item
+#: original_texis/msgmerge.texi:27
+#, no-wrap
+msgid "-D @var{directory}"
+msgstr "-D @var{directory}"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:28
+#, no-wrap
+msgid "--directory=@var{directory}"
+msgstr "--directory=@var{directory}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:29
+#, no-wrap
+msgid "-D@r{, @code{msgmerge} option}"
+msgstr "-D@r{, @code{msgmerge} option}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:30
+#, no-wrap
+msgid "--directory@r{, @code{msgmerge} option}"
+msgstr "--directory@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:34
+msgid ""
+"Add @var{directory} to the list of directories.  Source files are searched "
+"relative to this list of directories.  The resulting @file{.po} file will be "
+"written relative to the current directory, though."
+msgstr ""
+"ディレクトリーのリストに@var{directory}を追加します。このディレクトリーのリス"
+"トよりソースファイルを検索します。しかし@file{.po}ファイルが出力されるのは、"
+"カレントディレクトリーです。"
+
+#. type: item
+#: original_texis/msgmerge.texi:35
+#, no-wrap
+msgid "-C @var{file}"
+msgstr "-C @var{file}"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:36
+#, no-wrap
+msgid "--compendium=@var{file}"
+msgstr "--compendium=@var{file}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:37
+#, no-wrap
+msgid "-C@r{, @code{msgmerge} option}"
+msgstr "-C@r{, @code{msgmerge} option}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:38
+#, no-wrap
+msgid "--compendium@r{, @code{msgmerge} option}"
+msgstr "--compendium@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:41
+msgid ""
+"Specify an additional library of message translations.  @xref{Compendium}.  "
+"This option may be specified more than once."
+msgstr ""
+"メッセージを翻訳するための追加のライブラリーを指定します。@ref{Compendium}を"
+"参照してください。このオプションは複数指定することができます。"
+
+#. type: subsection
+#: original_texis/msgmerge.texi:44
+#, no-wrap
+msgid "Operation mode"
+msgstr "Operation mode"
+
+#. type: item
+#: original_texis/msgmerge.texi:47
+#, no-wrap
+msgid "-U"
+msgstr "-U"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:48
+#, no-wrap
+msgid "--update"
+msgstr "--update"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:49
+#, no-wrap
+msgid "-U@r{, @code{msgmerge} option}"
+msgstr "-U@r{, @code{msgmerge} option}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:50
+#, no-wrap
+msgid "--update@r{, @code{msgmerge} option}"
+msgstr "--update@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:52
+msgid "Update @var{def}.po.  Do nothing if @var{def}.po is already up to date."
+msgstr ""
+"@var{def}.poファイルを更新します。すでに@var{def}.poが最新の場合は何もしませ"
+"ん。"
+
+#. type: subsection
+#: original_texis/msgmerge.texi:55
+#, no-wrap
+msgid "Output file location"
+msgstr "Output file location"
+
+#. type: item
+#: original_texis/msgmerge.texi:58
+#, no-wrap
+msgid "-o @var{file}"
+msgstr "-o @var{file}"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:59
+#, no-wrap
+msgid "--output-file=@var{file}"
+msgstr "--output-file=@var{file}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:60
+#, no-wrap
+msgid "-o@r{, @code{msgmerge} option}"
+msgstr "-o@r{, @code{msgmerge} option}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:61
+#, no-wrap
+msgid "--output-file@r{, @code{msgmerge} option}"
+msgstr "--output-file@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:63
+msgid "Write output to specified file."
+msgstr "指定されたファイルに出力を書き込みます。"
+
+#. type: cindex
+#: original_texis/msgmerge.texi:66
+#, no-wrap
+msgid "standard output, and @code{msgmerge} program"
+msgstr "standard output, and @code{msgmerge} program"
+
+#. type: Plain text
+#: original_texis/msgmerge.texi:69
+msgid ""
+"The results are written to standard output if no output file is specified or "
+"if it is @samp{-}."
+msgstr ""
+"出力ファイルが指定されていない、または@samp{-}が指定された場合、結果は標準出"
+"力に出力されます。"
+
+#. type: subsection
+#: original_texis/msgmerge.texi:70
+#, no-wrap
+msgid "Output file location in update mode"
+msgstr "Output file location in update mode"
+
+#. type: Plain text
+#: original_texis/msgmerge.texi:73
+msgid "The result is written back to @var{def}.po."
+msgstr "処理結果は@var{def}.poファイルに書き戻されます。"
+
+#. type: item
+#: original_texis/msgmerge.texi:75
+#, no-wrap
+msgid "--backup=@var{control}"
+msgstr "--backup=@var{control}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:76
+#, no-wrap
+msgid "--backup@r{, @code{msgmerge} option}"
+msgstr "--backup@r{, @code{msgmerge} option}"
+
+#. type: cindex
+#: original_texis/msgmerge.texi:77
+#, no-wrap
+msgid "backup old file, and @code{msgmerge} program"
+msgstr "backup old file, and @code{msgmerge} program"
+
+#. type: table
+#: original_texis/msgmerge.texi:79
+msgid "Make a backup of @var{def}.po"
+msgstr "@var{def}.poのバックアップを作成します。"
+
+#. type: item
+#: original_texis/msgmerge.texi:80
+#, no-wrap
+msgid "--suffix=@var{suffix}"
+msgstr "--suffix=@var{suffix}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:81
+#, no-wrap
+msgid "--suffix@r{, @code{msgmerge} option}"
+msgstr "--suffix@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:83
+msgid "Override the usual backup suffix."
+msgstr "通常使用されるバックアップの接尾辞を上書きします。"
+
+#. type: cindex
+#: original_texis/msgmerge.texi:86
+#, no-wrap
+msgid "version control for backup files, @code{msgmerge}"
+msgstr "version control for backup files, @code{msgmerge}"
+
+#. type: Plain text
+#: original_texis/msgmerge.texi:90
+msgid ""
+"The version control method may be selected via the @code{--backup} option or "
+"through the @code{VERSION_CONTROL} environment variable.  Here are the "
+"values:"
+msgstr ""
+"@code{--backup}オプション、もしくは環境変数@code{VERSION_CONTROL}を通じてバー"
+"ジョン管理の方式を選択します。以下の値が指定できます:"
+
+#. type: item
+#: original_texis/msgmerge.texi:92
+#, no-wrap
+msgid "none"
+msgstr "none"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:93
+#, no-wrap
+msgid "off"
+msgstr "off"
+
+#. type: table
+#: original_texis/msgmerge.texi:95
+msgid "Never make backups (even if @code{--backup} is given)."
+msgstr ""
+"(@code{--backup}オプションが指定されていたとしても)バックアップを作成しませ"
+"ん。"
+
+#. type: item
+#: original_texis/msgmerge.texi:96
+#, no-wrap
+msgid "numbered"
+msgstr "numbered"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:97
+#, no-wrap
+msgid "t"
+msgstr "t"
+
+#. type: table
+#: original_texis/msgmerge.texi:99
+msgid "Make numbered backups."
+msgstr "番号付きのバックアップを作成します。"
+
+#. type: item
+#: original_texis/msgmerge.texi:100
+#, no-wrap
+msgid "existing"
+msgstr "existing"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:101
+#, no-wrap
+msgid "nil"
+msgstr "nil"
+
+#. type: table
+#: original_texis/msgmerge.texi:104
+msgid ""
+"Make numbered backups if numbered backups for this file already exist, "
+"otherwise make simple backups."
+msgstr ""
+"このファイルの番号付きのバックアップがすでに存在する場合、番号付きバックアッ"
+"プを作成し、そうでなければ単純なバックアップを作成します。"
+
+#. type: item
+#: original_texis/msgmerge.texi:105
+#, no-wrap
+msgid "simple"
+msgstr "simple"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:106
+#, no-wrap
+msgid "never"
+msgstr "never"
+
+#. type: table
+#: original_texis/msgmerge.texi:108
+msgid "Always make simple backups."
+msgstr "常に単純なバックアップを作成します。"
+
+#. type: Plain text
+#: original_texis/msgmerge.texi:113
+msgid ""
+"The backup suffix is @samp{~}, unless set with @code{--suffix} or the "
+"@code{SIMPLE_BACKUP_SUFFIX} environment variable."
+msgstr ""
+"@code{--suffix}または環境変数@code{SIMPLE_BACKUP_SUFFIX}が設定されていない場"
+"合は、バックアップの接尾辞として@samp{~}を使用します。"
+
+#. type: subsection
+#: original_texis/msgmerge.texi:114
+#, no-wrap
+msgid "Operation modifiers"
+msgstr "Operation modifiers"
+
+#. type: item
+#: original_texis/msgmerge.texi:117
+#, no-wrap
+msgid "-m"
+msgstr "-m"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:118
+#, no-wrap
+msgid "--multi-domain"
+msgstr "--multi-domain"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:119
+#, no-wrap
+msgid "-m@r{, @code{msgmerge} option}"
+msgstr "-m@r{, @code{msgmerge} option}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:120
+#, no-wrap
+msgid "--multi-domain@r{, @code{msgmerge} option}"
+msgstr "--multi-domain@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:122
+msgid "Apply @var{ref}.pot to each of the domains in @var{def}.po."
+msgstr "@var{def}.po内の各ドメインにたいして、@var{ref}.potを適用します。"
+
+#. type: item
+#: original_texis/msgmerge.texi:123
+#, no-wrap
+msgid "-N"
+msgstr "-N"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:124
+#, no-wrap
+msgid "--no-fuzzy-matching"
+msgstr "--no-fuzzy-matching"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:125
+#, no-wrap
+msgid "-N@r{, @code{msgmerge} option}"
+msgstr "-N@r{, @code{msgmerge} option}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:126
+#, no-wrap
+msgid "--no-fuzzy-matching@r{, @code{msgmerge} option}"
+msgstr "--no-fuzzy-matching@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:129
+msgid ""
+"Do not use fuzzy matching when an exact match is not found.  This may speed "
+"up the operation considerably."
+msgstr ""
+"完全に一致するものが見つからない場合、fuzzyマッチングを行いません。これにより"
+"処理のスピードが大幅に改善されます。"
+
+#. type: item
+#: original_texis/msgmerge.texi:130
+#, no-wrap
+msgid "--previous"
+msgstr "--previous"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:131
+#, no-wrap
+msgid "--previous@r{, @code{msgmerge} option}"
+msgstr "--previous@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:134
+msgid ""
+"Keep the previous msgids of translated messages, marked with @samp{#|}, when "
+"adding the fuzzy marker to such messages."
+msgstr ""
+"翻訳されたメッセージをもつ古いmsgidにたいしてfuzzyマーカーを追加するときに、"
+"@samp{#|}マークをつけて古いメッセージを保持します。"
+
+#. type: subsection
+#: original_texis/msgmerge.texi:136
+#, no-wrap
+msgid "Input file syntax"
+msgstr "Input file syntax"
+
+#. type: item
+#: original_texis/msgmerge.texi:139
+#, no-wrap
+msgid "-P"
+msgstr "-P"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:140
+#, no-wrap
+msgid "--properties-input"
+msgstr "--properties-input"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:141
+#, no-wrap
+msgid "-P@r{, @code{msgmerge} option}"
+msgstr "-P@r{, @code{msgmerge} option}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:142
+#, no-wrap
+msgid "--properties-input@r{, @code{msgmerge} option}"
+msgstr "--properties-input@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:145
+msgid ""
+"Assume the input files are Java ResourceBundles in Java @code{.properties} "
+"syntax, not in PO file syntax."
+msgstr ""
+"入力ファイルがPOファイルの構文ではなく、Javaの@code{.properties}の構文にのっ"
+"とったJava ResourceBundleファイルだとみなします。"
+
+#. type: item
+#: original_texis/msgmerge.texi:146
+#, no-wrap
+msgid "--stringtable-input"
+msgstr "--stringtable-input"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:147
+#, no-wrap
+msgid "--stringtable-input@r{, @code{msgmerge} option}"
+msgstr "--stringtable-input@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:150
+msgid ""
+"Assume the input files are NeXTstep/GNUstep localized resource files in "
+"@code{.strings} syntax, not in PO file syntax."
+msgstr ""
+"入力ファイルがPOファイルの構文ではなく、NeXTstep/GNUstepのlocalized resource"
+"の@code{.strings}の構文にのっとったファイルだとみなします。"
+
+#. type: subsection
+#: original_texis/msgmerge.texi:153
+#, no-wrap
+msgid "Output details"
+msgstr "Output details"
+
+#. type: item
+#: original_texis/msgmerge.texi:158
+#, no-wrap
+msgid "--lang=@var{catalogname}"
+msgstr "--lang=@var{catalogname}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:159
+#, no-wrap
+msgid "--lang@r{, @code{msgmerge} option}"
+msgstr "--lang@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:165
+msgid ""
+"Specify the @samp{Language} field to be used in the header entry.  See "
+"@ref{Header Entry} for the meaning of this field.  Note: The @samp{Language-"
+"Team} and @samp{Plural-Forms} fields are left unchanged.  If this option is "
+"not specified, the @samp{Language} field is inferred, as best as possible, "
+"from the @samp{Language-Team} field."
+msgstr ""
+"ヘッダーのエントリーで使用される@samp{Language}フィールドを指定します。この"
+"フィールドの意味については@ref{Header Entry}を参照してください。"
+"@samp{Language-Team}と@samp{Plural-Forms}のフィールドは変更されないことに注意"
+"してください。このオプションを指定しない場合、@samp{Language-Team}フィールド"
+"から最適なものを推測して、@samp{Language}フィールドに入力します。"
+
+#. type: item
+#: original_texis/msgmerge.texi:166
+#, no-wrap
+msgid "--color"
+msgstr "--color"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:167
+#, no-wrap
+msgid "--color=@var{when}"
+msgstr "--color=@var{when}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:168
+#, no-wrap
+msgid "--color@r{, @code{msgmerge} option}"
+msgstr "--color@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:171
+msgid ""
+"Specify whether or when to use colors and other text attributes.  See "
+"@ref{The --color option} for details."
+msgstr ""
+"色や色以外のテキスト属性を使うか、いつ使うかを指定します。詳細は@ref{The --"
+"color option}を参照してください。"
+
+#. type: item
+#: original_texis/msgmerge.texi:172
+#, no-wrap
+msgid "--style=@var{style_file}"
+msgstr "--style=@var{style_file}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:173
+#, no-wrap
+msgid "--style@r{, @code{msgmerge} option}"
+msgstr "--style@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:176
+msgid ""
+"Specify the CSS style rule file to use for @code{--color}.  See @ref{The --"
+"style option} for details."
+msgstr ""
+"@code{--color}にたいしてCSS style ruleファイルを使うかを指定します。詳細は"
+"@ref{The --style option}を参照してください。"
+
+#. type: item
+#: original_texis/msgmerge.texi:177
+#, no-wrap
+msgid "--force-po"
+msgstr "--force-po"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:178
+#, no-wrap
+msgid "--force-po@r{, @code{msgmerge} option}"
+msgstr "--force-po@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:180
+msgid "Always write an output file even if it contains no message."
+msgstr ""
+"メッセージが何も含まれていない場合でも、常に出力ファイルに書き込みます。"
+
+#. type: item
+#: original_texis/msgmerge.texi:181
+#, no-wrap
+msgid "-i"
+msgstr "-i"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:182
+#, no-wrap
+msgid "--indent"
+msgstr "--indent"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:183
+#, no-wrap
+msgid "-i@r{, @code{msgmerge} option}"
+msgstr "-i@r{, @code{msgmerge} option}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:184
+#, no-wrap
+msgid "--indent@r{, @code{msgmerge} option}"
+msgstr "--indent@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:186
+msgid "Write the .po file using indented style."
+msgstr "インデントされた形式で.poファイルを書き込みます。"
+
+#. type: item
+#: original_texis/msgmerge.texi:187
+#, no-wrap
+msgid "--no-location"
+msgstr "--no-location"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:188
+#, no-wrap
+msgid "--no-location@r{, @code{msgmerge} option}"
+msgstr "--no-location@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:190
+msgid "Do not write @samp{#: @var{filename}:@var{line}} lines."
+msgstr "@samp{#: @var{filename}:@var{line}}という行を書き込みません。"
+
+#. type: item
+#: original_texis/msgmerge.texi:191
+#, no-wrap
+msgid "-n"
+msgstr ""
+
+#. type: itemx
+#: original_texis/msgmerge.texi:192
+#, fuzzy, no-wrap
+#| msgid "--add-location"
+msgid "--add-location=@var{type}"
+msgstr "--add-location"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:193
+#, no-wrap
+msgid "--add-location@r{, @code{msgmerge} option}"
+msgstr "--add-location@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:195
+msgid "Generate @samp{#: @var{filename}:@var{line}} lines (default)."
+msgstr "@samp{#: @var{filename}:@var{line}}という行を生成します(デフォルト)。"
+
+#. type: table
+#: original_texis/msgmerge.texi:201
+msgid ""
+"The optional @var{type} can be either @samp{full}, @samp{file}, or "
+"@samp{never}.  If it is not given or @samp{full}, it generates the lines "
+"with both file name and line number.  If it is @samp{file}, the line number "
+"part is omitted.  If it is @samp{never}, it completely suppresses the lines "
+"(same as @code{--no-location})."
+msgstr ""
+
+#. type: item
+#: original_texis/msgmerge.texi:202
+#, no-wrap
+msgid "--strict"
+msgstr "--strict"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:203
+#, no-wrap
+msgid "--strict@r{, @code{msgmerge} option}"
+msgstr "--strict@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:207
+msgid ""
+"Write out a strict Uniforum conforming PO file.  Note that this Uniforum "
+"format should be avoided because it doesn't support the GNU extensions."
+msgstr ""
+"Uniforumに厳密に準拠したPOファイルを出力します。このUniforum形式はGNUの拡張を"
+"サポートしないため避けたほうがよいでしょう。"
+
+#. type: item
+#: original_texis/msgmerge.texi:208
+#, no-wrap
+msgid "-p"
+msgstr "-p"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:209
+#, no-wrap
+msgid "--properties-output"
+msgstr "--properties-output"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:210
+#, no-wrap
+msgid "-p@r{, @code{msgmerge} option}"
+msgstr "-p@r{, @code{msgmerge} option}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:211
+#, no-wrap
+msgid "--properties-output@r{, @code{msgmerge} option}"
+msgstr "--properties-output@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:215
+msgid ""
+"Write out a Java ResourceBundle in Java @code{.properties} syntax.  Note "
+"that this file format doesn't support plural forms and silently drops "
+"obsolete messages."
+msgstr ""
+"Javaの@code{.properties}の書式で、Java ResourceBundleを出力します。このファイ"
+"ル形式はplural formをサポートせず、廃止されたメッセージを暗黙で除去することに"
+"注意してください。"
+
+#. type: item
+#: original_texis/msgmerge.texi:216
+#, no-wrap
+msgid "--stringtable-output"
+msgstr "--stringtable-output"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:217
+#, no-wrap
+msgid "--stringtable-output@r{, @code{msgmerge} option}"
+msgstr "--stringtable-output@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:220
+msgid ""
+"Write out a NeXTstep/GNUstep localized resource file in @code{.strings} "
+"syntax.  Note that this file format doesn't support plural forms."
+msgstr ""
+"@code{.strings}の書式で、NeXTstep/GNUstepのローカライズされたリソースファイル"
+"を出力します。このファイル形式はplural formをサポートしないことに注意してくだ"
+"さい。"
+
+#. type: item
+#: original_texis/msgmerge.texi:221
+#, no-wrap
+msgid "-w @var{number}"
+msgstr "-w @var{number}"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:222
+#, no-wrap
+msgid "--width=@var{number}"
+msgstr "--width=@var{number}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:223
+#, no-wrap
+msgid "-w@r{, @code{msgmerge} option}"
+msgstr "-w@r{, @code{msgmerge} option}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:224
+#, no-wrap
+msgid "--width@r{, @code{msgmerge} option}"
+msgstr "--width@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:228
+msgid ""
+"Set the output page width.  Long strings in the output files will be split "
+"across multiple lines in order to ensure that each line's width (= number of "
+"screen columns) is less or equal to the given @var{number}."
+msgstr ""
+"出力ページの幅をセットします。これにより出力ファイル中の長い文字列が指定した"
+"幅(例:スクリーンの列数)に収まるように、各行の長さが@var{number}以下のような複"
+"数の行に分割されます。"
+
+#. type: item
+#: original_texis/msgmerge.texi:229
+#, no-wrap
+msgid "--no-wrap"
+msgstr "--no-wrap"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:230
+#, no-wrap
+msgid "--no-wrap@r{, @code{msgmerge} option}"
+msgstr "--no-wrap@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:234
+msgid ""
+"Do not break long message lines.  Message lines whose width exceeds the "
+"output page width will not be split into several lines.  Only file reference "
+"lines which are wider than the output page width will be split."
+msgstr ""
+"長いメッセージ行を分割しません。出力ページの幅を超えるようなメッセージ行も、"
+"複数行に分割されません。出力ページの幅を超えるファイル参照行だけが分割されま"
+"す。"
+
+#. type: item
+#: original_texis/msgmerge.texi:235
+#, no-wrap
+msgid "-s"
+msgstr "-s"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:236
+#, no-wrap
+msgid "--sort-output"
+msgstr "--sort-output"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:237
+#, no-wrap
+msgid "-s@r{, @code{msgmerge} option}"
+msgstr "-s@r{, @code{msgmerge} option}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:238
+#, no-wrap
+msgid "--sort-output@r{, @code{msgmerge} option}"
+msgstr "--sort-output@r{, @code{msgmerge} option}"
+
+#. type: cindex
+#: original_texis/msgmerge.texi:239
+#, no-wrap
+msgid "sorting @code{msgmerge} output"
+msgstr "sorting @code{msgmerge} output"
+
+#. type: table
+#: original_texis/msgmerge.texi:242
+msgid ""
+"Generate sorted output.  Note that using this option makes it much harder "
+"for the translator to understand each message's context."
+msgstr ""
+"ソートされた出力を生成します。このオプションを使用することにより翻訳者が、"
+"メッセージがどのようなコンテキストで使用されるかを理解するのが、困難になるこ"
+"とに注意してください。"
+
+#. type: item
+#: original_texis/msgmerge.texi:243
+#, no-wrap
+msgid "-F"
+msgstr "-F"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:244
+#, no-wrap
+msgid "--sort-by-file"
+msgstr "--sort-by-file"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:245
+#, no-wrap
+msgid "-F@r{, @code{msgmerge} option}"
+msgstr "-F@r{, @code{msgmerge} option}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:246
+#, no-wrap
+msgid "--sort-by-file@r{, @code{msgmerge} option}"
+msgstr "--sort-by-file@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:248
+msgid "Sort output by file location."
+msgstr "ファイルの場所により出力をソートします。"
+
+#. type: subsection
+#: original_texis/msgmerge.texi:251
+#, no-wrap
+msgid "Informative output"
+msgstr "Informative output"
+
+#. type: item
+#: original_texis/msgmerge.texi:254
+#, no-wrap
+msgid "-h"
+msgstr "-h"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:255
+#, no-wrap
+msgid "--help"
+msgstr "--help"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:256
+#, no-wrap
+msgid "-h@r{, @code{msgmerge} option}"
+msgstr "-h@r{, @code{msgmerge} option}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:257
+#, no-wrap
+msgid "--help@r{, @code{msgmerge} option}"
+msgstr "--help@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:259
+msgid "Display this help and exit."
+msgstr "このヘルプを表示して終了します。"
+
+#. type: item
+#: original_texis/msgmerge.texi:260
+#, no-wrap
+msgid "-V"
+msgstr "-V"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:261
+#, no-wrap
+msgid "--version"
+msgstr "--version"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:262
+#, no-wrap
+msgid "-V@r{, @code{msgmerge} option}"
+msgstr "-V@r{, @code{msgmerge} option}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:263
+#, no-wrap
+msgid "--version@r{, @code{msgmerge} option}"
+msgstr "--version@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:265
+msgid "Output version information and exit."
+msgstr "バージョン情報を表示して終了します。"
+
+#. type: item
+#: original_texis/msgmerge.texi:266
+#, no-wrap
+msgid "-v"
+msgstr "-v"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:267
+#, no-wrap
+msgid "--verbose"
+msgstr "--verbose"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:268
+#, no-wrap
+msgid "-v@r{, @code{msgmerge} option}"
+msgstr "-v@r{, @code{msgmerge} option}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:269
+#, no-wrap
+msgid "--verbose@r{, @code{msgmerge} option}"
+msgstr "--verbose@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:271
+msgid "Increase verbosity level."
+msgstr "診断レベルを上げます。"
+
+#. type: item
+#: original_texis/msgmerge.texi:272
+#, no-wrap
+msgid "-q"
+msgstr "-q"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:273
+#, no-wrap
+msgid "--quiet"
+msgstr "--quiet"
+
+#. type: itemx
+#: original_texis/msgmerge.texi:274
+#, no-wrap
+msgid "--silent"
+msgstr "--silent"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:275
+#, no-wrap
+msgid "-q@r{, @code{msgmerge} option}"
+msgstr "-q@r{, @code{msgmerge} option}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:276
+#, no-wrap
+msgid "--quiet@r{, @code{msgmerge} option}"
+msgstr "--quiet@r{, @code{msgmerge} option}"
+
+#. type: opindex
+#: original_texis/msgmerge.texi:277
+#, no-wrap
+msgid "--silent@r{, @code{msgmerge} option}"
+msgstr "--silent@r{, @code{msgmerge} option}"
+
+#. type: table
+#: original_texis/msgmerge.texi:279
+msgid "Suppress progress indicators."
+msgstr "プログレスインジケーターを表示しません。"

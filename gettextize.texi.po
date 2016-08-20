@@ -1,0 +1,531 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2016-08-20 21:56+0900\n"
+"PO-Revision-Date: 2016-08-13 09:22+0900\n"
+"Last-Translator: Takeshi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
+"Language-Team: Japanese <takeshi.ayanokoji@gmail.com>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#: original_texis/gettextize.texi:4
+msgid ""
+"The @code{gettextize} program is an interactive tool that helps the "
+"maintainer of a package internationalized through GNU @code{gettext}.  It is "
+"used for two purposes:"
+msgstr ""
+"@code{gettextize}プログラムは、GNU @code{gettext}によりインターナショナライズ"
+"されたパッケージのメンテナーを助けるための対話的なツールで、2つの目的のために"
+"使用されます:"
+
+#. type: itemize
+#: original_texis/gettextize.texi:9
+msgid ""
+"As a wizard, when a package is modified to use GNU @code{gettext} for the "
+"first time."
+msgstr ""
+"最初に、GNU @code{gettext}を使ってパッケージをするときは、ウィザードとして使"
+"用されます。"
+
+#. type: itemize
+#: original_texis/gettextize.texi:13
+msgid ""
+"As a migration tool, for upgrading the GNU @code{gettext} support in a "
+"package from a previous to a newer version of GNU @code{gettext}."
+msgstr ""
+"パッケージ内でのGNU @code{gettext}サポートを、以前のGNU @code{gettext}から新"
+"しいバージョンにアップグレードするための、移行ツールとして使用します。"
+
+#. type: Plain text
+#: original_texis/gettextize.texi:16
+msgid "This program performs the following tasks:"
+msgstr "このプログラムは以下のタスクを処理します:"
+
+#. type: itemize
+#: original_texis/gettextize.texi:22
+msgid ""
+"It copies into the package some files that are consistently and identically "
+"needed in every package internationalized through GNU @code{gettext}."
+msgstr ""
+"GNU @code{gettext}によりインターナショナライズされた、すべてのパッケージで必"
+"要なファイルをパッケージにコピーします。"
+
+#. type: item
+#: original_texis/gettextize.texi:23
+#, no-wrap
+msgid "It performs as many of the tasks mentioned in the next section"
+msgstr "次のセクション"
+
+#. type: itemize
+#: original_texis/gettextize.texi:25
+msgid "@ref{Adjusting Files} as can be performed automatically."
+msgstr ""
+"@ref{Adjusting Files}で説明する多くのタスクを、できるだけ自動的に処理します。"
+
+#. type: item
+#: original_texis/gettextize.texi:26
+#, no-wrap
+msgid "It removes obsolete files and idioms used for previous GNU"
+msgstr "以前のバージョンのGNU "
+
+#. type: itemize
+#: original_texis/gettextize.texi:29
+msgid ""
+"@code{gettext} versions to the form recommended for the current GNU "
+"@code{gettext} version."
+msgstr ""
+"@code{gettext}で使われていた陳腐化したファイルやイディオムを削除して、現在の"
+"バージョンのGNU @code{gettext}で推奨される形式にします。"
+
+#. type: item
+#: original_texis/gettextize.texi:30
+#, no-wrap
+msgid "It prints a summary of the tasks that ought to be done manually"
+msgstr "手動で行うべきタスクや、"
+
+#. type: itemize
+#: original_texis/gettextize.texi:32
+msgid "and could not be done automatically by @code{gettextize}."
+msgstr "@code{gettextize}で自動的に処理できないタスクの要約をプリントします。"
+
+#. type: Plain text
+#: original_texis/gettextize.texi:35
+msgid "It can be invoked as follows:"
+msgstr "呼び出し方は以下のようになります:"
+
+#. type: pindex
+#: original_texis/gettextize.texi:36
+#, no-wrap
+msgid "gettextize"
+msgstr "gettextize"
+
+#. type: cindex
+#: original_texis/gettextize.texi:37
+#, no-wrap
+msgid "@code{gettextize} program, usage"
+msgstr "@code{gettextize} program, usage"
+
+#. type: example
+#: original_texis/gettextize.texi:40
+#, no-wrap
+msgid "gettextize [ @var{option}@dots{} ] [ @var{directory} ]\n"
+msgstr "gettextize [ @var{option}@dots{} ] [ @var{directory} ]\n"
+
+#. type: Plain text
+#: original_texis/gettextize.texi:44
+msgid "and accepts the following options:"
+msgstr "以下のオプションを指定できます:"
+
+#. type: item
+#: original_texis/gettextize.texi:46
+#, no-wrap
+msgid "-f"
+msgstr "-f"
+
+#. type: itemx
+#: original_texis/gettextize.texi:47
+#, no-wrap
+msgid "--force"
+msgstr "--force"
+
+#. type: opindex
+#: original_texis/gettextize.texi:48
+#, no-wrap
+msgid "-f@r{, @code{gettextize} option}"
+msgstr "-f@r{, @code{gettextize} option}"
+
+#. type: opindex
+#: original_texis/gettextize.texi:49
+#, no-wrap
+msgid "--force@r{, @code{gettextize} option}"
+msgstr "--force@r{, @code{gettextize} option}"
+
+#. type: table
+#: original_texis/gettextize.texi:51
+msgid "Force replacement of files which already exist."
+msgstr "すでに存在するファイルを強制的に置き換えます。"
+
+#. type: item
+#: original_texis/gettextize.texi:52
+#, no-wrap
+msgid "--intl"
+msgstr "--intl"
+
+#. type: opindex
+#: original_texis/gettextize.texi:53
+#, no-wrap
+msgid "--intl@r{, @code{gettextize} option}"
+msgstr "--intl@r{, @code{gettextize} option}"
+
+#. type: table
+#: original_texis/gettextize.texi:60
+msgid ""
+"Install the libintl sources in a subdirectory named @file{intl/}.  This "
+"libintl will be used to provide internationalization on systems that don't "
+"have GNU libintl installed.  If this option is omitted, the call to "
+"@code{AM_GNU_GETTEXT} in @file{configure.ac} should read: "
+"@samp{AM_GNU_GETTEXT([external])}, and internationalization will not be "
+"enabled on systems lacking GNU gettext."
+msgstr ""
+"libintlのソースを、@file{intl/}というサブディレクトリーにインストールします。"
+"このlibintlは、GNU libintlがインストールされていないシステムでインターナショ"
+"ナリゼーションを提供するのに使用されます。このオプションが省略された場合は、"
+"@file{configure.ac}の@code{AM_GNU_GETTEXT}呼び出しが読み込まれます。しかし"
+"@samp{AM_GNU_GETTEXT([external])}とインターナショナリゼーションは、GNU "
+"gettextのないシステムでは利用できないでしょう。"
+
+#. type: item
+#: original_texis/gettextize.texi:61
+#, no-wrap
+msgid "--po-dir=@var{dir}"
+msgstr "--po-dir=@var{dir}"
+
+#. type: opindex
+#: original_texis/gettextize.texi:62
+#, no-wrap
+msgid "--po-dir@r{, @code{gettextize} option}"
+msgstr "--po-dir@r{, @code{gettextize} option}"
+
+#. type: table
+#: original_texis/gettextize.texi:67
+msgid ""
+"Specify a directory containing PO files.  Such a directory contains the "
+"translations into various languages of a particular POT file.  This option "
+"can be specified multiple times, once for each translation domain.  If it is "
+"not specified, the directory named @file{po/} is updated."
+msgstr ""
+"POファイルを含むディレクトリを指定します。このようなディレクトリーには、特定"
+"のPOTファイルをさまざまな言語に翻訳したファイルが含まれています。このオプショ"
+"ンは、翻訳ドメインどとに複数回指定することができます。指定されなかったとき"
+"は、@file{po/}というディレクトリーが更新されます。"
+
+#. type: item
+#: original_texis/gettextize.texi:68
+#, no-wrap
+msgid "--no-changelog"
+msgstr "--no-changelog"
+
+#. type: opindex
+#: original_texis/gettextize.texi:69
+#, no-wrap
+msgid "--no-changelog@r{, @code{gettextize} option}"
+msgstr "--no-changelog@r{, @code{gettextize} option}"
+
+#. type: table
+#: original_texis/gettextize.texi:73
+msgid ""
+"Don't update or create ChangeLog files.  By default, @code{gettextize} logs "
+"all changes (file additions, modifications and removals) in a file called "
+"@samp{ChangeLog} in each affected directory."
+msgstr ""
+"ChangeLogの作成・更新をしません。デフォルトでは@code{gettextize}は、影響を受"
+"けるディレクトリーごとの@samp{ChangeLog}というファイルに、すべての変更(ファイ"
+"ルの追加・変更・削除)を記録します。"
+
+#. type: item
+#: original_texis/gettextize.texi:74
+#, no-wrap
+msgid "--symlink"
+msgstr "--symlink"
+
+#. type: opindex
+#: original_texis/gettextize.texi:75
+#, no-wrap
+msgid "--symlink@r{, @code{gettextize} option}"
+msgstr "--symlink@r{, @code{gettextize} option}"
+
+#. type: table
+#: original_texis/gettextize.texi:81
+msgid ""
+"Make symbolic links instead of copying the needed files.  This can be useful "
+"to save a few kilobytes of disk space, but it requires extra effort to "
+"create self-contained tarballs, it may disturb some mechanism the maintainer "
+"applies to the sources, and it is likely to introduce bugs when a newer "
+"version of @code{gettext} is installed on the system."
+msgstr ""
+"必要なファイルをコピーするかわりに、シンボリックリンクを作成します。これは"
+"ディスク容量を数キロバイト節約するのには便利ですが、自分自身を含む形式の"
+"tarballの作成には特別な配慮が必要になり、メンテナーがソースに適用できるいくつ"
+"かの機能が使えなくなり、システムに新しいバージョンの@code{gettext}がインス"
+"トールされたときにバグ(のような状態)を招きます。"
+
+#. type: item
+#: original_texis/gettextize.texi:82
+#, no-wrap
+msgid "-n"
+msgstr "-n"
+
+#. type: itemx
+#: original_texis/gettextize.texi:83
+#, no-wrap
+msgid "--dry-run"
+msgstr "--dry-run"
+
+#. type: opindex
+#: original_texis/gettextize.texi:84
+#, no-wrap
+msgid "-d@r{, @code{gettextize} option}"
+msgstr "-d@r{, @code{gettextize} option}"
+
+#. type: opindex
+#: original_texis/gettextize.texi:85
+#, no-wrap
+msgid "--dry-run@r{, @code{gettextize} option}"
+msgstr "--dry-run@r{, @code{gettextize} option}"
+
+#. type: table
+#: original_texis/gettextize.texi:89
+msgid ""
+"Print modifications but don't perform them.  All actions that "
+"@code{gettextize} would normally execute are inhibited and instead only "
+"listed on standard output."
+msgstr ""
+"変更を出力しますが、処理は行いません。普通に@code{gettextize}を実行したときの"
+"アクションはすべて抑止され、かわりにリストが標準出力に出力されるだけになりま"
+"す。"
+
+#. type: item
+#: original_texis/gettextize.texi:90
+#, no-wrap
+msgid "--help"
+msgstr "--help"
+
+#. type: opindex
+#: original_texis/gettextize.texi:91
+#, no-wrap
+msgid "--help@r{, @code{gettextize} option}"
+msgstr "--help@r{, @code{gettextize} option}"
+
+#. type: table
+#: original_texis/gettextize.texi:93
+msgid "Display this help and exit."
+msgstr "このヘルプを表示して終了します。"
+
+#. type: item
+#: original_texis/gettextize.texi:94
+#, no-wrap
+msgid "--version"
+msgstr "--version"
+
+#. type: opindex
+#: original_texis/gettextize.texi:95
+#, no-wrap
+msgid "--version@r{, @code{gettextize} option}"
+msgstr "--version@r{, @code{gettextize} option}"
+
+#. type: table
+#: original_texis/gettextize.texi:97
+msgid "Output version information and exit."
+msgstr "バージョン情報を表示して終了します。"
+
+#. type: Plain text
+#: original_texis/gettextize.texi:104
+msgid ""
+"If @var{directory} is given, this is the top level directory of a package to "
+"prepare for using GNU @code{gettext}.  If not given, it is assumed that the "
+"current directory is the top level directory of such a package."
+msgstr ""
+"@var{directory}を指定した場合、そのディレクトリーはGNU @code{gettext}を使う準"
+"備をしたいパッケージの、トップレベルのディレクトリーになります。"
+
+#. type: Plain text
+#: original_texis/gettextize.texi:108
+msgid ""
+"The program @code{gettextize} provides the following files.  However, no "
+"existing file will be replaced unless the option @code{--force} (@code{-f}) "
+"is specified."
+msgstr ""
+"プログラム@code{gettextize}は、以下のファイルを提供します。しかし@code{--"
+"force} (@code{-f})オプションを指定しなければ、既存のファイルは置き換えられま"
+"せん。"
+
+#. type: enumerate
+#: original_texis/gettextize.texi:119
+msgid ""
+"The @file{ABOUT-NLS} file is copied in the main directory of your package, "
+"the one being at the top level.  This file gives the main indications about "
+"how to install and use the Native Language Support features of your "
+"program.  You might elect to use a more recent copy of this @file{ABOUT-NLS} "
+"file than the one provided through @code{gettextize}, if you have one "
+"handy.  You may also fetch a more recent copy of file @file{ABOUT-NLS} from "
+"Translation Project sites, and from most GNU archive sites."
+msgstr ""
+"@file{ABOUT-NLS}ファイルは、パッケージのメインディレクトリー(トップレベル)に"
+"コピーされます。このファイルは、プログラムでNative Language Support機能をイン"
+"ストールして使う方法を示す主要なファイルです。もし手軽に入手できるなら、"
+"@code{gettextize}により提供される@file{ABOUT-NLS}よりも、新しいコピーを使いた"
+"いと思うかもしれません。より新しい@file{ABOUT-NLS}ファイルのコピーを、翻訳プ"
+"ロジェクト、またはGNU archive siteから入手することもできます。"
+
+#. type: enumerate
+#: original_texis/gettextize.texi:128
+msgid ""
+"A @file{po/} directory is created for eventually holding all translation "
+"files, but initially only containing the file @file{po/Makefile.in.in} from "
+"the GNU @code{gettext} distribution (beware the double @samp{.in} in the "
+"file name) and a few auxiliary files.  If the @file{po/} directory already "
+"exists, it will be preserved along with the files it contains, and only "
+"@file{Makefile.in.in} and the auxiliary files will be overwritten."
+msgstr ""
+"作成された@file{po/}ディレクトリーには、最終的にはすべての翻訳用ファイルが保"
+"持されますが、初期状態ではGNU @code{gettext}による@file{po/Makefile.in.in}"
+"(ファイル名に@samp{.in}が2つあることに注意してください)と、いくつかの予備ファ"
+"イルしか含まれていません。すでに@file{po/}というディレクトリーがあるときは、"
+"そのディレクトリーのファイルは保持され、@file{Makefile.in.in}と予備ファイルだ"
+"けが上書きされます。"
+
+#. type: enumerate
+#: original_texis/gettextize.texi:131
+msgid ""
+"If @samp{--po-dir} has been specified, this holds for every directory "
+"specified through @samp{--po-dir}, instead of @file{po/}."
+msgstr ""
+"@samp{--po-dir}が指定されたときは、@file{po/}のかわりに@samp{--po-dir}で指定"
+"されたそれぞれのディレクトリーに配置されます。"
+
+#. type: enumerate
+#: original_texis/gettextize.texi:138
+msgid ""
+"Only if @samp{--intl} has been specified: A @file{intl/} directory is "
+"created and filled with most of the files originally in the @file{intl/} "
+"directory of the GNU @code{gettext} distribution.  Also, if option @code{--"
+"force} (@code{-f}) is given, the @file{intl/} directory is emptied first."
+msgstr ""
+"@samp{--intl}だけが指定されたときは、@file{intl/}ディレクトリーが作成され、"
+"GNU @code{gettext}の@file{intl/}ディレクトリーから、ほとんどのファイルがコ"
+"ピーされます。@code{--force} (@code{-f})も指定されたときは、まず最初に"
+"@file{intl/}が空にされます。"
+
+#. type: enumerate
+#: original_texis/gettextize.texi:143
+msgid ""
+"The file @file{config.rpath} is copied into the directory containing "
+"configuration support files.  It is needed by the @code{AM_GNU_GETTEXT} "
+"autoconf macro."
+msgstr ""
+"ファイル@file{config.rpath}は、設定サポートファイルを含むディレクトリーにコ"
+"ピーされます。このファイルは、autoconfマクロ@code{AM_GNU_GETTEXT}で必要です。"
+
+#. type: enumerate
+#: original_texis/gettextize.texi:148
+msgid ""
+"Only if the project is using GNU @code{automake}: A set of @code{autoconf} "
+"macro files is copied into the package's @code{autoconf} macro repository, "
+"usually in a directory called @file{m4/}."
+msgstr ""
+"プロジェクトがGNU @code{automake}しか使っていないときは、@code{autoconf}の一"
+"連のマクロファイルが、パッケージの@code{autoconf}マクロのレポジトリー(通常は"
+"@file{m4/}というディレクトリー)にコピーされます。"
+
+#. type: Plain text
+#: original_texis/gettextize.texi:158
+msgid ""
+"If your site support symbolic links, @code{gettextize} will not actually "
+"copy the files into your package, but establish symbolic links instead.  "
+"This avoids duplicating the disk space needed in all packages.  Merely using "
+"the @samp{-h} option while creating the @code{tar} archive of your "
+"distribution will resolve each link by an actual copy in the distribution "
+"archive.  So, to insist, you really should use @samp{-h} option with "
+"@code{tar} within your @code{dist} goal of your main @file{Makefile.in}."
+msgstr ""
+"シンボリックリンクがサポートされている場合、@code{gettextize}はパッケージの"
+"ディレクトリーへは実際にコピーはされず、かわりにシンボリックリンクが作成され"
+"ます。これによりすべてのパッケージで必要なファイルによる重複を避けることがで"
+"きます。単に@samp{-h}オプションを指定すると、配布物の@code{tar}アーカイブを作"
+"成するときには、それらのリンクが解決されて実際のファイルが配布物のアーカイブ"
+"にコピーされます。そのため、メインの@file{Makefile.in}のゴール@code{dist}にた"
+"いする@code{tar}のオプションには、@samp{-h}を使う必要があることを強調しておき"
+"ましょう"
+
+#. type: Plain text
+#: original_texis/gettextize.texi:162
+msgid ""
+"Furthermore, @code{gettextize} will update all @file{Makefile.am} files in "
+"each affected directory, as well as the top level @file{configure.ac} or "
+"@file{configure.in} file."
+msgstr ""
+"それだけではなく、@code{gettextize}は、影響を受ける各ディレクトリーの"
+"@file{Makefile.am}をすべて更新し、同様にトップレベルの@file{configure.ac}(ま"
+"たは@file{configure.in})も更新します。"
+
+#. type: Plain text
+#: original_texis/gettextize.texi:170
+msgid ""
+"It is interesting to understand that most new files for supporting GNU "
+"@code{gettext} facilities in one package go in @file{intl/}, @file{po/} and "
+"@file{m4/} subdirectories.  One distinction between @file{intl/} and the two "
+"other directories is that @file{intl/} is meant to be completely identical "
+"in all packages using GNU @code{gettext}, while the other directories will "
+"mostly contain package dependent files."
+msgstr ""
+"パッケージのサブディレクトリー@file{intl/}、@file{po/}、@file{m4/}にコピーさ"
+"れる、GNU @code{gettext}をサポートするための最新のファイルを理解するのも、興"
+"味深いでしょう。@file{intl/}と他の2つのディレクトリーの違いは、@file{intl/}は"
+"GNU @code{gettext}を使うすべてのパッケージで同じですが、他の2つのディレクト"
+"リーのものの大部分はパッケージに依存したものだという点です。"
+
+#. type: Plain text
+#: original_texis/gettextize.texi:177
+msgid ""
+"The @code{gettextize} program makes backup files for all files it replaces "
+"or changes, and also write ChangeLog entries about these changes.  This way, "
+"the careful maintainer can check after running @code{gettextize} whether its "
+"changes are acceptable to him, and possibly adjust them.  An exception to "
+"this rule is the @file{intl/} directory, which is added or replaced or "
+"removed as a whole."
+msgstr ""
+"@code{gettextize}プログラムは、置換または変更するファイルのバックアップを作成"
+"して、それらの変更をChangeLogに書き込みます。この方法により、注意深いメンテ"
+"ナーは@code{gettextize}を実行した後に、それによる変更が許容できるか確認して、"
+"可能なら調整することができます。このルールの例外は@file{intl/}ディレクトリー"
+"で、このディレクトリーは完全に追加・置換、または削除されます。"
+
+#. type: Plain text
+#: original_texis/gettextize.texi:183
+msgid ""
+"It is important to understand that @code{gettextize} can not do the entire "
+"job of adapting a package for using GNU @code{gettext}.  The amount of "
+"remaining work depends on whether the package uses GNU @code{automake} or "
+"not.  But in any case, the maintainer should still read the section "
+"@ref{Adjusting Files} after invoking @code{gettextize}."
+msgstr ""
+"@code{gettextize}が、GNU @code{gettext}を使うパッケージのための調整すべてを処"
+"理できる訳ではないことを理解するのことも重要です。残っている作業の量は、パッ"
+"ケージがGNU @code{automake}を使うか否かによります。それでも大抵の場合、メンテ"
+"ナーは@code{gettextize}を呼び出した後、@ref{Adjusting Files}を読む必要がある"
+"でしょう。"
+
+#. type: Plain text
+#: original_texis/gettextize.texi:188
+msgid ""
+"In particular, if after using @samp{gettexize}, you get an error "
+"@samp{AC_COMPILE_IFELSE was called before AC_GNU_SOURCE} or "
+"@samp{AC_RUN_IFELSE was called before AC_GNU_SOURCE}, you can fix it by "
+"modifying @file{configure.ac}, as described in @ref{configure.ac}."
+msgstr ""
+"特に@samp{gettexize}を使った後は、@samp{AC_COMPILE_IFELSE was called before "
+"AC_GNU_SOURCE}、または@samp{AC_RUN_IFELSE was called before AC_GNU_SOURCE}と"
+"いうエラーが発生するかもしれません。このエラーは@ref{configure.ac}で説明して"
+"いる方法で@file{configure.ac}を変更することにより修正できます。"
+
+#. type: Plain text
+#: original_texis/gettextize.texi:193
+msgid ""
+"It is also important to understand that @code{gettextize} is not part of the "
+"GNU build system, in the sense that it should not be invoked automatically, "
+"and not be invoked by someone who doesn't assume the responsibilities of a "
+"package maintainer.  For the latter purpose, a separate tool is provided, "
+"see @ref{autopoint Invocation}."
+msgstr ""
+"@code{gettextize}は、GNU build systemの一部ではないので、自動的には呼び出され"
+"ず、パッケージメンテナーとしての責任を持たない人も呼び出さないことを理解して"
+"おくのも重要です。後者の目的のためには個別にツールが準備されています。詳細は"
+"@ref{autopoint Invocation}を参照してください。"
