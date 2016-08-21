@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-08-20 21:57+0900\n"
-"PO-Revision-Date: 2016-08-12 10:51+0900\n"
+"PO-Revision-Date: 2016-08-21 22:15+0900\n"
 "Last-Translator: Takeshi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
 "Language-Team: Japanese <takeshi.ayanokoji@gmail.com>\n"
 "Language: ja\n"
@@ -285,15 +285,6 @@ msgstr "supported languages, @code{xgettext}"
 
 #. type: table
 #: original_texis/xgettext.texi:78
-#, fuzzy
-#| msgid ""
-#| "Specifies the language of the input files.  The supported languages are "
-#| "@code{C}, @code{C++}, @code{ObjectiveC}, @code{PO}, @code{Shell}, "
-#| "@code{Python}, @code{Lisp}, @code{EmacsLisp}, @code{librep}, "
-#| "@code{Scheme}, @code{Smalltalk}, @code{Java}, @code{JavaProperties}, "
-#| "@code{C#}, @code{awk}, @code{YCP}, @code{Tcl}, @code{Perl}, @code{PHP}, "
-#| "@code{GCC-source}, @code{NXStringTable}, @code{RST}, @code{Glade}, "
-#| "@code{Lua}, @code{JavaScript}, @code{Vala}."
 msgid ""
 "Specifies the language of the input files.  The supported languages are "
 "@code{C}, @code{C++}, @code{ObjectiveC}, @code{PO}, @code{Shell}, "
@@ -302,14 +293,7 @@ msgid ""
 "@code{YCP}, @code{Tcl}, @code{Perl}, @code{PHP}, @code{GCC-source}, "
 "@code{NXStringTable}, @code{RST}, @code{Glade}, @code{Lua}, "
 "@code{JavaScript}, @code{Vala}, @code{GSettings}, @code{Desktop}."
-msgstr ""
-"入力ファイルの言語を指定します。サポートされている言語は、@code{C}、@code{C+"
-"+}、@code{ObjectiveC}、@code{PO}、@code{Shell}、@code{Python}、@code{Lisp}、"
-"@code{EmacsLisp}、@code{librep}、@code{Scheme}、@code{Smalltalk}、"
-"@code{Java}、@code{JavaProperties}、@code{C#}、@code{awk}、@code{YCP}、"
-"@code{Tcl}、@code{Perl}、@code{PHP}、@code{GCC-source}、"
-"@code{NXStringTable}、@code{RST}、@code{Glade}、@code{Lua}、"
-"@code{JavaScript}、@code{Vala}です。"
+msgstr "Specifies the language of the input files.  The supported languages are @code{C}、@code{C++}、@code{ObjectiveC}、@code{PO}、@code{Shell}、@code{Python}、@code{Lisp}、@code{EmacsLisp}、@code{librep}、@code{Scheme}、@code{Smalltalk}、@code{Java}、@code{JavaProperties}、@code{C#}、@code{awk}、@code{YCP}、@code{Tcl}、@code{Perl}、@code{PHP}、@code{GCC-source}、@code{NXStringTable}、@code{RST}、@code{Glade}、@code{Lua}、@code{JavaScript}、@code{Vala}、@code{GSettings}、@code{Desktop}."
 
 #. type: item
 #: original_texis/xgettext.texi:79
@@ -537,17 +521,15 @@ msgstr ""
 
 #. type: opindex
 #: original_texis/xgettext.texi:148
-#, fuzzy, no-wrap
-#| msgid "-k@r{, @code{xgettext} option}"
+#, no-wrap
 msgid "--check@r{, @code{xgettext} option}"
-msgstr "-k@r{, @code{xgettext} option}"
+msgstr "--check@r{, @code{xgettext} option}"
 
 #. type: cindex
 #: original_texis/xgettext.texi:149
-#, fuzzy, no-wrap
-#| msgid "supported languages, @code{xgettext}"
+#, no-wrap
 msgid "supported syntax checks, @code{xgettext}"
-msgstr "supported languages, @code{xgettext}"
+msgstr "supported syntax checks, @code{xgettext}"
 
 #. type: table
 #: original_texis/xgettext.texi:152
@@ -643,17 +625,15 @@ msgstr ""
 
 #. type: opindex
 #: original_texis/xgettext.texi:191
-#, fuzzy, no-wrap
-#| msgid "-d@r{, @code{xgettext} option}"
+#, no-wrap
 msgid "--sentence-end@r{, @code{xgettext} option}"
-msgstr "-d@r{, @code{xgettext} option}"
+msgstr "--sentence-end@r{, @code{xgettext} option}"
 
 #. type: cindex
 #: original_texis/xgettext.texi:192
-#, fuzzy, no-wrap
-#| msgid "supported languages, @code{xgettext}"
+#, no-wrap
 msgid "sentence end markers, @code{xgettext}"
-msgstr "supported languages, @code{xgettext}"
+msgstr "sentence end markers, @code{xgettext}"
 
 #. type: table
 #: original_texis/xgettext.texi:194
@@ -719,19 +699,11 @@ msgstr "すべての文字列を抽出します。"
 
 #. type: table
 #: original_texis/xgettext.texi:218
-#, fuzzy
-#| msgid ""
-#| "This option has an effect with most languages, namely C, C++, ObjectiveC, "
-#| "Shell, Python, Lisp, EmacsLisp, librep, Java, C#, awk, Tcl, Perl, PHP, "
-#| "GCC-source, Glade, Lua, JavaScript, Vala."
 msgid ""
 "This option has an effect with most languages, namely C, C++, ObjectiveC, "
 "Shell, Python, Lisp, EmacsLisp, librep, Java, C#, awk, Tcl, Perl, PHP, GCC-"
 "source, Glade, Lua, JavaScript, Vala, GSettings."
-msgstr ""
-"このオプションはほとんどの言語、すなわち、C、C++、Objective-C、Shell、"
-"Python、Lisp、EmacsLisp、librep、Java、C#、awk、Tcl、Perl、PHP、GCC-source、"
-"Glade、Lua、JavaScript、Valaに影響を与えます。"
+msgstr "このオプションはほとんどの言語、すなわち、C、C++、Objective-C、Shell、Python、Lisp、EmacsLisp、librep、Java、C#、awk、Tcl、Perl、PHP、GCC-source、Glade、Lua、JavaScript、Vala、GSettingsに影響を与えます。"
 
 #. type: item
 #: original_texis/xgettext.texi:219
@@ -836,19 +808,11 @@ msgstr ""
 
 #. type: table
 #: original_texis/xgettext.texi:261
-#, fuzzy
-#| msgid ""
-#| "This option has an effect with most languages, namely C, C++, ObjectiveC, "
-#| "Shell, Python, Lisp, EmacsLisp, librep, Java, C#, awk, Tcl, Perl, PHP, "
-#| "GCC-source, Glade, Lua, JavaScript, Vala."
 msgid ""
 "This option has an effect with most languages, namely C, C++, ObjectiveC, "
 "Shell, Python, Lisp, EmacsLisp, librep, Java, C#, awk, Tcl, Perl, PHP, GCC-"
 "source, Glade, Lua, JavaScript, Vala, GSettings, Desktop."
-msgstr ""
-"このオプションはほとんどの言語、すなわち、C、C++、Objective-C、Shell、"
-"Python、Lisp、EmacsLisp、librep、Java、C#、awk、Tcl、Perl、PHP、GCC-source、"
-"Glade、Lua、JavaScript、Valaに影響を与えます。"
+msgstr "このオプションはほとんどの言語、すなわち、C、C++、Objective-C、Shell、Python、Lisp、EmacsLisp、librep、Java、C#、awk、Tcl、Perl、PHP、GCC-source、Glade、Lua、JavaScript、Vala、GSettings、Desktopに影響を与えます。"
 
 #. type: table
 #: original_texis/xgettext.texi:264
@@ -1281,22 +1245,12 @@ msgstr "debugging messages marked as format strings"
 
 #. type: table
 #: original_texis/xgettext.texi:435
-#, fuzzy
-#| msgid ""
-#| "Use the flags @code{c-format} and @code{possible-c-format} to show who "
-#| "was responsible for marking a message as a format string.  The latter "
-#| "form is used if the @code{xgettext} program decided, the format form is "
-#| "used if the programmer prescribed it."
 msgid ""
 "Use the flags @code{c-format} and @code{possible-c-format} to show who was "
 "responsible for marking a message as a format string.  The latter form is "
 "used if the @code{xgettext} program decided, the former form is used if the "
 "programmer prescribed it."
-msgstr ""
-"メッセージ中の書式指定文字列を、@code{c-format}や@code{possible-c-format}フラ"
-"グでマークすることにより、誰がマークしたかを表示します。後者の形式は、"
-"@code{xgettext}が決定したときに使用され、前者はプログラマーが決定したときに使"
-"用されます。"
+msgstr "メッセージ中の書式指定文字列を、@code{c-format}や@code{possible-c-format}フラグでマークすることにより、誰がマークしたかを表示します。後者の形式は、@code{xgettext}が決定したときに使用され、前者の書式はプログラマーが決定したときに使用されます。"
 
 #. type: table
 #: original_texis/xgettext.texi:438
@@ -1450,10 +1404,9 @@ msgstr "-n"
 
 #. type: itemx
 #: original_texis/xgettext.texi:478
-#, fuzzy, no-wrap
-#| msgid "--add-location"
+#, no-wrap
 msgid "--add-location=@var{type}"
-msgstr "--add-location"
+msgstr "--add-location=@var{type}"
 
 #. type: opindex
 #: original_texis/xgettext.texi:479
@@ -1550,17 +1503,15 @@ msgstr ""
 
 #. type: item
 #: original_texis/xgettext.texi:506
-#, fuzzy, no-wrap
-#| msgid "--output=@var{file}"
+#, no-wrap
 msgid "--its=@var{file}"
-msgstr "--output=@var{file}"
+msgstr "--its=@var{file}"
 
 #. type: opindex
 #: original_texis/xgettext.texi:507
-#, fuzzy, no-wrap
-#| msgid "-s@r{, @code{xgettext} option}"
+#, no-wrap
 msgid "--its@r{, @code{xgettext} option}"
-msgstr "-s@r{, @code{xgettext} option}"
+msgstr "--its@r{, @code{xgettext} option}"
 
 #. type: table
 #: original_texis/xgettext.texi:510
@@ -1577,10 +1528,9 @@ msgstr ""
 
 #. type: opindex
 #: original_texis/xgettext.texi:512
-#, fuzzy, no-wrap
-#| msgid "-o@r{, @code{xgettext} option}"
+#, no-wrap
 msgid "--itstool@r{, @code{xgettext} option}"
-msgstr "-o@r{, @code{xgettext} option}"
+msgstr "--itstool@r{, @code{xgettext} option}"
 
 #. type: table
 #: original_texis/xgettext.texi:515
@@ -1890,8 +1840,7 @@ msgstr ""
 
 #. type: item
 #: original_texis/xgettext.texi:593
-#, fuzzy, no-wrap
-#| msgid "Strings which are not entire sentences, see the maintainer guidelines"
+#, no-wrap
 msgid "Strings which are not entire sentences; see the maintainer guidelines"
 msgstr "センテンス全体となっていないような文字列。メンテナーのためのガイドライン"
 
