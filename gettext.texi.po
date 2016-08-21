@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-08-20 21:56+0900\n"
-"PO-Revision-Date: 2016-08-21 10:38+0900\n"
+"PO-Revision-Date: 2016-08-21 22:06+0900\n"
 "Last-Translator: Takesi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
 "Language-Team: Japanese <h1r0p@outlook.jp>\n"
 "Language: ja\n"
@@ -2150,7 +2150,7 @@ msgstr "Autoconf macros for use in @file{configure.ac}"
 #: original_texis/gettext.texi:8859
 #, no-wrap
 msgid "Version Control Issues"
-msgstr ""
+msgstr "Version Control Issues"
 
 #. type: node
 #: original_texis/gettext.texi:346 original_texis/gettext.texi:7589
@@ -3298,7 +3298,7 @@ msgstr "JavaScript"
 #: original_texis/gettext.texi:12056
 #, no-wrap
 msgid "Vala"
-msgstr ""
+msgstr "Vala"
 
 #. type: node
 #: original_texis/gettext.texi:453 original_texis/gettext.texi:9602
@@ -3578,14 +3578,14 @@ msgstr "Glade - GNOME user interface description"
 #: original_texis/gettext.texi:12219
 #, no-wrap
 msgid "GSettings"
-msgstr ""
+msgstr "GSettings"
 
 #. type: subsection
 #: original_texis/gettext.texi:474 original_texis/gettext.texi:12160
 #: original_texis/gettext.texi:12206
 #, no-wrap
 msgid "GSettings - GNOME user configuration schema"
-msgstr ""
+msgstr "GSettings - GNOME user configuration schema"
 
 #. type: node
 #: original_texis/gettext.texi:474 original_texis/gettext.texi:12160
@@ -3593,14 +3593,14 @@ msgstr ""
 #: original_texis/gettext.texi:12236
 #, no-wrap
 msgid "AppData"
-msgstr ""
+msgstr "AppData"
 
 #. type: subsection
 #: original_texis/gettext.texi:474 original_texis/gettext.texi:12160
 #: original_texis/gettext.texi:12220
 #, no-wrap
 msgid "AppData - freedesktop.org application description"
-msgstr ""
+msgstr "AppData - freedesktop.org application description"
 
 #. type: node
 #: original_texis/gettext.texi:474 original_texis/gettext.texi:12160
@@ -7816,8 +7816,8 @@ msgstr ""
 "方法で行われます。翻訳のために利用可できる関数またはマクロは少なく、マーキン"
 "グのキーワードとしてそれらの名前が使用されます。マーキングは翻訳される文字列"
 "自体に何かを行うよりは、文字列にアタッチすることによりマーキングを行なう方法"
-"が、より多く使用されます。明らかな例としては、フォーマット文字列によりエラー"
-"メッセージを生成する場合です。フォーマット文字列は翻訳する必要があり、フォー"
+"が、より多く使用されます。明らかな例としては、書式文字列によりエラー"
+"メッセージを生成する場合です。書式文字列は翻訳する必要があり、フォー"
 "マット文字列の@samp{%s}で指定した箇所に挿入される文字列も同様だとすると、たと"
 "えば@code{sprintf}の結果には、@samp{error_string_out()}のようなルーチンからな"
 "る、多くの異なるインスタンスが含まれることになり、これらをすべてリストするの"
@@ -17402,7 +17402,7 @@ msgstr "Tai-Kadai family"
 #. type: table
 #: original_texis/gettext.texi:6253
 msgid "Thai"
-msgstr ""
+msgstr "Thai"
 
 #. type: item
 #: original_texis/gettext.texi:6255
@@ -17513,7 +17513,7 @@ msgstr "Austronesian family"
 #. type: table
 #: original_texis/gettext.texi:6292
 msgid "Bahasa Indonesian"
-msgstr ""
+msgstr "Bahasa Indonesian"
 
 #. type: item
 #: original_texis/gettext.texi:6292
@@ -22400,7 +22400,7 @@ msgid ""
 "make sense to put them under version control.  The GNU gettext "
 "infrastructure supports two ways to deal with translations in the context of "
 "a version controlled repository."
-msgstr ""
+msgstr "ソースコードと同様に、翻訳は価値のある資産なので、バージョンコントロール下に置くことには意味があるでしょう。GNU gettextのインフラストラクチャーは、バージョンコントロールされたリポジトリーのコンテキスト内で翻訳を取り扱うために、2つの方法をサポートします。"
 
 #. type: enumerate
 #: original_texis/gettext.texi:8816
@@ -22422,12 +22422,12 @@ msgid ""
 "and older than the source code, it won't be updated automatically.  You can "
 "manually update it with @code{make $(DOMAIN).pot-update}, and commit it at "
 "certain point."
-msgstr ""
+msgstr "ビルド時にPOTファイルが存在しない場合、@code{xgettext}でソースファイルをスキャンすることによりPOTファイルが生成され、それから依存的にPOファイルが再生成されます。一方、開発フェーズにおいてPOTが変更されないことを望むメンテナーもいます。そのため、POTが存在して、それがソースコードより古い場合でも、自動的に更新しません。@code{make $(DOMAIN).pot-update}により手動で更新して、特定の時点でコミットすることができます。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:8831
 msgid "Special advices for particular version control systems:"
-msgstr ""
+msgstr "特定のバージョンコントロールシステムにたいする、特別なアドバイスがあります:"
 
 #. type: itemize
 #: original_texis/gettext.texi:8839
@@ -22436,7 +22436,7 @@ msgid ""
 "In that case, PO files can be accidentally updated even if a POT file is not "
 "updated.  To prevent this, you can set @samp{PO_DEPENDS_ON_POT} variable to "
 "@code{no} in the @file{Makevars} file and do @code{make update-po} manually."
-msgstr ""
+msgstr "たとえばGitのような、最近のバージョンコントロールシステムは、ファイルのタイムスタンプを無視します。この場合、POTファイルが更新されていなくても、意図せずPOファイルが更新されてしまうかもしれません。これを防ぐには、@file{Makevars}内の@samp{PO_DEPENDS_ON_POT}変数@code{no}にセットして、@code{make update-po}で手動で更新を行うことができます。"
 
 #. type: itemize
 #: original_texis/gettext.texi:8845
@@ -22445,7 +22445,7 @@ msgid ""
 "since these comments are volatile and may introduce unwanted change to the "
 "working copy when building.  To mitigate this, you can decide to omit those "
 "comments from the PO files in the repository."
-msgstr ""
+msgstr "@code{#: lib/error.c:116}のような位置コメントは、これらのコメントが変更されやすく、作業用コピーのビルド時に意図せず変更されるかもしれないため、煩わしいときがあります。これを緩和するために、リポジトリー内のPOファイルから、これらのコメントを省略することができます。"
 
 #. type: itemize
 #: original_texis/gettext.texi:8851
@@ -22456,6 +22456,8 @@ msgid ""
 "information is needed, translators have to recover the location comments by "
 "running @code{msgmerge} again."
 msgstr ""
+"これは@code{msgmerge}コマンドの@code{--no-location}オプションで行うことができます\n"
+"@footnote{@file{Makevars}の@samp{MSGMERGE_OPTIONS}オプションを通じて行うこともできます。}。この方法の欠点は、位置情報が必要になった場合、翻訳者が再度@code{msgmerge}を実行して位置コメントを復元する必要があることです。"
 
 #. type: include
 #: original_texis/gettext.texi:8857
@@ -23259,14 +23261,14 @@ msgid ""
 "string, through XML markup tags.  For example, if the first format directive "
 "in a string is a filename, programmers could indicate that with a "
 "@samp{filename} tag, like @samp{<filename>%1</filename>}."
-msgstr ""
+msgstr "KUIT(KDE User Interface Text)は、KDE 4の書式文字列と互換性があります。その上、KUITでは、プログラマーがXMLマークアップタグを通じて、セマンティック情報を追加することもできます。たとえば、文字列内の1番目のフォーマット指定がファイル名の場合、プログラマーは@samp{filename}タグを使用して、@samp{<filename>%1</filename>}のようにそれを示すことができます。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:9338
 msgid ""
 "KUIT format strings are described in @uref{http://api.kde.org/frameworks-api/"
 "frameworks5-apidocs/ki18n/html/prg_guide.html#kuit_markup}."
-msgstr ""
+msgstr "KUIT書式文字列は、@uref{http://api.kde.org/frameworks-api/frameworks5-apidocs/ki18n/html/prg_guide.html#kuit_markup}で説明されています。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:9349
@@ -25614,7 +25616,7 @@ msgstr "gawk 3.1以降"
 msgid ""
 "@code{awk}, @code{gawk}, @code{twjr}.  The file extension @code{twjr} is "
 "used by TexiWeb Jr (@uref{https://github.com/arnoldrobbins/texiwebjr})."
-msgstr ""
+msgstr "@code{awk}、@code{gawk}、@code{twjr}。ファイル拡張子@code{twjr}は、TexiWeb Jr(@uref{https://github.com/arnoldrobbins/texiwebjr})で使用されます。"
 
 #. type: code{#1}
 #: original_texis/gettext.texi:10701
@@ -27882,7 +27884,7 @@ msgstr "使用、またはエミュレート"
 #. type: code{#1}
 #: original_texis/gettext.texi:12061 original_texis/gettext.texi:12064
 msgid "vala"
-msgstr ""
+msgstr "vala"
 
 #. type: code{#1}
 #: original_texis/gettext.texi:12070
@@ -27900,7 +27902,7 @@ msgstr "@code{gettext}、@code{dgettext}、@code{dcgettext}、@code{ngettext}、
 #. type: table
 #: original_texis/gettext.texi:12083
 msgid "@code{textdomain} function, defined under the @code{Intl} namespace"
-msgstr ""
+msgstr "@code{Intl}ネームすペースで定義された、@code{textdomain}関数"
 
 #. type: table
 #: original_texis/gettext.texi:12086
@@ -27915,7 +27917,7 @@ msgstr "プログラマーは、@code{Intl.setlocale (LocaleCategory.ALL, \\\"\\
 #. type: table
 #: original_texis/gettext.texi:12101
 msgid "Same as for the C language."
-msgstr ""
+msgstr "C言語と同様です"
 
 #. type: Plain text
 #: original_texis/gettext.texi:12152
@@ -27963,12 +27965,12 @@ msgstr ""
 #. type: table
 #: original_texis/gettext.texi:12211
 msgid "glib2"
-msgstr ""
+msgstr "glib2"
 
 #. type: code{#1}
 #: original_texis/gettext.texi:12214
 msgid "gschema.xml"
-msgstr ""
+msgstr "gschema.xml"
 
 #. type: table
 #: original_texis/gettext.texi:12217
@@ -27978,12 +27980,12 @@ msgstr "@code{xgettext}、@code{intltool-extract}"
 #. type: table
 #: original_texis/gettext.texi:12225
 msgid "appdata-tools, appstream, libappstream-glib, libappstream-glib-builder"
-msgstr ""
+msgstr "appdata-tools、appstream、libappstream-glib、libappstream-glib-builder"
 
 #. type: code{#1}
 #: original_texis/gettext.texi:12228
 msgid "appdata.xml"
-msgstr ""
+msgstr "appdata.xml"
 
 #. type: table
 #: original_texis/gettext.texi:12231
@@ -28005,7 +28007,7 @@ msgid ""
 "categories are: @samp{Translate}, @samp{Localization Note}, @samp{Elements "
 "Within Text}, and @samp{Preserve Space}.  In addition to them, "
 "@code{xgettext} also recognizes the following extended data categories:"
-msgstr ""
+msgstr "XMLファイル内の翻訳可能な文字列のマーキングは、別の\"ルール\"ファイルを通じて行われ、これはInternationalization Tag Set標準(ITS, @uref{http://www.w3.org/TR/its20/})を利用します。現在サポートされているITSデータカテゴリーは、@samp{Translate}、@samp{Localization Note}、@samp{Elements Within Text}、@samp{Preserve Space}です。これらに加えて、@code{xgettext}は以下の拡張データカテゴリーも認識します。"
 
 #. type: item
 #: original_texis/gettext.texi:12249
@@ -28018,7 +28020,7 @@ msgstr "Context"
 msgid ""
 "This data category associates @code{msgctxt} to the extracted text.  In the "
 "global rule, the @code{contextRule} element contains the following:"
-msgstr ""
+msgstr "このデータカテゴリーは抽出されたテキストの@code{msgctxt}に関連付けられます。グローバルルールでは、@code{contextRule}要素は以下を含みます:"
 
 #. type: itemize
 #: original_texis/gettext.texi:12258 original_texis/gettext.texi:12279
@@ -28026,27 +28028,27 @@ msgstr ""
 msgid ""
 "A required @code{selector} attribute.  It contains an absolute selector that "
 "selects the nodes to which this rule applies."
-msgstr ""
+msgstr "@code{selector}属性(必須)。これは、このルールが適用されるノードを選択するabsolute selectorを含みます。"
 
 #. type: itemize
 #: original_texis/gettext.texi:12262
 msgid ""
 "A required @code{contextPointer} attribute that contains a relative selector "
 "pointing to a node that holds the @code{msgctxt} value."
-msgstr ""
+msgstr "@code{msgctxt}値を保持するノードを指す、relative selectorを含む@code{contextPointer}属性(必須)。"
 
 #. type: itemize
 #: original_texis/gettext.texi:12266
 msgid ""
 "An optional @code{textPointer} attribute that contains a relative selector "
 "pointing to a node that holds the @code{msgid} value."
-msgstr ""
+msgstr "@code{msgid}値を保持するボードを指すrelative selectorを含む、@code{textPointer}属性(オプション)。"
 
 #. type: item
 #: original_texis/gettext.texi:12268
 #, no-wrap
 msgid "Escape Special Characters"
-msgstr ""
+msgstr "Escape Special Characters"
 
 #. type: table
 #: original_texis/gettext.texi:12274
@@ -28054,19 +28056,19 @@ msgid ""
 "This data category indicates whether the special XML characters (@code{<}, "
 "@code{>}, @code{&}, @code{\"}) are escaped with entity reference.  In the "
 "global rule, the @code{escapeRule} element contains the following:"
-msgstr ""
+msgstr "このデータカテゴリーは、特別なXML文字(@code{<}、@code{>}、@code{&}、@code{\"})が、entity referenceでエスケープされるかどうかを示します。グローバルルールでは、@code{escapeRule}要素は以下を含みます:"
 
 #. type: itemize
 #: original_texis/gettext.texi:12282
 msgid ""
 "A required @code{escape} attribute with the value @code{yes} or @code{no}."
-msgstr ""
+msgstr "値@code{yes}または@code{no}をもつ@code{escape}属性(必須)。"
 
 #. type: item
 #: original_texis/gettext.texi:12284
 #, no-wrap
 msgid "Extended Preserve Space"
-msgstr ""
+msgstr "Extended Preserve Space"
 
 #. type: table
 #: original_texis/gettext.texi:12291
@@ -28076,14 +28078,14 @@ msgid ""
 "leading and trailing whitespaces of the content, but not to normalize "
 "whitespaces in the middle.  In the global rule, the @code{preserveSpaceRule} "
 "element contains the following:"
-msgstr ""
+msgstr "このデータカテゴリーは、標準の@samp{Preserve Space}カテゴリーを、追加の値@samp{trim}で拡張します。この値は、コンテントの前または後ろの空白文字を削除することを意味しますが、中間にある空白文字は正規化しません。グローバルルールでは、@code{preserveSpaceRule}要素は、以下を含みます:"
 
 #. type: itemize
 #: original_texis/gettext.texi:12300
 msgid ""
 "A required @code{space} attribute with the value @code{default}, "
 "@code{preserve}, or @code{trim}."
-msgstr ""
+msgstr "値@code{default}、@code{preserve}、@code{trim}をもつ@code{space}属性(必須)。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:12307
@@ -28091,12 +28093,12 @@ msgid ""
 "All those extended data categories can only be expressed with global rules, "
 "and the rule elements have to have the @code{https://www.gnu.org/s/gettext/"
 "ns/its/extensions/1.0} namespace."
-msgstr ""
+msgstr "これらすべての拡張データカテゴリーは、グローバルルールだけを表現でき、ルール要素は@code{https://www.gnu.org/s/gettext/ns/its/extensions/1.0}ネームスペースをもつ必要があります。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:12309
 msgid "Given the following XML document in a file @file{messages.xml}:"
-msgstr ""
+msgstr "以下のようなXMLドキュメントファイル@file{messages.xml}が与えられたとします:"
 
 #. type: example
 #: original_texis/gettext.texi:12320
@@ -28112,13 +28114,22 @@ msgid ""
 "  </message>\n"
 "</messages>\n"
 msgstr ""
+"<?xml version=\"1.0\"?>\n"
+"<messages>\n"
+"  <message>\n"
+"    <p>A translatable string</p>\n"
+"  </message>\n"
+"  <message>\n"
+"    <p translatable=\"no\">A non-translatable string</p>\n"
+"  </message>\n"
+"</messages>\n"
 
 #. type: Plain text
 #: original_texis/gettext.texi:12324
 msgid ""
 "To extract the first text content (\"A translatable string\"), but not the "
 "second (\"A non-translatable string\"), the following ITS rules can be used:"
-msgstr ""
+msgstr "1番目のテキストコンテント(\"A translatable string\")を抽出して、2番目の(\"A non-translatable string\")は抽出しない場合は、以下のITSルールが使用されます:"
 
 #. type: example
 #: original_texis/gettext.texi:12330
@@ -28130,6 +28141,11 @@ msgid ""
 "  <its:translateRule selector=\"//message/p\" translate=\"yes\"/>\n"
 "\n"
 msgstr ""
+"<?xml version=\"1.0\"?>\n"
+"<its:rules xmlns:its=\"http://www.w3.org/2005/11/its\" version=\"1.0\">\n"
+"  <its:translateRule selector=\"/messages\" translate=\"no\"/>\n"
+"  <its:translateRule selector=\"//message/p\" translate=\"yes\"/>\n"
+"\n"
 
 #. type: example
 #: original_texis/gettext.texi:12336
@@ -28141,6 +28157,11 @@ msgid ""
 "    translate=\"no\"/>\n"
 "</its:rules>\n"
 msgstr ""
+"  <!-- If 'p' has an attribute 'translatable' with the value 'no', then\n"
+"       the content is not translatable.  -->\n"
+"  <its:translateRule selector=\"//message/p[@@translatable = 'no']\"\n"
+"    translate=\"no\"/>\n"
+"</its:rules>\n"
 
 #. type: Plain text
 #: original_texis/gettext.texi:12341
@@ -28148,7 +28169,7 @@ msgid ""
 "@samp{xgettext} needs another file called \"locating rule\" to associate an "
 "ITS rule with an XML file.  If the above ITS file is saved as @file{messages."
 "its}, the locating rule would look like:"
-msgstr ""
+msgstr "これとは別に@samp{xgettext}は、XMLファイルにITSルールを関連付ける、\"locating rule\"と呼ばれるファイルを必要とします。上記のITSファイルが@file{messages.its}に保存された場合、locating ruleは以下のようになるでしょう:"
 
 #. type: example
 #: original_texis/gettext.texi:12350
@@ -28162,6 +28183,13 @@ msgid ""
 "  <locatingRule name=\"Messages\" pattern=\"*.msg\" target=\"messages.its\"/>\n"
 "</locatingRules>\n"
 msgstr ""
+"<?xml version=\"1.0\"?>\n"
+"<locatingRules>\n"
+"  <locatingRule name=\"Messages\" pattern=\"*.xml\">\n"
+"    <documentRule localName=\"messages\" target=\"messages.its\"/>\n"
+"  </locatingRule>\n"
+"  <locatingRule name=\"Messages\" pattern=\"*.msg\" target=\"messages.its\"/>\n"
+"</locatingRules>\n"
 
 #. type: Plain text
 #: original_texis/gettext.texi:12362
@@ -28175,14 +28203,14 @@ msgid ""
 "@code{*.msg} or just @code{*}, rather than @code{*.in}.}.  The "
 "@code{locatingRule} element can have child @code{documentRule} element, "
 "which adds checks on the content of the XML file."
-msgstr ""
+msgstr "@code{locatingRule}要素は、@code{pattern}属性をもたなければなりません。この属性は、リテラルのファイル名、またはXMLファイルのワイルドカードパターンを示します@footnote{ファイル名のマッチングは入力ファイル名から接尾辞@code{.in}を取り除いた後に行われることに注意してください。したがって、@code{pattern}属性には、@code{.in}にマッチするパターンを含めてはなりません。たとえば、入力ファイル名が@file{foo.msg.in}の場合、パターンは@code{*.in}ではなく、@code{*.msg}、または単に@code{*}とするべきです。}。@code{locatingRule}要素は、子要素として、XMLファイルの内容にたいするチェックを追加する、@code{documentRule}要素をもつことができます。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:12365
 msgid ""
 "The first rule matches any file with the @file{.xml} file extension, but it "
 "only applies to XML files whose root element is @samp{<messages>}."
-msgstr ""
+msgstr "1番目のルールはファイル拡張子@file{.xml}をもつ任意のファイルにマッチしますが、root要素が@samp{<messages>}のXMLファイルだけに適用されます。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:12370
@@ -28191,7 +28219,7 @@ msgid ""
 "any file with the @file{.msg} file extension.  The optional @code{name} "
 "attribute of @code{locatingRule} allows to choose rules by name, typically "
 "with @code{xgettext}'s @code{-L} option."
-msgstr ""
+msgstr "2番目のルールは、同じITSルールファイルが、拡張子@file{.msg}をもつ任意のファイルにも適用されることを示しています。@code{locatingRule}の@code{name}属性(オプション)により、ルールを名前で選択することができ、これは通常@code{xgettext}の@code{-L}オプションで行われます。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:12375
@@ -28200,7 +28228,7 @@ msgid ""
 "@code{locatingRule} or @code{documentRule}.  If it is specified in a "
 "@code{documentRule} element, the parent @code{locatingRule} shouldn't have "
 "the @code{target} attribute."
-msgstr ""
+msgstr "関連付けられたITSルールファイルは、@code{locatingRule}または@code{documentRule}の@code{target}属性により示されます。これが@code{documentRule}要素内で指定された場合には、親要素@code{locatingRule}は@code{target}属性をもつべきではありません。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:12381
@@ -28209,7 +28237,7 @@ msgid ""
 "files and locating rule files must be installed in the @file{$prefix/share/"
 "gettext/its} directory.  Once those files are properly installed, "
 "@code{xgettext} can extract translatable strings from the matching XML files."
-msgstr ""
+msgstr "locatingルールファイルは、ファイル拡張子@file{.loc}をもたなければなりません。ITSルールファイルとlocatingルールファイルは、@file{$prefix/share/gettext/its}ディレクトリーにインストールされていなければなりません。これらのファイルが1度正確にインストールされれば、@code{xgettext}はマッチするXMLファイルから翻訳可能文字列を抽出することができます。"
 
 #. type: subsubsection
 #: original_texis/gettext.texi:12382
@@ -28227,7 +28255,7 @@ msgid ""
 "extracted strings shouldn't be escaped, while they should in the latter "
 "case.  To control wheter to escape special characters, the @samp{Escape "
 "Special Characters} data category can be used."
-msgstr ""
+msgstr "XMLでは、翻訳文字列にたいして2つのユースケースがあります。1つは翻訳文字列が直接プログラムにより評価されるケースで、もう1つは翻訳文字列が元のXMLドキュメントに書き戻されてマージされるケースです。前者のケースでは、抽出文字列内の特別な文字はエスケープされるべきではなく、後者ではエスケープされるべきです。特別な文字のエスケープを制御するために、データカテゴリー@samp{Escape Special Characters}を使うことができます。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:12397
@@ -28237,7 +28265,7 @@ msgid ""
 "one calls the @samp{msgfmt} program.  @samp{msgfmt}'s @code{--xml} option "
 "doesn't perform character escaping, so translated strings can have arbitrary "
 "XML constructs, such as elements for markup."
-msgstr ""
+msgstr "翻訳をマージするために、@code{--xml}オプションを指定して@samp{msgfmt}プログラムを使用することができます。@samp{msgfmt}プログラムを呼び出す方法についての詳細は、@ref{msgfmt Invocation}を参照してください。@samp{msgfmt}の@code{--xml}オプションは、文字のエスケープを処理しないので、翻訳文字列は、マークアップのための要素のような、任意のXML構造をもつことができます。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:12421
@@ -28285,17 +28313,7 @@ msgid ""
 "standards were, and contacted Richard Stallman, who very quickly and "
 "verbally described an overall design for what was meant to become "
 "@code{glocale}, at that time."
-msgstr ""
-"全ては、Patrick D'CruzeがGNU @code{fileutils}バージョン3.9.2の国際対応につい"
-"てのアイディアそして主導権を得たとき、つまり1994年の7月に始まりました。彼はそ"
-"れから保守担当者であるJim Meyeringに、国際対応に関する変更をどのようにして正"
-"式リリースに含めるかについて尋ねました。最初のドラフトは@code{#ifdef}の塊で面"
-"食らうような代物でしたので、Jimはもっと良い方法を求め ていました。Patrickと"
-"Jimはこの分野においての試みや経験を共有していました。 そして、結局のところこ"
-"の作業はGNUに大きなインパクトを与えると感じたので、 Jimは標準がどのようなもの"
-"であるかを知りたくなり、そして彼はRichard Stallmanにコンタクトを取りました。"
-"Richardはその時点で、@code{glocale}となるコード全体のデザインについて非常に手"
-"早くかつ丁寧に記述しました。"
+msgstr "全ては、Patrick D'CruzeがGNU @code{fileutils}バージョン3.9.2の国際対応についてのアイディアそして主導権を得たとき、つまり1994年の7月に始まりました。彼はそれから保守担当者であるJim Meyeringに、国際対応に関する変更をどのようにして正式リリースに含めるかについて尋ねました。最初のドラフトは@code{#ifdef}の塊で面食らうような代物でしたので、Jimはもっと良い方法を求めていました。PatrickとJimはこの分野においての試みや経験を共有していました。そして、結局のところこの作業はGNUに大きなインパクトを与えると感じたので、Jimは標準がどのようなものであるかを知りたくなり、そして彼はRichard Stallmanにコンタクトを取りました。Richardはその時点で、@code{glocale}となるコード全体のデザインについて非常に手早くかつ丁寧に記述しました。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:12457
@@ -28308,13 +28326,7 @@ msgid ""
 "releases, @code{glocale} was torn apart.  In particular, Paul Eggert -- "
 "always keeping an eye on developments in Solaris -- advocated the use of the "
 "@code{gettext} API over @code{glocale}'s @code{catgets}-based API."
-msgstr ""
-"Jimは@code{glocale}を実装し、PatrickやRichardから多くのフィードバックを受けま"
-"した。もちろん、Mitchum DSouza(@code{catgets}のようなパッケージを記述した)や"
-"Roland McGrath,またDavid MacKenzieやPinard、Paul Eggertらからのフィードバック"
-"もありました。様々な方向性が入り乱れ、しかもそれら全てに互換性があるというわ"
-"けではなかったため、二、三のテストリリー スの後、@code{glocale}は破棄されまし"
-"た。"
+msgstr "Jimは@code{glocale}を実装し、PatrickやRichardから多くのフィードバックを受けました。もちろん、Mitchum DSouza(@code{catgets}のようなパッケージを記述した)やRoland McGrath,またDavid MacKenzieやFran@,{c}ois Pinard、Paul Eggertらからのフィードバックもありました。様々な方向性が入り乱れ、しかもそれら全てに互換性があるというわけではなかったため、2、3のテストリリースの後、@code{glocale}は破棄されました。特にPaul Eggert --- 彼は常にSolarisを注視していました --- は、@code{glocale}の@code{catgets}にもとづくAPI上に@code{gettext}APIを使用することを提唱しました。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:12468
@@ -28328,15 +28340,7 @@ msgid ""
 "and the switch from @code{glocale} to what was first named @code{msgutils}, "
 "renamed @code{nlsutils}, and later @code{gettext}, became officially "
 "accepted by Richard in May 1995 or so."
-msgstr ""
-"Jimがある程度距離と時間をおき、そして二人目のパパになった間に、Rolandは GNU "
-"@code{libc}を国際対応させたいと望んでおり、Ulrich Drepperがそのプロジェ クト"
-"に加わりました。@code{glocale}から作業を始める代わりに、Ulrichは一からコード"
-"を書き直しましたが、それは@code{glocale}の作業で明らかになったガイドラインに"
-"より一層従う形になっていました。それからUlrichは以前のフォーラムから新しいプ"
-"ロジェクト用に人員を獲得し、@code{glocale}をまず@code{msgutils}と改称しまし"
-"た。それは後に@code{nlsutils}という名前になり、さらに@code{gettext}という名称"
-"になりました。これは1995年5月頃にRichardによって公式に受諾されました。"
+msgstr "Jimがある程度距離と時間をおき、そして二人目のパパになった間に、RolandはGNU @code{libc}を国際対応させたいと望んでおり、Ulrich Drepperがそのプロジェクトに加わりました。@code{glocale}から作業を始める代わりに、Ulrichは一からコードを書き直しましたが、それは@code{glocale}の作業で明らかになったガイドラインにより一層従う形になっていました。それからUlrichは以前のフォーラムから新しいプロジェクト用に人員を獲得し、@code{glocale}をまず@code{msgutils}と改称しました。それは後に@code{nlsutils}という名前になり、さらに@code{gettext}という名称になりました。これは1995年5月頃にRichardによって公式に受諾されました。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:12476
@@ -28347,13 +28351,7 @@ msgid ""
 "the effort by providing a discussion forum around Ulrich, writing little "
 "pieces of code, or testing.  These are quoted in the @code{THANKS} file "
 "which comes with the GNU @code{gettext} distribution."
-msgstr ""
-"Ulrich Drepperが1995年の四月にGNU @code{gettext}で書いたことに言及してまとめ"
-"としようかと思います。POモードを含んだパッケージの最初の公式リリースは 1995年"
-"の7月に行われ、そのバージョン番号は0.7でした。その他の人々はUlrichの回りの議"
-"論フォーラムで作成された、小さなコードのかけらやテストの結 果といった諸々のも"
-"のを寄贈しました。彼らの名前はGNU @code{gettext}に付随する@code{THANKS}ファイ"
-"ルに納められました。"
+msgstr "Ulrich Drepperが1995年の四月にGNU @code{gettext}で書いたことに言及してまとめとしようかと思います。POモードを含んだパッケージの最初の公式リリースは1995年の7月に行われ、そのバージョン番号は0.7でした。その他の人々はUlrichの回りの議論フォーラムで作成された、小さなコードのかけらやテストの結 果といった諸々のものを寄贈しました。彼らの名前はGNU @code{gettext}に付随する@code{THANKS}ファイルに納められました。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:12488
@@ -28368,16 +28366,7 @@ msgid ""
 "twenty unmoderated mailing lists for that many native languages, and two "
 "moderated lists: one for reaching all teams at once, the other for reaching "
 "all willing maintainers of internationalized free software packages."
-msgstr ""
-"この作業が進んでいた間、Fran@,{c}oisは最初に半ダースのGNUパッケージに"
-"@code{glocale}を、続いて@code{gettext}を現在のように適用してプリテストの状態"
-"にし、進化するツールを微調整するための効果的なユーザ環境を準備しました。 彼は"
-"また、翻訳プロジェクトを組織化し統合する責任をも引き受けました。 Patrick "
-"D'Cruzeは多くのネイティブランゲージのための20の非モデレートなメーリングリス"
-"ト、そして二つのモデレートされたリスト(一つは全てのチームに直ちに届くもの、も"
-"う一つは国際化されたフリーソフトウェアパッケージの全ての自発的な管理者に連絡"
-"するためのもの)を作成し管理しました。そしてほぼ一年の間に 多くの国々の人々の"
-"間で非公式な情報交換が行われ、翻訳者チームが1995年5月に 発足しました。"
+msgstr "この作業が進んでいた間、Fran@,{c}oisは最初に半ダースのGNUパッケージに@code{glocale}を、続いて@code{gettext}を現在のように適用してプリテストの状態にし、進化するツールを微調整するための効果的なユーザ環境を準備しました。 彼はまた、翻訳プロジェクトを組織化し統合する責任をも引き受けました。 Patrick D'Cruzeは多くのネイティブランゲージのための20の非モデレートなメーリングリスト、そして二つのモデレートされたリスト(一つは全てのチームに直ちに届くもの、もう一つは国際化されたフリーソフトウェアパッケージの全ての自発的な管理者に連絡するためのもの)を作成し管理しました。そしてほぼ一年の間に 多くの国々の人々の間で非公式な情報交換が行われ、翻訳者チームが1995年5月に発足しました。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:12492
@@ -28464,16 +28453,7 @@ msgid ""
 "@file{comp.std.internat}, @file{comp.software.international}, @file{comp."
 "lang.c}, @file{comp.windows.x}, @file{comp.std.c}, @file{comp.answers} and "
 "@file{news.answers}.  The home location of this document is:"
-msgstr ""
-"Michael Gschwind(@file{mike@@vlsivie.tuwien.ac.at})はProgramming for "
-"Internationalisationというタイトルの「良くある質問」(Frequently Asked "
-"Questions (FAQ))のリストを保守しています。このFAQは異なる言語慣習、 キャラク"
-"タセットなどを扱うことが可能なプログラムの記述について論じています。 そしてこ"
-"れは、特にUsenet: @w{ISO 8859-1}及び全てのキャラクタセットエンコーディング に"
-"対して適用できます。これは@file{comp.unix.questions}、@file{comp.std."
-"internat}、@file{comp.software.international}、@file{comp.lang.c}、"
-"@file{comp.windows.x}、@file{comp.std.c}、@file{comp.answers}、@file{news."
-"answers}から定期的に公布されています。この文書は以下にあります:"
+msgstr "Michael Gschwind(@file{mike@@vlsivie.tuwien.ac.at})はProgramming for Internationalisationというタイトルの「良くある質問」(Frequently Asked Questions (FAQ))のリストを保守しています。このFAQは異なる言語慣習、キャラクタセットなどを扱うことが可能なプログラムの記述について論じています。そしてこれは、特にUsenet: @w{ISO 8859-1}及び全てのキャラクタセットエンコーディングに対して適用できます。これは@file{comp.unix.questions}、@file{comp.std.internat}、@file{comp.software.international}、@file{comp.lang.c}、@file{comp.windows.x}、@file{comp.std.c}、@file{comp.answers}、@file{news.answers}から定期的に公布されています。この文書は以下にあります:"
 
 #. type: example
 #: original_texis/gettext.texi:12533
@@ -28487,10 +28467,7 @@ msgid ""
 "Patrick D'Cruze (@file{pdcruze@@li.org}) wrote a tutorial about NLS matters, "
 "and Jochen Hein (@file{Hein@@student.tu-clausthal.de}) took over the "
 "responsibility of maintaining it.  It may be found as:"
-msgstr ""
-"Patrick D'Cruze(@file{pdcruze@@li.org})はNLSに関するチュートリアルを書きまし"
-"た。そしてJochen Hein(@file{Hein@@student.tu-clausthal.de})はそれに関する保守"
-"作業を引き継ぎました。この文書は次の場所にあります。"
+msgstr "Patrick D'Cruze(@file{pdcruze@@li.org})はNLSに関するチュートリアルを書きました。そしてJochen Hein(@file{Hein@@student.tu-clausthal.de})はそれに関する保守作業を引き継ぎました。この文書は次の場所にあります。"
 
 #. type: example
 #: original_texis/gettext.texi:12541
@@ -28678,7 +28655,7 @@ msgstr ""
 #: original_texis/gettext.texi:12650
 #, no-wrap
 msgid "GNU GENERAL PUBLIC LICENSE"
-msgstr ""
+msgstr "GNU GENERAL PUBLIC LICENSE"
 
 #. type: cindex
 #: original_texis/gettext.texi:12651
@@ -28702,7 +28679,7 @@ msgstr "gpl.texi"
 #: original_texis/gettext.texi:12656
 #, no-wrap
 msgid "GNU LESSER GENERAL PUBLIC LICENSE"
-msgstr ""
+msgstr "GNU LESSER GENERAL PUBLIC LICENSE"
 
 #. type: cindex
 #: original_texis/gettext.texi:12657
