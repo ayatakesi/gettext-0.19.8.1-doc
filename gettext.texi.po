@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-08-20 21:56+0900\n"
-"PO-Revision-Date: 2016-08-15 06:50+0900\n"
+"PO-Revision-Date: 2016-08-21 10:38+0900\n"
 "Last-Translator: Takesi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
 "Language-Team: Japanese <h1r0p@outlook.jp>\n"
 "Language: ja\n"
@@ -270,15 +270,11 @@ msgstr ""
 
 #. type: copying
 #: original_texis/gettext.texi:83
-#, fuzzy
-#| msgid "Copyright (C) 1995-1998, 2001-2012 Free Software Foundation, Inc."
 msgid "Copyright (C) 1995-1998, 2001-2016 Free Software Foundation, Inc."
 msgstr ""
-"@w{Copyright (C) 2013-2016 Ayanokoji Takesi <ayanokoji.takesi@@gmail.com>}"
-"@*\n"
-"@w{Copyright (C) 1997-2001 Rue. SATOH(佐藤竜一) / Koichi KIMURA(木村浩一)}"
-"@*\n"
-"@w{Copyright (C) 1995-1998, 2001-2012 Free Software Foundation, Inc.}"
+"@w{Copyright (C) 2013-2016 Ayanokoji Takesi <ayanokoji.takesi@@gmail.com>}@*\n"
+"@w{Copyright (C) 1997-2001 Rue. SATOH(佐藤竜一) / Koichi KIMURA(木村浩一)}@*\n"
+"@w{Copyright (C) 1995-1998, 2001-2016 Free Software Foundation, Inc.}"
 
 #. type: ifnothtml
 #: original_texis/gettext.texi:87 original_texis/gettext.texi:122
@@ -2470,18 +2466,16 @@ msgstr "AM_ICONV in @file{iconv.m4}"
 
 #. type: section
 #: original_texis/gettext.texi:374 original_texis/gettext.texi:8672
-#, fuzzy, no-wrap
-#| msgid "Integrating with CVS"
+#, no-wrap
 msgid "Integrating with Version Control Systems"
-msgstr "Integrating with CVS"
+msgstr "Integrating with Version Control Systems"
 
 #. type: node
 #: original_texis/gettext.texi:379 original_texis/gettext.texi:8684
 #: original_texis/gettext.texi:8686 original_texis/gettext.texi:8725
-#, fuzzy, no-wrap
-#| msgid "Distributed CVS"
+#, no-wrap
 msgid "Distributed Development"
-msgstr "Distributed CVS"
+msgstr "Distributed Development"
 
 #. type: subsection
 #: original_texis/gettext.texi:379 original_texis/gettext.texi:8684
@@ -2494,35 +2488,31 @@ msgstr "Avoiding version mismatch in distributed development"
 #: original_texis/gettext.texi:379 original_texis/gettext.texi:8684
 #: original_texis/gettext.texi:8686 original_texis/gettext.texi:8725
 #: original_texis/gettext.texi:8805
-#, fuzzy, no-wrap
-#| msgid "Files to put under CVS version control"
+#, no-wrap
 msgid "Files under Version Control"
-msgstr "Files to put under CVS version control"
+msgstr "Files under Version Control"
 
 #. type: subsection
 #: original_texis/gettext.texi:379 original_texis/gettext.texi:8684
 #: original_texis/gettext.texi:8726
-#, fuzzy, no-wrap
-#| msgid "Files to put under CVS version control"
+#, no-wrap
 msgid "Files to put under version control"
-msgstr "Files to put under CVS version control"
+msgstr "Files to put under version control"
 
 #. type: node
 #: original_texis/gettext.texi:379 original_texis/gettext.texi:8684
 #: original_texis/gettext.texi:8725 original_texis/gettext.texi:8805
 #: original_texis/gettext.texi:8854
-#, fuzzy, no-wrap
-#| msgid "Files to put under CVS version control"
+#, no-wrap
 msgid "Translations under Version Control"
-msgstr "Files to put under CVS version control"
+msgstr "Translations under Version Control"
 
 #. type: subsection
 #: original_texis/gettext.texi:379 original_texis/gettext.texi:8684
 #: original_texis/gettext.texi:8806
-#, fuzzy, no-wrap
-#| msgid "Files to put under CVS version control"
+#, no-wrap
 msgid "Put PO Files under Version Control"
-msgstr "Files to put under CVS version control"
+msgstr "Put PO Files under Version Control"
 
 #. type: node
 #: original_texis/gettext.texi:379 original_texis/gettext.texi:8684
@@ -3615,18 +3605,16 @@ msgstr ""
 #. type: node
 #: original_texis/gettext.texi:474 original_texis/gettext.texi:12160
 #: original_texis/gettext.texi:12219 original_texis/gettext.texi:12236
-#, fuzzy, no-wrap
-#| msgid "Preparing Strings"
+#, no-wrap
 msgid "Preparing ITS Rules"
-msgstr "Preparing Strings"
+msgstr "Preparing ITS Rules"
 
 #. type: subsection
 #: original_texis/gettext.texi:474 original_texis/gettext.texi:12160
 #: original_texis/gettext.texi:12237
-#, fuzzy, no-wrap
-#| msgid "Preparing Shell Scripts for Internationalization"
+#, no-wrap
 msgid "Preparing Rules for XML Internationalization"
-msgstr "Preparing Shell Scripts for Internationalization"
+msgstr "Preparing Rules for XML Internationalization"
 
 #. type: node
 #: original_texis/gettext.texi:479 original_texis/gettext.texi:12425
@@ -8419,15 +8407,6 @@ msgstr ""
 
 #. type: Plain text
 #: original_texis/gettext.texi:2484
-#, fuzzy
-#| msgid ""
-#| "To prevent errors at runtime caused by translations the @code{msgfmt} "
-#| "tool can check statically whether the arguments in the original and the "
-#| "translation string match in type and number.  If this is not the case and "
-#| "the @samp{-c} option has been passed to @code{msgfmt}, @code{msgfmt} will "
-#| "give an error and refuse to produce a MO file.  Thus consequent use of "
-#| "@samp{msgfmt -c} will catch the error, so that it cannot cause cause "
-#| "problems at runtime."
 msgid ""
 "To prevent errors at runtime caused by translations, the @code{msgfmt} tool "
 "can check statically whether the arguments in the original and the "
@@ -8436,13 +8415,7 @@ msgid ""
 "give an error and refuse to produce a MO file.  Thus consistent use of "
 "@samp{msgfmt -c} will catch the error, so that it cannot cause problems at "
 "runtime."
-msgstr ""
-"翻訳に起因する実行時のエラーを防ぐために、@code{msgfmt}は翻訳前の文字列と、翻"
-"訳後の文字列に含まれる引数のタイプと数を、静的にチェックすることができます。"
-"このチェックを満足しないような場合、@code{msgfmt}に@samp{-c}が指定されている"
-"と、@code{msgfmt}はエラーを発生させてMOファイルを生成しません。@samp{msgfmt -"
-"c}を使用することにより、エラーを事前に検出して、実行時の問題を防ぐことができ"
-"ます。"
+msgstr "翻訳に起因する実行時のエラーを防ぐために、@code{msgfmt}は翻訳前の文字列と、翻訳後の文字列に含まれる引数のタイプと数を、静的にチェックすることができます。このチェックを満足しないような場合、@code{msgfmt}に@samp{-c}が指定されていると、@code{msgfmt}はエラーを発生させてMOファイルを生成しません。したがって、一貫性を保って@samp{msgfmt -c}を使用することにより、エラーを事前に検出して、実行時の問題を防ぐことができます。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:2488
@@ -8465,12 +8438,6 @@ msgstr "@code{msgfmt}ルーチンは、この特別な表記法を認識でき�
 
 #. type: Plain text
 #: original_texis/gettext.texi:2500
-#, fuzzy
-#| msgid ""
-#| "Because not all strings in a program must be format strings it is not "
-#| "useful for @code{msgfmt} to test all the strings in the @file{.po} file.  "
-#| "This might cause problems because the string might contain what looks "
-#| "like a format specifier, but the string is not used in @code{printf}."
 msgid ""
 "Because not all strings in a program will be format strings, it is not "
 "useful for @code{msgfmt} to test all the strings in the @file{.po} file.  "
@@ -8484,12 +8451,6 @@ msgstr ""
 
 #. type: Plain text
 #: original_texis/gettext.texi:2505
-#, fuzzy
-#| msgid ""
-#| "Therefore the @code{xgettext} adds a special tag to those messages it "
-#| "thinks might be a format string.  There is no absolute rule for this, "
-#| "only a heuristic.  In the @file{.po} file the entry is marked using the "
-#| "@code{c-format} flag in the @code{#,} comment line (@pxref{PO Files})."
 msgid ""
 "Therefore @code{xgettext} adds a special tag to those messages it thinks "
 "might be a format string.  There is no absolute rule for this, only a "
@@ -8726,18 +8687,7 @@ msgstr ""
 
 #. type: group
 #: original_texis/gettext.texi:2619
-#, fuzzy, no-wrap
-#| msgid ""
-#| "@{\n"
-#| "  static const char *messages[] = @{\n"
-#| "    gettext_noop (\"some very meaningful message\",\n"
-#| "    gettext_noop (\"and another one\")\n"
-#| "  @};\n"
-#| "  const char *string;\n"
-#| "  @dots{}\n"
-#| "  string\n"
-#| "    = index > 1 ? gettext_noop (\"a default message\") : messages[index];\n"
-#| "\n"
+#, no-wrap
 msgid ""
 "@{\n"
 "  static const char *messages[] = @{\n"
@@ -8752,7 +8702,7 @@ msgid ""
 msgstr ""
 "@{\n"
 "  static const char *messages[] = @{\n"
-"    gettext_noop (\"some very meaningful message\",\n"
+"    gettext_noop (\"some very meaningful message\"),\n"
 "    gettext_noop (\"and another one\")\n"
 "  @};\n"
 "  const char *string;\n"
@@ -15377,22 +15327,12 @@ msgstr "magic signature of MO files"
 
 #. type: Plain text
 #: original_texis/gettext.texi:5330
-#, fuzzy
-#| msgid ""
-#| "The first two words serve the identification of the file.  The magic "
-#| "number will always signal GNU MO files.  The number is stored in the byte "
-#| "order of the generating machine, so the magic number really is two "
-#| "numbers: @code{0x950412de} and @code{0xde120495}."
 msgid ""
 "The first two words serve the identification of the file.  The magic number "
 "will always signal GNU MO files.  The number is stored in the byte order "
 "used when the MO file was generated, so the magic number really is two "
 "numbers: @code{0x950412de} and @code{0xde120495}."
-msgstr ""
-"最初の2wordには、ファイルの識別が含まれます。magic numberは常にGNU MOファイル"
-"を意味するnumberになります。numberは生成されたマシンのバイトオーダーにした"
-"がって格納されます。つまり実際のmagic numberは、@code{0x950412de}と"
-"@code{0xde120495}のいずれかです。"
+msgstr "最初の2wordには、ファイルの識別が含まれます。magic numberは常にGNU MOファイルを意味するnumberになります。numberはMOファイルが生成されたときに使用されたバイトオーダーにしたがって格納されます。つまり実際のmagic numberは、@code{0x950412de}と@code{0xde120495}のいずれかです。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:5341
@@ -17184,20 +17124,15 @@ msgstr ""
 
 #. type: smallexample
 #: original_texis/gettext.texi:6140
-#, fuzzy, no-wrap
-#| msgid ""
-#| "printf (ngettext (\"%$2d file removed from directory %$1s\",\n"
-#| "                  \"%$2d files removed from directory %$1s\",\n"
-#| "                  n),\n"
-#| "        dir, n);\n"
+#, no-wrap
 msgid ""
 "printf (ngettext (\"%2$d file removed from directory %1$s\",\n"
 "                  \"%2$d files removed from directory %1$s\",\n"
 "                  n),\n"
 "        dir, n);\n"
 msgstr ""
-"printf (ngettext (\"%$2d file removed from directory %$1s\",\n"
-"                  \"%$2d files removed from directory %$1s\",\n"
+"printf (ngettext (\"%2$d file removed from directory %1$s\",\n"
+"                  \"%2$d files removed from directory %1$s\",\n"
 "                  n),\n"
 "        dir, n);\n"
 
@@ -17398,13 +17333,6 @@ msgstr "plural form formulas"
 
 #. type: Plain text
 #: original_texis/gettext.texi:6232
-#, fuzzy
-#| msgid ""
-#| "The following rules are known at this point.  The language with families "
-#| "are listed.  But this does not necessarily mean the information can be "
-#| "generalized for the whole family (as can be easily seen in the table "
-#| "below).@footnote{Additions are welcome.  Send appropriate information to "
-#| "@email{bug-gnu-gettext@@gnu.org} and @email{bug-glibc-manual@@gnu.org}.}"
 msgid ""
 "The following rules are known at this point.  The language with families are "
 "listed.  But this does not necessarily mean the information can be "
@@ -17415,12 +17343,7 @@ msgid ""
 "of plural forms in a different format.  The @code{msginit} program has "
 "preliminary support for the format so you can use it as a baseline "
 "(@pxref{msginit Invocation}).}"
-msgstr ""
-"複数形の使い分けについては、以下のルールが知られています。言語と言語のファミ"
-"リーが記載されていますが、この情報を言語ファミリー全体に適用する必要があると"
-"いう訳ではありません(見やすくするために併記しています)。@footnote{追加の情報"
-"を歓迎します。@email{bug-gnu-gettext@@gnu.org}か @email{bug-glibc-"
-"manual@@gnu.org}までメールしてください。}"
+msgstr "複数形の使い分けについては、以下のルールが知られています。言語と言語のファミリーが記載されていますが、この情報を言語ファミリー全体に適用する必要があるという訳ではありません(見やすくするために併記しています)。@footnote{追加の情報を歓迎します。@email{bug-gnu-gettext@@gnu.org}か @email{bug-glibc-manual@@gnu.org}までメールしてください。Unicode CLDR Project (@uref{http://cldr.unicode.org})は、異なるフォーマットによる、包括的なplural formsを提供しています。@code{msginit}プログラムは、このフォーマットにたいする予備的なサポートをもっているので、これを基本として使用することができます(@ref{msginit Invocation}を参照してください)。}"
 
 #. type: item
 #: original_texis/gettext.texi:6234
@@ -17471,10 +17394,9 @@ msgstr "Japanese, Vietnamese, Korean"
 
 #. type: item
 #: original_texis/gettext.texi:6251
-#, fuzzy, no-wrap
-#| msgid "Asian family"
+#, no-wrap
 msgid "Tai-Kadai family"
-msgstr "Asian family"
+msgstr "Tai-Kadai family"
 
 #.          20.4 million speakers
 #. type: table
@@ -17583,10 +17505,9 @@ msgstr "Hebrew"
 
 #. type: item
 #: original_texis/gettext.texi:6290
-#, fuzzy, no-wrap
-#| msgid "Asian family"
+#, no-wrap
 msgid "Austronesian family"
-msgstr "Asian family"
+msgstr "Austronesian family"
 
 #.  23.2 million speakers
 #. type: table
@@ -17897,39 +17818,33 @@ msgstr "Slovenian"
 
 #. type: item
 #: original_texis/gettext.texi:6468
-#, fuzzy, no-wrap
-#| msgid "Four forms, special case for one and all numbers ending in 02, 03, or 04"
+#, no-wrap
 msgid "Six forms, special cases for one, two, all numbers ending in 02, 03, @dots{} 10, all numbers ending in 11 @dots{} 99, and others"
-msgstr "4つの形式があり1と、02、03、04で終わるすべての数字を特別なケースとして扱うもの"
+msgstr "6つの形式があります。1つ目は0、2つ目は1、3つ目は2、4つ目は03、...、10で終わるすべての数字、5つ目は11、...、99で終わるすべての数字、そして6つ目はそれ以外です。"
 
 #. type: smallexample
 #: original_texis/gettext.texi:6475
-#, fuzzy, no-wrap
-#| msgid ""
-#| "Plural-Forms: nplurals=4; \\\n"
-#| "    plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
+#, no-wrap
 msgid ""
 "Plural-Forms: nplurals=6; \\\n"
 "    plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 \\\n"
 "    : n%100>=11 ? 4 : 5;\n"
 msgstr ""
-"Plural-Forms: nplurals=4; \\\n"
-"    plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
+"Plural-Forms: nplurals=6; \\\n"
+"    plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 \\\n"
+"    : n%100>=11 ? 4 : 5;\n"
 
 #. type: item
 #: original_texis/gettext.texi:6481
-#, fuzzy, no-wrap
-#| msgid "Asian family"
+#, no-wrap
 msgid "Afroasiatic family"
-msgstr "Asian family"
+msgstr "Afroasiatic family"
 
 #.     246.0 million speakers
 #. type: table
 #: original_texis/gettext.texi:6483
-#, fuzzy
-#| msgid "Arabic digits"
 msgid "Arabic"
-msgstr "Arabic digits"
+msgstr "Arabic"
 
 #. type: Plain text
 #: original_texis/gettext.texi:6489
@@ -20385,16 +20300,6 @@ msgstr ""
 
 #. type: Plain text
 #: original_texis/gettext.texi:7725
-#, fuzzy
-#| msgid ""
-#| "So, here comes a list of files, each one followed by a description of all "
-#| "alterations it needs.  Many examples are taken out from the GNU "
-#| "@code{gettext} @value{VERSION} distribution itself, or from the GNU "
-#| "@code{hello} distribution (@uref{http://www.franken.de/users/gnu/ke/"
-#| "hello} or @uref{http://www.gnu.franken.de/ke/hello/})  You may indeed "
-#| "refer to the source code of the GNU @code{gettext} and GNU @code{hello} "
-#| "packages, as they are intended to be good examples for using GNU gettext "
-#| "functionality."
 msgid ""
 "So, here comes a list of files, each one followed by a description of all "
 "alterations it needs.  Many examples are taken out from the GNU "
@@ -20403,14 +20308,7 @@ msgid ""
 "may indeed refer to the source code of the GNU @code{gettext} and GNU "
 "@code{hello} packages, as they are intended to be good examples for using "
 "GNU gettext functionality."
-msgstr ""
-"以下では変更が必要なファイルと、必要な変更を説明していきます。多くの例はGNU "
-"@code{gettext} @value{VERSION} のディストリビューション自体か、GNU "
-"@code{hello}ディストリビューション(@uref{http://www.franken.de/users/gnu/ke/"
-"hello}または@uref{http://www.gnu.franken.de/ke/hello/})から引用しました。GNU "
-"@code{gettext}のソースコードとGNU @code{hello}を参照してみれば、これらのパッ"
-"ケージがGNU @code{gettext}の機能を使うよい例だということが納得できるでしょ"
-"う。"
+msgstr "以下では変更が必要なファイルと、必要な変更を説明していきます。多くの例はGNU @code{gettext} @value{VERSION} のディストリビューション自体か、GNU @code{hello}ディストリビューション(@uref{http://www.gnu.org/software/hello})から引用しました。GNU @code{gettext}のソースコードとGNU @code{hello}を参照してみれば、これらのパッケージがGNU @code{gettext}の機能を使うよい例だということが納得できるでしょう。"
 
 #. type: cindex
 #: original_texis/gettext.texi:7744
@@ -22023,16 +21921,10 @@ msgstr ""
 
 #. type: Plain text
 #: original_texis/gettext.texi:8541
-#, fuzzy
-#| msgid ""
-#| "The use of this macro is optional; only the @code{autopoint} program "
-#| "makes use of it (@pxref{CVS Issues})."
 msgid ""
 "The use of this macro is optional; only the @code{autopoint} program makes "
 "use of it (@pxref{Version Control Issues})."
-msgstr ""
-"このマクロの使用はオプションで、これを使用するプログラムは@code{autopoint}だ"
-"けです(@ref{CVS Issues}を参照してください)。"
+msgstr "このマクロの使用はオプションで、これを使用するプログラムは@code{autopoint}だけです(@ref{Version Control Issues}を参照してください)。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:8548
@@ -22300,64 +22192,32 @@ msgstr ""
 
 #. type: Plain text
 #: original_texis/gettext.texi:8678
-#, fuzzy
-#| msgid ""
-#| "Many projects use CVS for distributed development, version control and "
-#| "source backup.  This section gives some advice how to manage the uses of "
-#| "@code{cvs}, @code{gettextize}, @code{autopoint} and @code{autoconf}."
 msgid ""
 "Many projects use version control systems for distributed development and "
 "source backup.  This section gives some advice how to manage the uses of "
 "@code{gettextize}, @code{autopoint} and @code{autoconf} on version "
 "controlled files."
-msgstr ""
-"多くのプロジェクトでは分散開発におけるバージョンコントロールとソースのバック"
-"アップにCVSを使用しています。このセクションでは@code{cvs}、"
-"@code{gettextize}、@code{autopoint}、@code{autoconf}の使用をどのように管理す"
-"るかについてのアドバイスを与えます"
+msgstr "多くのプロジェクトでは分散開発におけるソースのバックアップにバージョンコントロールを使用しています。このセクションでは、バージョンコントロールされたファイルにたいして@code{cvs}、@code{gettextize}、@code{autopoint}、@code{autoconf}の使用をどのように管理するかについてのアドバイスを与えます"
 
 #. type: Plain text
 #: original_texis/gettext.texi:8694
-#, fuzzy
-#| msgid ""
-#| "In a project development with multiple developers, using CVS, there "
-#| "should be a single developer who occasionally - when there is desire to "
-#| "upgrade to a new @code{gettext} version - runs @code{gettextize} and "
-#| "performs the changes listed in @ref{Adjusting Files}, and then commits "
-#| "his changes to the CVS."
 msgid ""
 "In a project development with multiple developers, there should be a single "
 "developer who occasionally - when there is desire to upgrade to a new "
 "@code{gettext} version - runs @code{gettextize} and performs the changes "
 "listed in @ref{Adjusting Files}, and then commits his changes to the "
 "repository."
-msgstr ""
-"複数の開発者によるCVSを使ったプロジェクト開発では、@code{gettext}の新しいバー"
-"ジョンにアップグレードしたいと望む一人の開発者が、@code{gettextize}を実行して"
-"@ref{Adjusting Files}にリストした変更をほどこした後に、その変更をCVSにコミッ"
-"トするようなことが時折あります。"
+msgstr "複数の開発者によるプロジェクト開発では、@code{gettext}の新しいバージョンにアップグレードしたいと望む一人の開発者が、@code{gettextize}を実行して@ref{Adjusting Files}にリストした変更をほどこした後に、その変更をリポジトリーにコミットするようなことが時折あります。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:8700
-#, fuzzy
-#| msgid ""
-#| "It is highly recommended that all developers on a project use the same "
-#| "version of GNU @code{gettext} in the package.  In other words, if a "
-#| "developer runs @code{gettextize}, he should go the whole way, make the "
-#| "necessary remaining changes and commit his changes to the CVS.  Otherwise "
-#| "the following damages will likely occur:"
 msgid ""
 "It is highly recommended that all developers on a project use the same "
 "version of GNU @code{gettext} in the package.  In other words, if a "
 "developer runs @code{gettextize}, he should go the whole way, make the "
 "necessary remaining changes and commit his changes to the repository.  "
 "Otherwise the following damages will likely occur:"
-msgstr ""
-"プロジェクトのすべての開発者が、パッケージのGNU @code{gettext}に、同じバー"
-"ジョンのものを使用することを強く推奨します。別の言い方をすると、"
-"@code{gettextize}を実行したら、開発者はプロジェクト全体と同じ方法で必要な変更"
-"をほどこしてCVSにコミットする必要があります。さもないと以下のような損傷が発生"
-"します:"
+msgstr "プロジェクトのすべての開発者が、パッケージのGNU @code{gettext}に、同じバージョンのものを使用することを強く推奨します。別の言い方をすると、@code{gettextize}を実行したら、開発者はプロジェクト全体と同じ方法で必要な変更をほどこしてリポジトリーにコミットする必要があります。さもないと以下のような損傷が発生します:"
 
 #. type: itemize
 #: original_texis/gettext.texi:8708
@@ -22407,30 +22267,18 @@ msgstr ""
 
 #. type: Plain text
 #: original_texis/gettext.texi:8733
-#, fuzzy
-#| msgid ""
-#| "There are basically three ways to deal with generated files in the "
-#| "context of a CVS repository, such as @file{configure} generated from "
-#| "@file{configure.ac}, @code{@var{parser}.c} generated from "
-#| "@code{@var{parser}.y}, or @code{po/Makefile.in.in} autoinstalled by "
-#| "@code{gettextize} or @code{autopoint}."
 msgid ""
 "There are basically three ways to deal with generated files in the context "
 "of a version controlled repository, such as @file{configure} generated from "
 "@file{configure.ac}, @code{@var{parser}.c} generated from @code{@var{parser}."
 "y}, or @code{po/Makefile.in.in} autoinstalled by @code{gettextize} or "
 "@code{autopoint}."
-msgstr ""
-"CVSレポジトリーのコンテキストで作成されるファイル、たとえば@file{configure."
-"ac}により生成される@file{configure}、@code{@var{parser}.y}から生成される"
-"@code{@var{parser}.c}、@code{gettextize}や@code{autopoint}により自動インス"
-"トールされる@code{po/Makefile.in.in}のようなファイルを取り扱うには、基本的に3"
-"つの方法があります。"
+msgstr "バージョンコントロールされたリポジトリーのコンテキストで作成されるファイル、たとえば@file{configure.ac}により生成される@file{configure}、@code{@var{parser}.y}から生成される@code{@var{parser}.c}、@code{gettextize}や@code{autopoint}により自動インストールされる@code{po/Makefile.in.in}のようなファイルを取り扱うには、基本的に3つの方法があります。"
 
 #. type: enumerate
 #: original_texis/gettext.texi:8737
 msgid "All generated files are always committed into the repository."
-msgstr "生成されるすべてのファイルを、常にレポジトリーにコミットする。"
+msgstr "生成されるすべてのファイルを、常にリポジトリーにコミットする。"
 
 #. type: enumerate
 #: original_texis/gettext.texi:8741
@@ -22438,13 +22286,13 @@ msgid ""
 "All generated files are committed into the repository occasionally, for "
 "example each time a release is made."
 msgstr ""
-"生成されるすべてのファイルを、時々(たとえば毎リリースごとに)レポジトリーにコ"
+"生成されるすべてのファイルを、時々(たとえば毎リリースごとに)リポジトリーにコ"
 "ミットする。"
 
 #. type: enumerate
 #: original_texis/gettext.texi:8744
 msgid "Generated files are never committed into the repository."
-msgstr "生成されるファイルを、レポジトリーにコミットされない。"
+msgstr "生成されるファイルを、リポジトリーにコミットされない。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:8747
@@ -22453,34 +22301,17 @@ msgstr "これら3つの方法には、それぞれ異なる利点と欠点が�
 
 #. type: enumerate
 #: original_texis/gettext.texi:8754
-#, fuzzy
-#| msgid ""
-#| "The advantage is that anyone can check out the CVS at any moment and gets "
-#| "a working build.  The drawbacks are: 1a. It requires some frequent \"cvs "
-#| "commit\" actions by the maintainers.  1b. The repository grows in size "
-#| "quite fast."
 msgid ""
 "The advantage is that anyone can check out the source at any moment and gets "
 "a working build.  The drawbacks are: 1a. It requires some frequent \"push\" "
 "actions by the maintainers.  1b. The repository grows in size quite fast."
 msgstr ""
-"1番目の方法の利点は、誰でもCVSからその時点で動作するビルドをチェックアウトで"
-"きる点です。欠点は以下のとおりです:@*\n"
-"1a メンテナーによる頻繁な\"cvs commit\"操作が必要です。@*\n"
-"1b レポジトリーサイズの増加が早くなります。"
+"1番目の方法の利点は、誰でもソースからその時点で動作するビルドをチェックアウトできる点です。欠点は以下のとおりです:@*\n"
+"1a メンテナーによる頻繁な\"push\"操作が必要です。@*\n"
+"1b リポジトリーサイズの増加が早くなります。"
 
 #. type: enumerate
 #: original_texis/gettext.texi:8765
-#, fuzzy
-#| msgid ""
-#| "The advantage is that anyone can check out the CVS, and the usual \"./"
-#| "configure; make\" will work.  The drawbacks are: 2a. The one who checks "
-#| "out the repository needs tools like GNU @code{automake}, GNU "
-#| "@code{autoconf}, GNU @code{m4} installed in his PATH; sometimes he even "
-#| "needs particular versions of them.  2b. When a release is made and a "
-#| "commit is made on the generated files, the other developers get conflicts "
-#| "on the generated files after doing \"cvs update\".  Although these "
-#| "conflicts are easy to resolve, they are annoying."
 msgid ""
 "The advantage is that anyone can check out the source, and the usual \"./"
 "configure; make\" will work.  The drawbacks are: 2a. The one who checks out "
@@ -22491,93 +22322,51 @@ msgid ""
 "when merging the local work back to the repository.  Although these "
 "conflicts are easy to resolve, they are annoying."
 msgstr ""
-"2番目の方法の利点は、誰もがチェックアウトでき、通常は\"./configure; make\"は"
-"動作します。欠点は以下のとおりです:@*\n"
-"2a レポジトリーからチェックアウトした人のPATHにGNU @code{automake}、GNU "
-"@code{autoconf}、GNU @code{m4}のようなツールがインストールされている必要があ"
-"り、ときには特定のバージョンが必要になる。@*\n"
-"2b リリース版が作成されて生成されるファイルもコミットされた後に他の開発者が"
-"\"cvs update\"を行うと、生成されるファイルで競合が発生する点。この競合は簡単"
-"に解決できますが、煩わしいものです。"
+"2番目の方法の利点は、誰もがソースをチェックアウトでき、通常は\"./configure; make\"は動作します。欠点は以下のとおりです:@*\n"
+"2a リポジトリーからチェックアウトした人のPATHにGNU @code{automake}、GNU @code{autoconf}、GNU @code{m4}のようなツールがインストールされている必要があり、ときには特定のバージョンが必要になる。@*\n"
+"2b リリース版が作成されて生成されるファイルもコミットされた後に他の開発者がローカルのサ行をリポジトリーに書き戻してマージするときに、生成されるファイルで競合が発生する点。この競合は簡単に解決できますが、煩わしいものです。"
 
 #. type: enumerate
 #: original_texis/gettext.texi:8772
-#, fuzzy
-#| msgid ""
-#| "The advantage is less work for the maintainers.  The drawback is that "
-#| "anyone who checks out the CVS not only needs tools like GNU "
-#| "@code{automake}, GNU @code{autoconf}, GNU @code{m4} installed in his "
-#| "PATH, but also that he needs to perform a package specific pre-build step "
-#| "before being able to \"./configure; make\"."
 msgid ""
 "The advantage is less work for the maintainers.  The drawback is that anyone "
 "who checks out the source not only needs tools like GNU @code{automake}, GNU "
 "@code{autoconf}, GNU @code{m4} installed in his PATH, but also that he needs "
 "to perform a package specific pre-build step before being able to \"./"
 "configure; make\"."
-msgstr ""
-"3番目の方法の利点はメンテナーの作業負荷が軽減されることです。欠点はレポジト"
-"リーからチェックアウトした人のPATHにGNU @code{automake}, GNU "
-"@code{autoconf}, GNU @code{m4}のようなツールがインストールされている必要があ"
-"るだけではなく、\"./configure; make\"をできるようになる前に、パッケージ固有の"
-"pre-build(ビルド前)ステップが必要になることです。"
+msgstr "3番目の方法の利点はメンテナーの作業負荷が軽減されることです。欠点はソースをチェックアウトした人のPATHにGNU @code{automake}, GNU @code{autoconf}, GNU @code{m4}のようなツールがインストールされている必要があるだけではなく、\"./configure; make\"をできるようになる前に、パッケージ固有のpre-build(ビルド前)ステップが必要になることです。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:8777
-#, fuzzy
-#| msgid ""
-#| "For the first and second approach, all files modified or brought in by "
-#| "the occasional @code{gettextize} invocation and update should be "
-#| "committed into the CVS."
 msgid ""
 "For the first and second approach, all files modified or brought in by the "
 "occasional @code{gettextize} invocation and update should be committed into "
 "the repository."
-msgstr ""
-"1番目と2番目の方法では、変更されたファイルや、@code{gettextize}呼び出しにより"
-"生成・更新されたファイルは、CVSにコミットする必要があります。"
+msgstr "1番目と2番目の方法では、変更されたファイルや、@code{gettextize}呼び出しにより生成・更新されたファイルは、リポジトリーにコミットする必要があります。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:8782
-#, fuzzy
-#| msgid ""
-#| "For the third approach, the maintainer can omit from the CVS repository "
-#| "all the files that @code{gettextize} mentions as \"copy\".  Instead, he "
-#| "adds to the @file{configure.ac} or @file{configure.in} a line of the form"
 msgid ""
 "For the third approach, the maintainer can omit from the repository all the "
 "files that @code{gettextize} mentions as \"copy\".  Instead, he adds to the "
 "@file{configure.ac} or @file{configure.in} a line of the form"
-msgstr ""
-"3番目の方法では、@code{gettextize}が\"コピー\"するすべてのファイルを、CVSレポ"
-"ジトリーから除外できます。そのかわりに@file{configure.ac}(または"
-"@file{configure.in})を、以下のような形式で記述します"
+msgstr "3番目の方法では、@code{gettextize}が\"コピー\"するすべてのファイルを、レポジトリーから除外できます。そのかわりに@file{configure.ac}(または@file{configure.in})を、以下のような形式で記述します"
 
 #. type: example
 #: original_texis/gettext.texi:8785
-#, fuzzy, no-wrap
-#| msgid "AM_GNU_GETTEXT_VERSION(@value{VERSION})\n"
+#, no-wrap
 msgid "AM_GNU_GETTEXT_VERSION(@value{ARCHIVE-VERSION})\n"
-msgstr "AM_GNU_GETTEXT_VERSION(@value{VERSION})\n"
+msgstr "AM_GNU_GETTEXT_VERSION(@value{ARCHIVE-VERSION})\n"
 
 #. type: Plain text
 #: original_texis/gettext.texi:8792
-#, fuzzy
-#| msgid ""
-#| "and adds to the package's pre-build script an invocation of "
-#| "@samp{autopoint}.  For everyone who checks out the CVS, this "
-#| "@code{autopoint} invocation will copy into the right place the "
-#| "@code{gettext} infrastructure files that have been omitted from the CVS."
 msgid ""
 "and adds to the package's pre-build script an invocation of "
 "@samp{autopoint}.  For everyone who checks out the source, this "
 "@code{autopoint} invocation will copy into the right place the "
 "@code{gettext} infrastructure files that have been omitted from the "
 "repository."
-msgstr ""
-"さらにパッケージのpre-buildスクリプトに@samp{autopoint}呼び出しを追加します。"
-"CVSからチェックアウトする人は誰でも、この@samp{autopoint}呼び出しによりCVSか"
-"ら除外された@code{gettext}の基礎的なファイルが適切な場所にコピーされます。"
+msgstr "さらにパッケージのpre-buildスクリプトに@samp{autopoint}呼び出しを追加します。ソースをチェックアウトする人は誰でも、この@samp{autopoint}呼び出しによりリポジトリーから除外された@code{gettext}の基礎的なファイルが適切な場所にコピーされます。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:8804
@@ -22615,17 +22404,13 @@ msgstr ""
 
 #. type: enumerate
 #: original_texis/gettext.texi:8816
-#, fuzzy
-#| msgid "Generated files are never committed into the repository."
 msgid "Both POT file and PO files are committed into the repository."
-msgstr "生成されるファイルを、レポジトリーにコミットされない。"
+msgstr "POTファイルとPOファイルの両方が、リポジトリーにコミットされる。"
 
 #. type: enumerate
 #: original_texis/gettext.texi:8819
-#, fuzzy
-#| msgid "Generated files are never committed into the repository."
 msgid "Only PO files are committed into the repository."
-msgstr "生成されるファイルを、レポジトリーにコミットされない。"
+msgstr "POファイルだけが、リポジトリーにコミットされる。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:8829
@@ -22748,18 +22533,6 @@ msgstr "setting up @code{gettext} at build time"
 
 #. type: Plain text
 #: original_texis/gettext.texi:8896
-#, fuzzy
-#| msgid ""
-#| "By default, packages fully using GNU @code{gettext}, internally, are "
-#| "installed in such a way that they to allow translation of messages.  At "
-#| "@emph{configuration} time, those packages should automatically detect "
-#| "whether the underlying host system already provides the GNU "
-#| "@code{gettext} functions.  If not, the GNU @code{gettext} library should "
-#| "be automatically prepared and used.  Installers may use special options "
-#| "at configuration time for changing this behavior.  The command @samp{./"
-#| "configure --with-included-gettext} bypasses system @code{gettext} to use "
-#| "the included GNU @code{gettext} instead, while @samp{./configure --"
-#| "disable-nls} produces programs totally unable to translate messages."
 msgid ""
 "By default, packages fully using GNU @code{gettext}, internally, are "
 "installed in such a way as to allow translation of messages.  At "
@@ -22771,17 +22544,7 @@ msgid ""
 "gettext} bypasses system @code{gettext} to use the included GNU "
 "@code{gettext} instead, while @samp{./configure --disable-nls} produces "
 "programs totally unable to translate messages."
-msgstr ""
-"デフォルトでは、内部的にGNU @code{gettext}をフルに使っているパッケージは、翻"
-"訳されたメッセージを使えるような方法でインストールされます。"
-"@emph{configuration}実行時には、これらのパッケージはホストシステムですでに"
-"GNU @code{gettext}の機能が提供されているかを、自動的に検出する必要がありま"
-"す。もし提供されていない場合、GNU @code{gettext}ライブラリーが自動的に準備・"
-"使用されます。インストーラーは、configure時のこの動作を変更するための特別なオ"
-"プションを使うことができます。コマンド@samp{./configure --with-included-"
-"gettext}により、そのシステムの@code{gettext}をバイパスしてかわりに同梱された "
-"GNU @code{gettext}を使用します。また@samp{./configure --disable-nls}では、翻"
-"訳されたメッセージを利用しないプログラムを生成します。"
+msgstr "デフォルトでは、内部的にGNU @code{gettext}をフルに使っているパッケージは、翻訳されたメッセージを使えるような方法でインストールされます。@emph{configuration}実行時には、これらのパッケージはホストシステムですでにGNU @code{gettext}の機能が提供されているかを、自動的に検出する必要があります。もし提供されていない場合、GNU @code{gettext}ライブラリーが自動的に準備・使用されます。インストーラーは、configure時のこの動作を変更するための特別なオプションを使うことができます。コマンド@samp{./configure --with-included-gettext}により、そのシステムの@code{gettext}をバイパスしてかわりに同梱された GNU @code{gettext}を使用します。また@samp{./configure --disable-nls}では、翻訳されたメッセージを利用しないプログラムを生成します。"
 
 #. type: vindex
 #: original_texis/gettext.texi:8897
@@ -23058,17 +22821,15 @@ msgstr ""
 #. type: node
 #: original_texis/gettext.texi:9075 original_texis/gettext.texi:9319
 #: original_texis/gettext.texi:9327 original_texis/gettext.texi:9339
-#, fuzzy, no-wrap
-#| msgid "kde-format"
+#, no-wrap
 msgid "kde-kuit-format"
-msgstr "kde-format"
+msgstr "kde-kuit-format"
 
 #. type: subsection
 #: original_texis/gettext.texi:9075 original_texis/gettext.texi:9328
-#, fuzzy, no-wrap
-#| msgid "Tcl Format Strings"
+#, no-wrap
 msgid "KUIT Format Strings"
-msgstr "Tcl Format Strings"
+msgstr "KUIT Format Strings"
 
 #. type: Plain text
 #: original_texis/gettext.texi:9086
@@ -23216,24 +22977,12 @@ msgstr ""
 
 #. type: Plain text
 #: original_texis/gettext.texi:9162
-#, fuzzy
-#| msgid ""
-#| "Python @code{%} format strings are described in @w{Python Library "
-#| "reference} / @w{2. Built-in Types, Exceptions and Functions} / @w{2.2. "
-#| "Built-in Types} / @w{2.2.6. Sequence Types} / @w{2.2.6.2. String "
-#| "Formatting Operations}.  @uref{http://www.python.org/doc/2.2.1/lib/"
-#| "typesseq-strings.html}."
 msgid ""
 "Python @code{%} format strings are described in @w{Python Library "
 "reference} / @w{5. Built-in Types} / @w{5.6. Sequence Types} / @w{5.6.2. "
 "String Formatting Operations}.  @uref{http://docs.python.org/2/library/"
 "stdtypes.html#string-formatting-operations}."
-msgstr ""
-"Pythonの@code{%}書式文字列については @w{Python Library reference} / @w{2. "
-"Built-in Types, Exceptions and Functions} / @w{2.2. Built-in Types} / "
-"@w{2.2.6. Sequence Types} / @w{2.2.6.2. String Formatting Operations}で説明さ"
-"れています。@uref{http://www.python.org/doc/2.2.1/lib/typesseq-strings.html}"
-"を参照してください。"
+msgstr "Pythonの@code{%}書式文字列については、@w{Python Library reference} / @w{5. Built-in Types} / @w{5.6. Sequence Types} / @w{5.6.2. String Formatting Operations}で説明されています。@uref{http://docs.python.org/2/library/stdtypes.html#string-formatting-operations}を参照してください。"
 
 #. type: Plain text
 #: original_texis/gettext.texi:9165
@@ -24899,10 +24648,8 @@ msgstr "scm"
 
 #. type: table
 #: original_texis/gettext.texi:10132
-#, fuzzy
-#| msgid "@code{(_ \"abc\")}, @code{(ENGLISH \"abc\")}"
 msgid "@code{(_ \"abc\")}, @code{_\"abc\"} (GIMP script-fu extension)"
-msgstr "@code{(_ \"abc\")}、@code{(ENGLISH \"abc\")}"
+msgstr "@code{(_ \"abc\")}, @code{_\"abc\"} (GIMP script-fu extension)"
 
 #. type: table
 #: original_texis/gettext.texi:10135
@@ -28139,23 +27886,16 @@ msgstr ""
 
 #. type: code{#1}
 #: original_texis/gettext.texi:12070
-#, fuzzy, no-wrap
-#| msgid "\"abc\""
+#, no-wrap
 msgid "\"\"\"abc\"\"\""
-msgstr "\"abc\""
+msgstr "\"\"\"abc\"\"\""
 
 #. type: table
 #: original_texis/gettext.texi:12080
-#, fuzzy
-#| msgid ""
-#| "@code{gettext}, @code{dgettext}, @code{dcgettext}, @code{ngettext}, "
-#| "@code{dngettext}, @code{dcngettext}"
 msgid ""
 "@code{gettext}, @code{dgettext}, @code{dcgettext}, @code{ngettext}, "
 "@code{dngettext}, @code{dpgettext}, @code{dpgettext2}"
-msgstr ""
-"@code{gettext}、@code{dgettext}、@code{dcgettext}、@code{ngettext}、"
-"@code{dngettext}、@code{dcngettext}"
+msgstr "@code{gettext}、@code{dgettext}、@code{dcgettext}、@code{ngettext}、@code{dngettext}、@code{dpgettext}、@code{dpgettext2}"
 
 #. type: table
 #: original_texis/gettext.texi:12083
@@ -28164,18 +27904,13 @@ msgstr ""
 
 #. type: table
 #: original_texis/gettext.texi:12086
-#, fuzzy
-#| msgid "@code{bind-text-domain} function (xemacs only)"
 msgid "@code{bindtextdomain} function, defined under the @code{Intl} namespace"
-msgstr "関数@code{bind-text-domain}(xemacsのみ)"
+msgstr "@code{Intl}ネームスペースで定義された、@code{bind-text-domain}関数"
 
 #. type: table
 #: original_texis/gettext.texi:12089
-#, fuzzy
-#| msgid "Programmer must call @code{setlocale (LC_ALL, \"\")}"
 msgid "Programmer must call @code{Intl.setlocale (LocaleCategory.ALL, \"\")}"
-msgstr ""
-"プログラマーは、@code{setlocale (LC_ALL, \"\")}を呼び出さなければなりません。"
+msgstr "プログラマーは、@code{Intl.setlocale (LocaleCategory.ALL, \\\"\\\")}を呼び出さなければなりません。"
 
 #. type: table
 #: original_texis/gettext.texi:12101
@@ -28237,10 +27972,8 @@ msgstr ""
 
 #. type: table
 #: original_texis/gettext.texi:12217
-#, fuzzy
-#| msgid "@code{i18n:gettext}, @code{i18n:ngettext}"
 msgid "@code{xgettext}, @code{intltool-extract}"
-msgstr "@code{i18n:gettext}、@code{i18n:ngettext}"
+msgstr "@code{xgettext}、@code{intltool-extract}"
 
 #. type: table
 #: original_texis/gettext.texi:12225
@@ -28254,17 +27987,14 @@ msgstr ""
 
 #. type: table
 #: original_texis/gettext.texi:12231
-#, fuzzy
-#| msgid "@code{gettext}, @code{dgettext}, @code{dcgettext}"
 msgid "@code{xgettext}, @code{intltool-extract}, @code{itstool}"
-msgstr "@code{gettext}、@code{dgettext}、@code{dcgettext}"
+msgstr "@code{xgettext}、@code{intltool-extract}、@code{itstool}"
 
 #. type: cindex
 #: original_texis/gettext.texi:12238
-#, fuzzy, no-wrap
-#| msgid "preparing programs for translation"
+#, no-wrap
 msgid "preparing rules for XML translation"
-msgstr "preparing programs for translation"
+msgstr "preparing rules for XML translation"
 
 #. type: Plain text
 #: original_texis/gettext.texi:12247
@@ -28279,10 +28009,9 @@ msgstr ""
 
 #. type: item
 #: original_texis/gettext.texi:12249
-#, fuzzy, no-wrap
-#| msgid "Contexts"
+#, no-wrap
 msgid "Context"
-msgstr "Contexts"
+msgstr "Context"
 
 #. type: table
 #: original_texis/gettext.texi:12253
@@ -28484,10 +28213,9 @@ msgstr ""
 
 #. type: subsubsection
 #: original_texis/gettext.texi:12382
-#, fuzzy, no-wrap
-#| msgid "Special Cases of Translatable Strings"
+#, no-wrap
 msgid "Two Use-cases of Translated Strings in XML"
-msgstr "Special Cases of Translatable Strings"
+msgstr "Two Use-cases of Translated Strings in XML"
 
 #. type: Plain text
 #: original_texis/gettext.texi:12391
@@ -28954,17 +28682,15 @@ msgstr ""
 
 #. type: cindex
 #: original_texis/gettext.texi:12651
-#, fuzzy, no-wrap
-#| msgid "GNU General Public License"
+#, no-wrap
 msgid "GPL, GNU General Public License"
-msgstr "GNU General Public License"
+msgstr "GPL, GNU General Public License"
 
 #. type: cindex
 #: original_texis/gettext.texi:12652
-#, fuzzy, no-wrap
-#| msgid "GNU GPL"
+#, no-wrap
 msgid "License, GNU GPL"
-msgstr "GNU GPL"
+msgstr "License, GNU GPL"
 
 #. type: include
 #: original_texis/gettext.texi:12653
@@ -28980,17 +28706,15 @@ msgstr ""
 
 #. type: cindex
 #: original_texis/gettext.texi:12657
-#, fuzzy, no-wrap
-#| msgid "GNU Lesser General Public License"
+#, no-wrap
 msgid "LGPL, GNU Lesser General Public License"
-msgstr "GNU Lesser General Public License"
+msgstr "LGPL, GNU Lesser General Public License"
 
 #. type: cindex
 #: original_texis/gettext.texi:12658
-#, fuzzy, no-wrap
-#| msgid "GNU LGPL"
+#, no-wrap
 msgid "License, GNU LGPL"
-msgstr "GNU LGPL"
+msgstr "License, GNU LGPL"
 
 #. type: include
 #: original_texis/gettext.texi:12659
@@ -29000,17 +28724,15 @@ msgstr "lgpl.texi"
 
 #. type: cindex
 #: original_texis/gettext.texi:12663
-#, fuzzy, no-wrap
-#| msgid "GNU Free Documentation License"
+#, no-wrap
 msgid "FDL, GNU Free Documentation License"
-msgstr "GNU Free Documentation License"
+msgstr "FDL, GNU Free Documentation License"
 
 #. type: cindex
 #: original_texis/gettext.texi:12664
-#, fuzzy, no-wrap
-#| msgid "GNU FDL"
+#, no-wrap
 msgid "License, GNU FDL"
-msgstr "GNU FDL"
+msgstr "License, GNU FDL"
 
 #. type: include
 #: original_texis/gettext.texi:12665
