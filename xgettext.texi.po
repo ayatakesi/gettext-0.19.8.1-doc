@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-08-20 21:57+0900\n"
-"PO-Revision-Date: 2016-08-21 22:15+0900\n"
+"PO-Revision-Date: 2016-08-21 22:51+0900\n"
 "Last-Translator: Takeshi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
 "Language-Team: Japanese <takeshi.ayanokoji@gmail.com>\n"
 "Language: ja\n"
@@ -477,6 +477,8 @@ msgid ""
 "Note that comment blocks supposed to be extracted must be adjacent to "
 "keyword lines.  For example, in the following C source code:"
 msgstr ""
+"コメントブロックと想定されるブロックが抽出されるために、ブロックはキーワード行により調整されなければならないことに注意してください。\n"
+"たとえば以下のCソースコードでは:"
 
 #. type: example
 #: original_texis/xgettext.texi:134
@@ -486,6 +488,9 @@ msgid ""
 "gettext (\"foo\");\n"
 "\n"
 msgstr ""
+"/* This is the first comment.  */\n"
+"gettext (\"foo\");\n"
+"\n"
 
 #. type: example
 #: original_texis/xgettext.texi:138
@@ -496,6 +501,10 @@ msgid ""
 "  \"bar\");\n"
 "\n"
 msgstr ""
+"/* This is the second comment: not extracted  */\n"
+"gettext (\n"
+"  \"bar\");\n"
+"\n"
 
 #. type: example
 #: original_texis/xgettext.texi:142
@@ -505,19 +514,22 @@ msgid ""
 "  /* This is the third comment.  */\n"
 "  \"baz\");\n"
 msgstr ""
+"gettext (\n"
+"  /* This is the third comment.  */\n"
+"  \"baz\");\n"
 
 #. type: table
 #: original_texis/xgettext.texi:146
 msgid ""
 "The second comment line will not be extracted, because there is one blank "
 "line between the comment line and the keyword."
-msgstr ""
+msgstr "2番目のコメント行は抽出されないでしょう。なぜならコメント行とキーワードの間にブランク行が1つあるからです。"
 
 #. type: item
 #: original_texis/xgettext.texi:147
 #, no-wrap
 msgid "--check[=@var{CHECK}]"
-msgstr ""
+msgstr "--check[=@var{CHECK}]"
 
 #. type: opindex
 #: original_texis/xgettext.texi:148
@@ -535,51 +547,51 @@ msgstr "supported syntax checks, @code{xgettext}"
 #: original_texis/xgettext.texi:152
 msgid ""
 "Perform a syntax check on msgid and msgid_plural.  The supported checks are:"
-msgstr ""
+msgstr "msgidおよびmsgid_pluralにたいして構文チェックを行います。サポートされているチェックは:"
 
 #. type: item
 #: original_texis/xgettext.texi:154
 #, no-wrap
 msgid "ellipsis-unicode"
-msgstr ""
+msgstr "ellipsis-unicode"
 
 #. type: table
 #: original_texis/xgettext.texi:156
 msgid "Prefer Unicode ellipsis character over ASCII @code{...}"
-msgstr ""
+msgstr "ASCIIの@code{...}より、Unicodeのellipsis文字を優先します。"
 
 #. type: item
 #: original_texis/xgettext.texi:157
 #, no-wrap
 msgid "space-ellipsis"
-msgstr ""
+msgstr "space-ellipsis"
 
 #. type: table
 #: original_texis/xgettext.texi:159
 msgid "Prohibit whitespace before an ellipsis character"
-msgstr ""
+msgstr "ellipsis文字の前の空白文字を抑制します。"
 
 #. type: item
 #: original_texis/xgettext.texi:160
 #, no-wrap
 msgid "quote-unicode"
-msgstr ""
+msgstr "quote-unicode"
 
 #. type: table
 #: original_texis/xgettext.texi:162
 msgid "Prefer Unicode quotation marks over ASCII @code{\"'`}"
-msgstr ""
+msgstr "ASCIIの@code{\"'`}より、Unicodeのクォーテーションマークを優先します。"
 
 #. type: item
 #: original_texis/xgettext.texi:163
 #, no-wrap
 msgid "bullet-unicode"
-msgstr ""
+msgstr "bullet-unicode"
 
 #. type: table
 #: original_texis/xgettext.texi:165
 msgid "Prefer Unicode bullet character over ASCII @code{*} or @code{-}"
-msgstr ""
+msgstr "ASCIIの@code{*}または@code{-}より、Unicodeのbullet文字を優先します。"
 
 #. type: table
 #: original_texis/xgettext.texi:173
@@ -589,7 +601,7 @@ msgid ""
 "comment in the source file.  For example, if you specify the @code{--"
 "check=space-ellipsis} option, but want to suppress the check on a particular "
 "string, add the following comment:"
-msgstr ""
+msgstr "オプションはすべての入力ファイルに効果をもちます。特定の文字列にたいするチェックを有効、または無効にするために、ソースファイル中で特別なコメント@code{xgettext:}でマークすることができます。たとえば、@code{--check=space-ellipsis}を指定して、なおかつ特定の文字列にたいしてチェックを行いたくない場合には、以下のコメントを追加します:"
 
 #. type: example
 #: original_texis/xgettext.texi:177
@@ -598,6 +610,8 @@ msgid ""
 "/* xgettext: no-space-ellipsis-check */\n"
 "gettext (\"We really want a space before ellipsis here ...\");\n"
 msgstr ""
+"/* xgettext: no-space-ellipsis-check */\n"
+"gettext (\"We really want a space before ellipsis here ...\");\n"
 
 #. type: table
 #: original_texis/xgettext.texi:183
@@ -606,7 +620,7 @@ msgid ""
 "comma.  The possible flags are of the form @samp{[no-]@var{name}-check}, "
 "where @var{name} is the name of a valid syntax check.  If a flag is prefixed "
 "by @code{no-}, the meaning is negated."
-msgstr ""
+msgstr "@code{xgettext:}コメントの後に、カンマで区切られたフラグを記述できます。利用可能なフラグは、@samp{[no-]@var{name}-check}という形式で、@var{name}は有効な構文チェックです。フラグのプレフィクスが@code{no-}の場合は、否定を意味します。"
 
 #. type: table
 #: original_texis/xgettext.texi:189
@@ -615,13 +629,13 @@ msgid ""
 "the whole string.  xgettext detects the end of sentence by performing a "
 "pattern match, which usually looks for a period followed by a certain number "
 "of spaces.  The number is specified with the @code{--sentence-end} option."
-msgstr ""
+msgstr "文字列全体ではなく、msgid内の各センテンスへのチェックに適用されるテストがいくつかあります。xgettextはパターンマッチを行うことによりセンテンスの終わりを検出し、通常は特定の個数のスペースを後にともなうピリオドを探します。この数は@code{--sentence-end}オプションで指定されます。"
 
 #. type: item
 #: original_texis/xgettext.texi:190
 #, no-wrap
 msgid "--sentence-end[=@var{TYPE}]"
-msgstr ""
+msgstr "--sentence-end[=@var{TYPE}]"
 
 #. type: opindex
 #: original_texis/xgettext.texi:191
@@ -638,29 +652,29 @@ msgstr "sentence end markers, @code{xgettext}"
 #. type: table
 #: original_texis/xgettext.texi:194
 msgid "The supported values are:"
-msgstr ""
+msgstr "サポートされる値は:"
 
 #. type: item
 #: original_texis/xgettext.texi:196
 #, no-wrap
 msgid "single-space"
-msgstr ""
+msgstr "single-space"
 
 #. type: table
 #: original_texis/xgettext.texi:198
 msgid "Expect at least one whitespace after a period"
-msgstr ""
+msgstr "ピリオドの後に少なくとも1つの空白文字を要求します。"
 
 #. type: item
 #: original_texis/xgettext.texi:199
 #, no-wrap
 msgid "double-space"
-msgstr ""
+msgstr "double-space"
 
 #. type: table
 #: original_texis/xgettext.texi:201
 msgid "Expect at least two whitespaces after a period"
-msgstr ""
+msgstr "ピリオドの後に少なくとも2つの空白文字を要求します。"
 
 #. type: subsection
 #: original_texis/xgettext.texi:206
@@ -985,7 +999,7 @@ msgstr ""
 msgid ""
 "For Desktop: @code{Name}, @code{GenericName}, @code{Comment}, @code{Icon}, "
 "@code{Keywords}."
-msgstr ""
+msgstr "デスクトップの場合: @code{Name}、@code{GenericName}、@code{Comment}、@code{Icon}、@code{Keywords}。"
 
 #. type: table
 #: original_texis/xgettext.texi:349
@@ -1433,7 +1447,7 @@ msgid ""
 "with both file name and line number.  If it is @samp{file}, the line number "
 "part is omitted.  If it is @samp{never}, it completely suppresses the lines "
 "(same as @code{--no-location})."
-msgstr ""
+msgstr "@var{type}はオプションで、@samp{full}、@samp{file}、または@samp{never}を指定できます。オプションが指定されない、または@samp{full}の場合は、ファイル名と行番号のの両方が生成されます。@samp{file}の場合、行番号は省略されます。@samp{never}の場合は、完全にこの行を抑制します(@code{--no-location}と同じです)。"
 
 #. type: item
 #: original_texis/xgettext.texi:489
@@ -1518,13 +1532,13 @@ msgstr "--its@r{, @code{xgettext} option}"
 msgid ""
 "Use ITS rules defined in @var{file}.  Note that this is only effective with "
 "XML files."
-msgstr ""
+msgstr "@var{file}で定義されたITSルールを使用します。これはXMLファイルデだけ効果があることに注意してください。"
 
 #. type: item
 #: original_texis/xgettext.texi:511
 #, no-wrap
 msgid "--itstool"
-msgstr ""
+msgstr "--itstool"
 
 #. type: opindex
 #: original_texis/xgettext.texi:512
@@ -1537,7 +1551,7 @@ msgstr "--itstool@r{, @code{xgettext} option}"
 msgid ""
 "Write out comments recognized by itstool (@uref{http://itstool.org}).  Note "
 "that this is only effective with XML files."
-msgstr ""
+msgstr "itstool(@uref{http://itstool.org})で認識されるコメントを書き出します。これはXMLファイルデだけ効果があることに注意してください。"
 
 #. type: item
 #: original_texis/xgettext.texi:516
