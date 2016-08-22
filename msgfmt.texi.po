@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-08-20 21:57+0900\n"
-"PO-Revision-Date: 2016-08-22 19:21+0900\n"
+"PO-Revision-Date: 2016-08-22 20:12+0900\n"
 "Last-Translator: Takeshi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
 "Language-Team: Japanese <takeshi.ayanokoji@gmail.com>\n"
 "Language: ja\n"
@@ -258,7 +258,7 @@ msgstr "Qtモード: Qtの@file{.qm}ファイルを生成します。"
 #: original_texis/msgfmt.texi:63
 #, no-wrap
 msgid "--desktop"
-msgstr ""
+msgstr "--desktop"
 
 #. type: opindex
 #: original_texis/msgfmt.texi:64
@@ -281,7 +281,7 @@ msgstr "Desktop Entryモード: @file{.desktop}ファイルを生成します。
 #: original_texis/msgfmt.texi:68
 #, no-wrap
 msgid "--xml"
-msgstr ""
+msgstr "--xml"
 
 #. type: opindex
 #: original_texis/msgfmt.texi:69
@@ -493,7 +493,7 @@ msgstr "--source@r{, @code{msgfmt} option}"
 #. type: table
 #: original_texis/msgfmt.texi:123
 msgid "Produce a .java source file, instead of a compiled .class file."
-msgstr ""
+msgstr "コンパイルされた.classファイルのかわりに、.javaソースファイルを生成します。"
 
 #. type: Plain text
 #: original_texis/msgfmt.texi:129
@@ -553,7 +553,7 @@ msgstr ""
 #: original_texis/msgfmt.texi:175
 #, no-wrap
 msgid "Desktop Entry mode operations"
-msgstr ""
+msgstr "Desktop Entry mode operations"
 
 #. type: item
 #: original_texis/msgfmt.texi:178 original_texis/msgfmt.texi:229
@@ -570,19 +570,19 @@ msgstr "--template@r{, @code{msgfmt} option}"
 #. type: table
 #: original_texis/msgfmt.texi:181
 msgid "Specify a .desktop file used as a template."
-msgstr ""
+msgstr "テンプレートとして使用された.desktopファイルを指定します。"
 
 #. type: item
 #: original_texis/msgfmt.texi:182
 #, no-wrap
 msgid "-k[@var{keywordspec}]"
-msgstr ""
+msgstr "-k[@var{keywordspec}]"
 
 #. type: itemx
 #: original_texis/msgfmt.texi:183
 #, no-wrap
 msgid "--keyword[=@var{keywordspec}]"
-msgstr ""
+msgstr "--keyword[=@var{keywordspec}]"
 
 #. type: opindex
 #: original_texis/msgfmt.texi:184
@@ -601,21 +601,21 @@ msgstr "--keyword@r{, @code{msgfmt} option}"
 msgid ""
 "Specify @var{keywordspec} as an additional keyword to be looked for.  "
 "Without a @var{keywordspec}, the option means to not use default keywords."
-msgstr ""
+msgstr "探すべき追加のキーワードとして、@var{keywordspec}を指定します。@var{keywordspec}を指定しない場合は、デフォルトのキーワードを使用しないことを意味します。"
 
 #. type: table
 #: original_texis/msgfmt.texi:200
 msgid ""
 "Specify the directory where PO files are read.  The directory must contain "
 "the @samp{LINGUAS} file."
-msgstr ""
+msgstr "POファイルが読み込まれるディレクトリーを指定します。このディレクトリーは、@samp{LINGUAS}ファイルを含んでいなければなりません。"
 
 #. type: Plain text
 #: original_texis/msgfmt.texi:205
 msgid ""
 "To generate a @samp{.desktop} file for a single locale, you can use it as "
 "follows."
-msgstr ""
+msgstr "単一のlocaleにたいして@samp{.desktop}ファイルを生成するために、以下を使用することができます。"
 
 #. type: example
 #: original_texis/msgfmt.texi:209
@@ -624,19 +624,21 @@ msgid ""
 "msgfmt --desktop --template=@var{template} --locale=@var{locale} \\\n"
 "  -o @var{file} @var{filename}.po @dots{}\n"
 msgstr ""
+"msgfmt --desktop --template=@var{template} --locale=@var{locale} \\\n"
+"  -o @var{file} @var{filename}.po @dots{}\n"
 
 #. type: Plain text
 #: original_texis/msgfmt.texi:213 original_texis/msgfmt.texi:262
 msgid ""
 "msgfmt provides a special \"bulk\" operation mode to process multiple @file{."
 "po} files at a time."
-msgstr ""
+msgstr "1度に複数の@file{.po}ファイルを処理するために、msgfmtは特別な\"bulk\"モードを提供します。"
 
 #. type: example
 #: original_texis/msgfmt.texi:216
 #, no-wrap
 msgid "msgfmt --desktop --template=@var{template} -d @var{directory} -o @var{file}\n"
-msgstr ""
+msgstr "msgfmt --desktop --template=@var{template} -d @var{directory} -o @var{file}\n"
 
 #. type: Plain text
 #: original_texis/msgfmt.texi:222 original_texis/msgfmt.texi:271
@@ -644,25 +646,25 @@ msgid ""
 "msgfmt first reads the @samp{LINGUAS} file under @var{directory}, and then "
 "processes all @samp{.po} files listed there.  You can also limit the locales "
 "to a subset, through the @samp{LINGUAS} environment variable."
-msgstr ""
+msgstr "最初にmsgfmtは@var{directory}配下の@samp{LINGUAS}ファイルを読み込み、そこにリストされたすべての@samp{.po}ファイルを処理します。@samp{LINGUAS}環境変数を通じて、localeをサブセットに制限することもできます。"
 
 #. type: Plain text
 #: original_texis/msgfmt.texi:225 original_texis/msgfmt.texi:274
 msgid ""
 "For either operation modes, the @samp{-o} and @samp{--template} options are "
 "mandatory."
-msgstr ""
+msgstr "どちらの操作モードでも、@samp{-o}と@samp{--template}のオプションは必須です。"
 
 #. type: subsection
 #: original_texis/msgfmt.texi:226
 #, no-wrap
 msgid "XML mode operations"
-msgstr ""
+msgstr "XML mode operations"
 
 #. type: table
 #: original_texis/msgfmt.texi:232
 msgid "Specify an XML file used as a template."
-msgstr ""
+msgstr "テンプレートとして使用されるXMLファイルを指定します。"
 
 #. type: item
 #: original_texis/msgfmt.texi:233
@@ -692,12 +694,12 @@ msgstr "--language@r{, @code{msgfmt} option}"
 #: original_texis/msgfmt.texi:237
 #, no-wrap
 msgid "supported languages, @code{msgfmt}"
-msgstr ""
+msgstr "supported languages, @code{msgfmt}"
 
 #. type: table
 #: original_texis/msgfmt.texi:239
 msgid "Specifies the language of the input files."
-msgstr ""
+msgstr "入力ファイルの言語を指定します。"
 
 #. type: table
 #: original_texis/msgfmt.texi:250
@@ -707,7 +709,7 @@ msgstr "メッセージカタログ@file{.po}のベースディレクトリー�
 #. type: Plain text
 #: original_texis/msgfmt.texi:254
 msgid "To generate an XML file for a single locale, you can use it as follows."
-msgstr ""
+msgstr "単一のlocaleにたいしてXMLファイルを生成するために、以下を使用することができます。"
 
 #. type: example
 #: original_texis/msgfmt.texi:258
@@ -716,12 +718,14 @@ msgid ""
 "msgfmt --xml --template=@var{template} --locale=@var{locale} \\\n"
 "  -o @var{file} @var{filename}.po @dots{}\n"
 msgstr ""
+"msgfmt --xml --template=@var{template} --locale=@var{locale} \\\n"
+"  -o @var{file} @var{filename}.po @dots{}\n"
 
 #. type: example
 #: original_texis/msgfmt.texi:265
 #, no-wrap
 msgid "msgfmt --xml --template=@var{template} -d @var{directory} -o @var{file}\n"
-msgstr ""
+msgstr "msgfmt --xml --template=@var{template} -d @var{directory} -o @var{file}\n"
 
 #. type: subsection
 #: original_texis/msgfmt.texi:275
