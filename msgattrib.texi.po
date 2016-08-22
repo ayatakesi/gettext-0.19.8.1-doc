@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-08-20 21:56+0900\n"
-"PO-Revision-Date: 2016-08-22 18:56+0900\n"
+"PO-Revision-Date: 2016-08-22 18:58+0900\n"
 "Last-Translator: Takeshi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
 "Language-Team: Japanese <takeshi.ayanokoji@gmail.com>\n"
 "Language: ja\n"
@@ -445,7 +445,7 @@ msgstr ""
 #: original_texis/msgattrib.texi:140
 #, no-wrap
 msgid "--empty"
-msgstr ""
+msgstr "--empty"
 
 #. type: opindex
 #: original_texis/msgattrib.texi:141
@@ -456,12 +456,12 @@ msgstr "--empty@r{, @code{msgattrib} option}"
 #. type: table
 #: original_texis/msgattrib.texi:143
 msgid "When removing"
-msgstr ""
+msgstr "もし"
 
 #. type: table
 #: original_texis/msgattrib.texi:150
 msgid "mark, also set msgstr empty."
-msgstr ""
+msgstr "をマークした場合、msgstrも空にセットします。"
 
 #. type: item
 #: original_texis/msgattrib.texi:151
@@ -768,7 +768,7 @@ msgid ""
 "with both file name and line number.  If it is @samp{file}, the line number "
 "part is omitted.  If it is @samp{never}, it completely suppresses the lines "
 "(same as @code{--no-location})."
-msgstr ""
+msgstr "@var{type}はオプションで、@samp{full}、@samp{file}、または@samp{never}を指定できます。オプションが指定されない、または@samp{full}の場合は、ファイル名と行番号のの両方が生成されます。@samp{file}の場合、行番号は省略されます。@samp{never}の場合は、完全にこの行を抑制します(@code{--no-location}と同じです)。"
 
 #. type: item
 #: original_texis/msgattrib.texi:239
