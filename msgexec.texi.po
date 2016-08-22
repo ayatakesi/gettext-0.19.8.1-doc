@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-08-20 21:56+0900\n"
-"PO-Revision-Date: 2016-08-12 20:12+0900\n"
+"PO-Revision-Date: 2016-08-22 19:07+0900\n"
 "Last-Translator: Takeshi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
 "Language-Team: Japanese <takeshi.ayanokoji@gmail.com>\n"
 "Language: ja\n"
@@ -79,10 +79,9 @@ msgstr ""
 
 #. type: opindex
 #: original_texis/msgexec.texi:22
-#, fuzzy, no-wrap
-#| msgid "--help@r{, @code{msgexec} option}"
+#, no-wrap
 msgid "--newline@r{, @code{msgfilter} option}"
-msgstr "--help@r{, @code{msgexec} option}"
+msgstr "--newline@r{, @code{msgfilter} option}"
 
 #. type: table
 #: original_texis/msgexec.texi:24
@@ -103,10 +102,9 @@ msgstr "MSGEXEC_MSGID@r{, environment variable}"
 
 #. type: vindex
 #: original_texis/msgexec.texi:29
-#, fuzzy, no-wrap
-#| msgid "MSGEXEC_MSGID@r{, environment variable}"
+#, no-wrap
 msgid "MSGEXEC_MSGID_PLURAL@r{, environment variable}"
-msgstr "MSGEXEC_MSGID@r{, environment variable}"
+msgstr "MSGEXEC_MSGID_PLURAL@r{, environment variable}"
 
 #. type: vindex
 #: original_texis/msgexec.texi:30
@@ -116,31 +114,27 @@ msgstr "MSGEXEC_LOCATION@r{, environment variable}"
 
 #. type: vindex
 #: original_texis/msgexec.texi:31
-#, fuzzy, no-wrap
-#| msgid "MSGEXEC_LOCATION@r{, environment variable}"
+#, no-wrap
 msgid "MSGEXEC_PLURAL_FORM@r{, environment variable}"
-msgstr "MSGEXEC_LOCATION@r{, environment variable}"
+msgstr "MSGEXEC_PLURAL_FORM@r{, environment variable}"
 
 #. type: vindex
 #: original_texis/msgexec.texi:32
-#, fuzzy, no-wrap
-#| msgid "MSGEXEC_MSGCTXT@r{, environment variable}"
+#, no-wrap
 msgid "MSGEXEC_PREV_MSGCTXT@r{, environment variable}"
-msgstr "MSGEXEC_MSGCTXT@r{, environment variable}"
+msgstr "MSGEXEC_PREV_MSGCTXT@r{, environment variable}"
 
 #. type: vindex
 #: original_texis/msgexec.texi:33
-#, fuzzy, no-wrap
-#| msgid "MSGEXEC_MSGID@r{, environment variable}"
+#, no-wrap
 msgid "MSGEXEC_PREV_MSGID@r{, environment variable}"
-msgstr "MSGEXEC_MSGID@r{, environment variable}"
+msgstr "MSGEXEC_PREV_MSGID@r{, environment variable}"
 
 #. type: vindex
 #: original_texis/msgexec.texi:34
-#, fuzzy, no-wrap
-#| msgid "MSGEXEC_MSGID@r{, environment variable}"
+#, no-wrap
 msgid "MSGEXEC_PREV_MSGID_PLURAL@r{, environment variable}"
-msgstr "MSGEXEC_MSGID@r{, environment variable}"
+msgstr "MSGEXEC_PREV_MSGID_PLURAL@r{, environment variable}"
 
 #. type: Plain text
 #: original_texis/msgexec.texi:49
