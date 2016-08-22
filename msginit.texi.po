@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-08-20 21:57+0900\n"
-"PO-Revision-Date: 2016-08-12 12:58+0900\n"
+"PO-Revision-Date: 2016-08-22 16:12+0900\n"
 "Last-Translator: Takeshi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
 "Language-Team: Japanese <takeshi.ayanokoji@gmail.com>\n"
 "Language: ja\n"
@@ -90,9 +90,8 @@ msgstr ""
 #. type: item
 #: original_texis/msginit.texi:24
 #, fuzzy, no-wrap
-#| msgid "--no-translator"
 msgid "Last-Translator"
-msgstr "--no-translator"
+msgstr "Last-Translator"
 
 #. type: table
 #: original_texis/msginit.texi:27
