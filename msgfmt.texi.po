@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-08-20 21:57+0900\n"
-"PO-Revision-Date: 2016-08-12 20:55+0900\n"
+"PO-Revision-Date: 2016-08-22 19:21+0900\n"
 "Last-Translator: Takeshi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
 "Language-Team: Japanese <takeshi.ayanokoji@gmail.com>\n"
 "Language: ja\n"
@@ -262,24 +262,20 @@ msgstr ""
 
 #. type: opindex
 #: original_texis/msgfmt.texi:64
-#, fuzzy, no-wrap
-#| msgid "--help@r{, @code{msgfmt} option}"
+#, no-wrap
 msgid "--desktop@r{, @code{msgfmt} option}"
-msgstr "--help@r{, @code{msgfmt} option}"
+msgstr "--desktop@r{, @code{msgfmt} option}"
 
 #. type: cindex
 #: original_texis/msgfmt.texi:65
-#, fuzzy, no-wrap
-#| msgid "Qt mode, and @code{msgfmt} program"
+#, no-wrap
 msgid "Desktop Entry mode, and @code{msgfmt} program"
-msgstr "Qt mode, and @code{msgfmt} program"
+msgstr "Desktop Entry mode, and @code{msgfmt} program"
 
 #. type: table
 #: original_texis/msgfmt.texi:67
-#, fuzzy
-#| msgid "Qt mode: generate a Qt @file{.qm} file."
 msgid "Desktop Entry mode: generate a @file{.desktop} file."
-msgstr "Qtモード: Qtの@file{.qm}ファイルを生成します。"
+msgstr "Desktop Entryモード: @file{.desktop}ファイルを生成します。"
 
 #. type: item
 #: original_texis/msgfmt.texi:68
@@ -289,24 +285,20 @@ msgstr ""
 
 #. type: opindex
 #: original_texis/msgfmt.texi:69
-#, fuzzy, no-wrap
-#| msgid "-l@r{, @code{msgfmt} option}"
+#, no-wrap
 msgid "--xml@r{, @code{msgfmt} option}"
-msgstr "-l@r{, @code{msgfmt} option}"
+msgstr "--xml@r{, @code{msgfmt} option}"
 
 #. type: cindex
 #: original_texis/msgfmt.texi:70
-#, fuzzy, no-wrap
-#| msgid "C# mode, and @code{msgfmt} program"
+#, no-wrap
 msgid "XML mode, and @code{msgfmt} program"
-msgstr "C# mode, and @code{msgfmt} program"
+msgstr "XML mode, and @code{msgfmt} program"
 
 #. type: table
 #: original_texis/msgfmt.texi:72
-#, fuzzy
-#| msgid "Qt mode: generate a Qt @file{.qm} file."
 msgid "XML mode: generate an XML file."
-msgstr "Qtモード: Qtの@file{.qm}ファイルを生成します。"
+msgstr "XMLモード: XMLファイルを生成します。"
 
 #. type: subsection
 #: original_texis/msgfmt.texi:75
@@ -488,17 +480,15 @@ msgstr "classのディレクトリー階層のベースとなるディレクト�
 
 #. type: item
 #: original_texis/msgfmt.texi:120
-#, fuzzy, no-wrap
-#| msgid "--csharp-resources"
+#, no-wrap
 msgid "--source"
-msgstr "--csharp-resources"
+msgstr "--source"
 
 #. type: opindex
 #: original_texis/msgfmt.texi:121
-#, fuzzy, no-wrap
-#| msgid "--resource@r{, @code{msgfmt} option}"
+#, no-wrap
 msgid "--source@r{, @code{msgfmt} option}"
-msgstr "--resource@r{, @code{msgfmt} option}"
+msgstr "--source@r{, @code{msgfmt} option}"
 
 #. type: table
 #: original_texis/msgfmt.texi:123
@@ -567,17 +557,15 @@ msgstr ""
 
 #. type: item
 #: original_texis/msgfmt.texi:178 original_texis/msgfmt.texi:229
-#, fuzzy, no-wrap
-#| msgid "--locale=@var{locale}"
+#, no-wrap
 msgid "--template=@var{template}"
-msgstr "--locale=@var{locale}"
+msgstr "--template=@var{template}"
 
 #. type: opindex
 #: original_texis/msgfmt.texi:179 original_texis/msgfmt.texi:230
-#, fuzzy, no-wrap
-#| msgid "--tcl@r{, @code{msgfmt} option}"
+#, no-wrap
 msgid "--template@r{, @code{msgfmt} option}"
-msgstr "--tcl@r{, @code{msgfmt} option}"
+msgstr "--template@r{, @code{msgfmt} option}"
 
 #. type: table
 #: original_texis/msgfmt.texi:181
@@ -598,17 +586,15 @@ msgstr ""
 
 #. type: opindex
 #: original_texis/msgfmt.texi:184
-#, fuzzy, no-wrap
-#| msgid "-D@r{, @code{msgfmt} option}"
+#, no-wrap
 msgid "-k@r{, @code{msgfmt} option}"
-msgstr "-D@r{, @code{msgfmt} option}"
+msgstr "-k@r{, @code{msgfmt} option}"
 
 #. type: opindex
 #: original_texis/msgfmt.texi:185
-#, fuzzy, no-wrap
-#| msgid "-d@r{, @code{msgfmt} option}"
+#, no-wrap
 msgid "--keyword@r{, @code{msgfmt} option}"
-msgstr "-d@r{, @code{msgfmt} option}"
+msgstr "--keyword@r{, @code{msgfmt} option}"
 
 #. type: table
 #: original_texis/msgfmt.texi:188
@@ -680,31 +666,27 @@ msgstr ""
 
 #. type: item
 #: original_texis/msgfmt.texi:233
-#, fuzzy, no-wrap
-#| msgid "-a @var{number}"
+#, no-wrap
 msgid "-L @var{name}"
-msgstr "-a @var{number}"
+msgstr "-L @var{name}"
 
 #. type: itemx
 #: original_texis/msgfmt.texi:234
-#, fuzzy, no-wrap
-#| msgid "--locale=@var{locale}"
+#, no-wrap
 msgid "--language=@var{name}"
-msgstr "--locale=@var{locale}"
+msgstr "--language=@var{name}"
 
 #. type: opindex
 #: original_texis/msgfmt.texi:235
-#, fuzzy, no-wrap
-#| msgid "-D@r{, @code{msgfmt} option}"
+#, no-wrap
 msgid "-L@r{, @code{msgfmt} option}"
-msgstr "-D@r{, @code{msgfmt} option}"
+msgstr "-L@r{, @code{msgfmt} option}"
 
 #. type: opindex
 #: original_texis/msgfmt.texi:236
-#, fuzzy, no-wrap
-#| msgid "--locale@r{, @code{msgfmt} option}"
+#, no-wrap
 msgid "--language@r{, @code{msgfmt} option}"
-msgstr "--locale@r{, @code{msgfmt} option}"
+msgstr "--language@r{, @code{msgfmt} option}"
 
 #. type: cindex
 #: original_texis/msgfmt.texi:237
@@ -719,10 +701,8 @@ msgstr ""
 
 #. type: table
 #: original_texis/msgfmt.texi:250
-#, fuzzy
-#| msgid "Specify the base directory of @file{.msg} message catalogs."
 msgid "Specify the base directory of @file{.po} message catalogs."
-msgstr "メッセージカタログ@file{.msg}のベースディレクトリーを指定します。"
+msgstr "メッセージカタログ@file{.po}のベースディレクトリーを指定します。"
 
 #. type: Plain text
 #: original_texis/msgfmt.texi:254
@@ -1131,18 +1111,10 @@ msgstr "--endianness@r{, @code{msgfmt} option}"
 
 #. type: table
 #: original_texis/msgfmt.texi:386
-#, fuzzy
-#| msgid ""
-#| "Write out 32-bit numbers in the given byte order.  The possible values "
-#| "are @code{big} and @code{little}.  The default depends on the platform, "
-#| "namely on the endianness of the CPU."
 msgid ""
 "Write out 32-bit numbers in the given byte order.  The possible values are "
 "@code{big} and @code{little}.  The default is @code{little}."
-msgstr ""
-"32ビットの数字を与えられたバイト順で書き出します。@code{big}と@code{little}を"
-"指定できます。デフォルトはプラットフォーム、正確に言うとCPUのインディアンに依"
-"存します。"
+msgstr "32ビットの数字を与えられたバイト順で書き出します。@code{big}と@code{little}を指定できます。デフォルトは@code{little}です。"
 
 #. type: table
 #: original_texis/msgfmt.texi:390
@@ -1157,15 +1129,10 @@ msgstr ""
 
 #. type: table
 #: original_texis/msgfmt.texi:393
-#, fuzzy
-#| msgid ""
-#| "This option can be useful to produce MO files that are independent of the "
-#| "platform."
 msgid ""
 "This option can be useful to produce MO files that are optimized for one "
 "platform."
-msgstr ""
-"このオプションは、プラットフォームに束縛されずMOを作成するために便利です。"
+msgstr "このオプションは、1つのプラットフォームに最適化されたMOを作成するために便利です。"
 
 #. type: item
 #: original_texis/msgfmt.texi:394
