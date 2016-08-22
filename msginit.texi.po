@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-08-20 21:57+0900\n"
-"PO-Revision-Date: 2016-08-22 16:12+0900\n"
+"PO-Revision-Date: 2016-08-22 16:31+0900\n"
 "Last-Translator: Takeshi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
 "Language-Team: Japanese <takeshi.ayanokoji@gmail.com>\n"
 "Language: ja\n"
@@ -59,37 +59,37 @@ msgstr ""
 msgid ""
 "Here are more details.  The following header fields of a PO file are "
 "automatically filled, when possible."
-msgstr ""
+msgstr "以下はその詳細です。POファイルの以下のヘッダーフィールドは、もし可能なら自動的に充填されます。"
 
 #. type: item
 #: original_texis/msginit.texi:16
 #, no-wrap
 msgid "Project-Id-Version"
-msgstr ""
+msgstr "Project-Id-Version"
 
 #. type: table
 #: original_texis/msginit.texi:19
 msgid ""
 "The value is guessed from the @code{configure} script or any other files in "
 "the current directory."
-msgstr ""
+msgstr "この値は@code{configure}スクリプト、またはカレントディレクトリー内の他のファイルから推測されます。"
 
 #. type: item
 #: original_texis/msginit.texi:20
 #, no-wrap
 msgid "PO-Revision-Date"
-msgstr ""
+msgstr "PO-Revision-Date"
 
 #. type: table
 #: original_texis/msginit.texi:23
 msgid ""
 "The value is taken from the @code{PO-Creation-Data} in the input POT file, "
 "or the current date is used."
-msgstr ""
+msgstr "値はPOTファイルの@code{PO-Creation-Data}、または現在の日時から取得されます。"
 
 #. type: item
 #: original_texis/msginit.texi:24
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Last-Translator"
 msgstr "Last-Translator"
 
@@ -98,26 +98,26 @@ msgstr "Last-Translator"
 msgid ""
 "The value is taken from user's password file entry and the mailer "
 "configuration files."
-msgstr ""
+msgstr "値はユーザーのpasswordファイルとメール設定ファイルから取得されます。"
 
 #. type: item
 #: original_texis/msginit.texi:28
 #, no-wrap
 msgid "Language-Team, Language"
-msgstr ""
+msgstr "Language-Team, Language"
 
 #. type: table
 #: original_texis/msginit.texi:31
 msgid ""
 "These values are set according to the current locale and the predefined list "
 "of translation teams."
-msgstr ""
+msgstr "これらの値は、カレントlocaleと、翻訳チームの事前に定義されたリストから取得されます。"
 
 #. type: item
 #: original_texis/msginit.texi:32
 #, no-wrap
 msgid "MIME-Version, Content-Type, Content-Transfer-Encoding"
-msgstr ""
+msgstr "MIME-Version, Content-Type, Content-Transfer-Encoding"
 
 #. type: table
 #: original_texis/msginit.texi:38
@@ -126,18 +126,18 @@ msgid ""
 "current locale.  If the POT file contains charset=UTF-8, it means that the "
 "POT file contains non-ASCII characters, and we keep the UTF-8 encoding.  "
 "Otherwise, when the POT file is plain ASCII, we use the locale's encoding."
-msgstr ""
+msgstr "これらの値は、POTファイルの内容と、カレントlocaleからセットされます。POTファイルがcharset=UTF-8を含む場合、そのPOTファイルは非ASCII文字を含むことを意味するので、UTF-8エンコーディングを維持します。それ以外では、POTファイルがプレーンASCIIの場合は、そのlocaleのエンコーディングを使用します。"
 
 #. type: item
 #: original_texis/msginit.texi:39
 #, no-wrap
 msgid "Plural-Forms"
-msgstr ""
+msgstr "Plural-Forms"
 
 #. type: table
 #: original_texis/msginit.texi:41
 msgid "The value is first looked up from the embedded table."
-msgstr ""
+msgstr "値は最初に埋め込みテーブルから見つかったものです。"
 
 #. type: table
 #: original_texis/msginit.texi:45
@@ -145,7 +145,7 @@ msgid ""
 "As an experimental feature, you can instruct @code{msginit} to use the "
 "information from Unicode CLDR, by setting the @code{GETTEXTCLDRDIR} "
 "environment variable."
-msgstr ""
+msgstr "実験的な機能として、環境変数@code{GETTEXTCLDRDIR}をセットすることにより、@code{msginit}にUnicode CLDRの情報を使用するように指示できます。"
 
 #. type: subsection
 #: original_texis/msginit.texi:48
