@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-08-20 21:57+0900\n"
-"PO-Revision-Date: 2016-08-12 19:31+0900\n"
+"PO-Revision-Date: 2016-08-22 17:04+0900\n"
 "Last-Translator: Takeshi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
 "Language-Team: Japanese <takeshi.ayanokoji@gmail.com>\n"
 "Language: ja\n"
@@ -62,10 +62,9 @@ msgstr "MSGFILTER_MSGID@r{, environment variable}"
 
 #. type: vindex
 #: original_texis/msgfilter.texi:13
-#, fuzzy, no-wrap
-#| msgid "MSGFILTER_MSGID@r{, environment variable}"
+#, no-wrap
 msgid "MSGFILTER_MSGID_PLURAL@r{, environment variable}"
-msgstr "MSGFILTER_MSGID@r{, environment variable}"
+msgstr "MSGFILTER_MSGID_PLURAL@r{, environment variable}"
 
 #. type: vindex
 #: original_texis/msgfilter.texi:14
@@ -75,31 +74,27 @@ msgstr "MSGFILTER_LOCATION@r{, environment variable}"
 
 #. type: vindex
 #: original_texis/msgfilter.texi:15
-#, fuzzy, no-wrap
-#| msgid "MSGFILTER_LOCATION@r{, environment variable}"
+#, no-wrap
 msgid "MSGFILTER_PLURAL_FORM@r{, environment variable}"
-msgstr "MSGFILTER_LOCATION@r{, environment variable}"
+msgstr "MSGFILTER_PLURAL_FORM@r{, environment variable}"
 
 #. type: vindex
 #: original_texis/msgfilter.texi:16
-#, fuzzy, no-wrap
-#| msgid "MSGFILTER_MSGCTXT@r{, environment variable}"
+#, no-wrap
 msgid "MSGFILTER_PREV_MSGCTXT@r{, environment variable}"
-msgstr "MSGFILTER_MSGCTXT@r{, environment variable}"
+msgstr "MSGFILTER_PREV_MSGCTXT@r{, environment variable}"
 
 #. type: vindex
 #: original_texis/msgfilter.texi:17
-#, fuzzy, no-wrap
-#| msgid "MSGFILTER_MSGID@r{, environment variable}"
+#, no-wrap
 msgid "MSGFILTER_PREV_MSGID@r{, environment variable}"
-msgstr "MSGFILTER_MSGID@r{, environment variable}"
+msgstr "MSGFILTER_PREV_MSGID@r{, environment variable}"
 
 #. type: vindex
 #: original_texis/msgfilter.texi:18
-#, fuzzy, no-wrap
-#| msgid "MSGFILTER_MSGID@r{, environment variable}"
+#, no-wrap
 msgid "MSGFILTER_PREV_MSGID_PLURAL@r{, environment variable}"
-msgstr "MSGFILTER_MSGID@r{, environment variable}"
+msgstr "MSGFILTER_PREV_MSGID_PLURAL@r{, environment variable}"
 
 #. type: Plain text
 #: original_texis/msgfilter.texi:33
@@ -268,10 +263,9 @@ msgstr ""
 
 #. type: opindex
 #: original_texis/msgfilter.texi:78
-#, fuzzy, no-wrap
-#| msgid "--file@r{, @code{msgfilter} option}"
+#, no-wrap
 msgid "--newline@r{, @code{msgfilter} option}"
-msgstr "--file@r{, @code{msgfilter} option}"
+msgstr "--newline@r{, @code{msgfilter} option}"
 
 #. type: table
 #: original_texis/msgfilter.texi:81
@@ -318,15 +312,6 @@ msgstr "portability problems with @code{sed}"
 
 #. type: Plain text
 #: original_texis/msgfilter.texi:105
-#, fuzzy
-#| msgid ""
-#| "Note: Most translations in a translation catalog don't end with a newline "
-#| "character.  For this reason, it is important that the @var{filter} "
-#| "recognizes its last input line even if it ends without a newline, and "
-#| "that it doesn't add an undesired trailing newline at the end.  The "
-#| "@samp{sed} program on some platforms is known to ignore the last line of "
-#| "input if it is not terminated with a newline.  You can use GNU @code{sed} "
-#| "instead; it does not have this limitation."
 msgid ""
 "Note: Most translations in a translation catalog don't end with a newline "
 "character.  For this reason, unless the @code{--newline} option is used, it "
@@ -335,13 +320,7 @@ msgid ""
 "newline at the end.  The @samp{sed} program on some platforms is known to "
 "ignore the last line of input if it is not terminated with a newline.  You "
 "can use GNU @code{sed} instead; it does not have this limitation."
-msgstr ""
-"注意: 翻訳カタログ内のほとんどの翻訳は改行で終端されていません。そのため、入"
-"力の最終行が改行で終端されていなくても、@var{filter}がそれを認識すること、そ"
-"して最終行に余分な改行を付加しないことが重要になります。いくつかのプラット"
-"フォームにおいて@samp{sed}が、改行で終端されていない最終行を無視することが知"
-"られています。代用として、このような制限を持たないGNU @samp{sed}を使うことが"
-"できます。"
+msgstr "注意: 翻訳カタログ内のほとんどの翻訳は改行で終端されていません。そのため、@code{--newline}が使用されていない場合は、入力の最終行が改行で終端されていなくても、@var{filter}がそれを認識すること、そして最終行に余分な改行を付加しないことが重要になります。いくつかのプラットフォームにおいて@samp{sed}が、改行で終端されていない最終行を無視することが知られています。代用として、このような制限を持たないGNU @samp{sed}を使うことができます。"
 
 #. type: subsection
 #: original_texis/msgfilter.texi:106
@@ -712,10 +691,9 @@ msgstr "@samp{#: @var{filename}:@var{line}}という行を書き込みません�
 
 #. type: itemx
 #: original_texis/msgfilter.texi:209
-#, fuzzy, no-wrap
-#| msgid "--add-location"
+#, no-wrap
 msgid "--add-location=@var{type}"
-msgstr "--add-location"
+msgstr "--add-location=@var{type}"
 
 #. type: opindex
 #: original_texis/msgfilter.texi:210
