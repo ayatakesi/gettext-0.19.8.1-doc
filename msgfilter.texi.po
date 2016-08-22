@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-08-20 21:57+0900\n"
-"PO-Revision-Date: 2016-08-22 18:53+0900\n"
+"PO-Revision-Date: 2016-08-22 20:31+0900\n"
 "Last-Translator: Takeshi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
 "Language-Team: Japanese <takeshi.ayanokoji@gmail.com>\n"
 "Language: ja\n"
@@ -472,7 +472,7 @@ msgid ""
 "The filter @samp{quot} is recognized as a built-in filter.  The command "
 "@samp{msgfilter quot} converts any quotations surrounded by a pair of "
 "@samp{\"}, @samp{'}, and @samp{`}."
-msgstr "フィルター@samp{quot}は、ビルトインフィルターとして認識されます。コマンド@samp{msgfilter quot}は、対になった@samp{\"}、および@samp{'}とsamp{`}で囲まれた引用を変換します。"
+msgstr "フィルター@samp{quot}は、ビルトインフィルターとして認識されます。コマンド@samp{msgfilter quot}は、対になった@samp{\"}、および@samp{'}と@samp{`}で囲まれた引用を変換します。"
 
 #. type: pindex
 #: original_texis/msgfilter.texi:147
