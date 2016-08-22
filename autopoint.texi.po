@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-08-20 21:56+0900\n"
-"PO-Revision-Date: 2016-08-14 14:18+0900\n"
+"PO-Revision-Date: 2016-08-22 20:23+0900\n"
 "Last-Translator: Takesi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
 "Language-Team: Japanese <h1r0p@outlook.jp>\n"
 "Language: ja\n"
@@ -59,7 +59,7 @@ msgid ""
 "if gettext @value{ARCHIVE-VERSION} is installed on your system and "
 "@code{0.19.1} is requested, then the infrastructure files of version "
 "@value{ARCHIVE-VERSION} will be copied into a source package."
-msgstr ""
+msgstr "要求されるバージョンを満たす利用可能な最新のインフラストラクチャーを抽出するために、かわりにフォーム@code{AM_GNU_GETTEXT_REQUIRE_VERSION(@var{version})}を使用できます。たとえばgettextの@value{ARCHIVE-VERSION}がシステムにインストールされていて、@code{0.19.1}が要求される場合、バージョン@value{ARCHIVE-VERSION}のインフラストラクチャーファイルが、ソースパッケージにコピーされます。"
 
 #. type: subsubsection
 #: original_texis/autopoint.texi:21
@@ -173,23 +173,13 @@ msgstr "バージョン情報を表示して終了します。"
 
 #. type: Plain text
 #: original_texis/autopoint.texi:58
-#, fuzzy
-#| msgid ""
-#| "@code{autopoint} supports the GNU @code{gettext} versions from 0.10.35 to "
-#| "the current one, @value{VERSION}.  In order to apply @code{autopoint} to "
-#| "a package using a @code{gettext} version newer than @value{VERSION}, you "
-#| "need to install this same version of GNU @code{gettext} at least."
 msgid ""
 "@code{autopoint} supports the GNU @code{gettext} versions from 0.10.35 to "
 "the current one, @value{ARCHIVE-VERSION}.  In order to apply "
 "@code{autopoint} to a package using a @code{gettext} version newer than "
 "@value{ARCHIVE-VERSION}, you need to install this same version of GNU "
 "@code{gettext} at least."
-msgstr ""
-"@code{autopoint}は、GNU @code{gettext}のバージョン0.10.35から、現在の"
-"@value{VERSION}までをサポートします。@value{VERSION}より新しいバージョンの"
-"@code{gettext}を使用してパッケージに@code{autopoint}を適用するためには、少な"
-"くとも同じバージョンのGNU @code{gettext}をインストールする必要があります。"
+msgstr "@code{autopoint}は、GNU @code{gettext}のバージョン0.10.35から、現在の@value{ARCHIVE-VERSION}までをサポートします。@value{ARCHIVE-VERSION}より新しいバージョンの@code{gettext}を使用してパッケージに@code{autopoint}を適用するためには、少なくとも同じバージョンのGNU @code{gettext}をインストールする必要があります。"
 
 #. type: Plain text
 #: original_texis/autopoint.texi:66
