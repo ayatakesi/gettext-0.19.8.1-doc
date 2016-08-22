@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-08-20 21:57+0900\n"
-"PO-Revision-Date: 2016-08-22 17:04+0900\n"
+"PO-Revision-Date: 2016-08-22 18:53+0900\n"
 "Last-Translator: Takeshi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
 "Language-Team: Japanese <takeshi.ayanokoji@gmail.com>\n"
 "Language: ja\n"
@@ -112,7 +112,7 @@ msgid ""
 "variable @code{MSGFILTER_PREV_MSGCTXT} is bound to the message's previous "
 "msgctxt, @code{MSGFILTER_PREV_MSGID} is bound to the previous msgid, and "
 "@code{MSGFILTER_PREV_MSGID_PLURAL} is bound to the previous msgid_plural."
-msgstr ""
+msgstr "各@var{filter}呼び出しの間、環境変数@code{MSGFILTER_MSGID}がそのメッセージのmsgid、環境変数@code{MSGFILTER_LOCATION}がそのメッセージのPOファイル内での位置にバインドされます。そのメッセージがコンテキストをもつ場合、環境変数@code{MSGFILTER_MSGCTXT}にそのメッセージのmsgctxtがバインドされます(それ以外はバインドされません)。そのメッセージがplural formをもつ場合、環境変数@code{MSGFILTER_MSGID_PLURAL}にそのメッセージのmsgid_plural、@code{MSGFILTER_PLURAL_FORM}には実際に処理sqあれたpluralの順番(0から開始)がバインドされます(それ以外では両方ともバインドされません)。そのメッセージが(@code{msgmerge}により追加された)以前のmsgidをもつ場合、環境変数@code{MSGFILTER_PREV_MSGCTXT}にそのメッセージの以前のmsgctxt、@code{MSGFILTER_PREV_MSGID}に以前のmsgid、@code{MSGFILTER_PREV_MSGID_PLURAL}に以前のmsgid_pluralがバインドされます。"
 
 #. type: subsection
 #: original_texis/msgfilter.texi:34
@@ -259,7 +259,7 @@ msgstr ""
 #: original_texis/msgfilter.texi:77
 #, no-wrap
 msgid "--newline"
-msgstr ""
+msgstr "--newline"
 
 #. type: opindex
 #: original_texis/msgfilter.texi:78
@@ -272,7 +272,7 @@ msgstr "--newline@r{, @code{msgfilter} option}"
 msgid ""
 "Add newline at the end of each input line and also strip the ending newline "
 "from the output line."
-msgstr ""
+msgstr "各入力行の最後に改行を追加するとともに、出力行の最後の改行を取り除きます。"
 
 #. type: cindex
 #: original_texis/msgfilter.texi:84
@@ -464,7 +464,7 @@ msgstr ""
 #: original_texis/msgfilter.texi:142
 #, no-wrap
 msgid "quot"
-msgstr ""
+msgstr "quot"
 
 #. type: Plain text
 #: original_texis/msgfilter.texi:146
@@ -472,13 +472,13 @@ msgid ""
 "The filter @samp{quot} is recognized as a built-in filter.  The command "
 "@samp{msgfilter quot} converts any quotations surrounded by a pair of "
 "@samp{\"}, @samp{'}, and @samp{`}."
-msgstr ""
+msgstr "フィルター@samp{quot}は、ビルトインフィルターとして認識されます。コマンド@samp{msgfilter quot}は、対になった@samp{\"}、および@samp{'}とsamp{`}で囲まれた引用を変換します。"
 
 #. type: pindex
 #: original_texis/msgfilter.texi:147
 #, no-wrap
 msgid "boldquot"
-msgstr ""
+msgstr "boldquot"
 
 #. type: Plain text
 #: original_texis/msgfilter.texi:152
@@ -487,7 +487,7 @@ msgid ""
 "@samp{msgfilter boldquot} converts any quotations surrounded by a pair of "
 "@samp{\"}, @samp{'}, and @samp{`}, also adding the VT100 escape sequences to "
 "the text to decorate it as bold."
-msgstr ""
+msgstr "フィルター@samp{boldquot}は、ビルトインフィルターとして認識されます。コマンド@samp{msgfilter boldquot}は、対になった@samp{\"}、@samp{'}と@samp{`}で囲まれた引用を変換するとともに、そのテキストがboldとして装飾されるように、VT100エスケープシーケンスを追加します。"
 
 #. type: Plain text
 #: original_texis/msgfilter.texi:156
@@ -714,7 +714,7 @@ msgid ""
 "with both file name and line number.  If it is @samp{file}, the line number "
 "part is omitted.  If it is @samp{never}, it completely suppresses the lines "
 "(same as @code{--no-location})."
-msgstr ""
+msgstr "@var{type}はオプションで、@samp{full}、@samp{file}、または@samp{never}を指定できます。オプションが指定されない、または@samp{full}の場合は、ファイル名と行番号のの両方が生成されます。@samp{file}の場合、行番号は省略されます。@samp{never}の場合は、完全にこの行を抑制します(@code{--no-location}と同じです)。"
 
 #. type: item
 #: original_texis/msgfilter.texi:219
