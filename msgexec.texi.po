@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2016-08-20 21:56+0900\n"
-"PO-Revision-Date: 2016-08-22 19:07+0900\n"
+"PO-Revision-Date: 2016-08-22 19:11+0900\n"
 "Last-Translator: Takeshi Ayanokoji <takeshi.ayanokoji@gmail.com>\n"
 "Language-Team: Japanese <takeshi.ayanokoji@gmail.com>\n"
 "Language: ja\n"
@@ -75,7 +75,7 @@ msgstr ""
 #: original_texis/msgexec.texi:21
 #, no-wrap
 msgid "--newline"
-msgstr ""
+msgstr "--newline"
 
 #. type: opindex
 #: original_texis/msgexec.texi:22
@@ -86,7 +86,7 @@ msgstr "--newline@r{, @code{msgfilter} option}"
 #. type: table
 #: original_texis/msgexec.texi:24
 msgid "Add newline at the end of each input line."
-msgstr ""
+msgstr "各入力行の最後に改行を追加します。"
 
 #. type: vindex
 #: original_texis/msgexec.texi:27
@@ -152,7 +152,7 @@ msgid ""
 "variable @code{MSGEXEC_PREV_MSGCTXT} is bound to the message's previous "
 "msgctxt, @code{MSGEXEC_PREV_MSGID} is bound to the previous msgid, and "
 "@code{MSGEXEC_PREV_MSGID_PLURAL} is bound to the previous msgid_plural."
-msgstr ""
+msgstr "各@var{command}呼び出しの間、環境変数@code{MSGEXEC_MSGID}がそのメッセージのmsgid、環境変数@code{MSGEXEC_LOCATION}がそのメッセージのPOファイル内での位置にバインドされます。そのメッセージがコンテキストをもつ場合、環境変数@code{MSGEXEC_MSGCTXT}にそのメッセージのmsgctxtがバインドされます(それ以外はバインドされません)。そのメッセージがplural formをもつ場合、環境変数@code{MSGEXEC_MSGID_PLURAL}にそのメッセージのmsgid_plural、@code{MSGEXEC_PLURAL_FORM}には実際に処理sqあれたpluralの順番(0から開始)がバインドされます(それ以外では両方ともバインドされません)。そのメッセージが(@code{msgmerge}により追加された)以前のmsgidをもつ場合、環境変数@code{MSGEXEC_PREV_MSGCTXT}にそのメッセージの以前のmsgctxt、@code{MSGEXEC_PREV_MSGID}に以前のmsgid、@code{MSGEXEC_PREV_MSGID_PLURAL}に以前のmsgid_pluralがバインドされます。"
 
 #. type: cindex
 #: original_texis/msgexec.texi:50
